@@ -1,0 +1,35 @@
+- id: recent_post
+  translation: Letzte Beiträge
+
+- id: blog_categories
+  translation: Blog Kategorien
+
+- id: popular_tags
+  translation: Beliebte Tags
+
+- id: flickr_photos
+  translation: Flickr Fotos
+
+- id: about_us
+  translation: Über uns
+
+- id: continue_reading
+  translation: Weiterlesen
+
+- id: name
+  translation: Name
+
+- id: email
+  translation: Email
+
+- id: subject
+  translation: Betreff
+
+- id: message
+  translation: Nachricht
+
+- id: send_message
+  translation: Abschicken
+
+- id: contact_details
+  translation: Kontaktdaten

@@ -1,0 +1,16 @@
+<div id="banner-area" class="mt-12 sm:mt-0">
+  <img src="{{ .Params.page_header_bg | absURL }}" onerror="this.src='{{`images/banner/banner.jpg` | absURL}}'" alt="Smartphone Reparatur Banner" class="h-56 lg:h-auto lg:w-full object-cover" />
+  <div class="parallax-overlay"></div>
+  <!-- Subpage title start -->
+  <div class="banner-title-content !top-[35%] lg:!top-[45%]">
+    <div class="text-center">
+      <p class="text-white text-3xl font-semibold">{{ .Title }}</p>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item !inline"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.home }}</a></li>
+          <li class="breadcrumb-item text-white !inline" aria-current="page">{{ .Title }}</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>

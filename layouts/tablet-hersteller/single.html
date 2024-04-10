@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<section id="main-container">
+  <div class="max-w-4xl mx-auto prose">
+    {{ .Content }}
+  </div>
+
+  <div class="py-20 px-2 max-w-2xl mx-auto">
+    {{ $section := where $.Site.Pages "Section" "tablet" }}
+    <div class="flex flex-col gap-4">
+      <h2 class="text-3xl text-center">Modelle</h2>
+
+      {{ range $section }}
+      {{ if and (ne .Kind "section") (eq (lower .Params.manufacturer) (lower $.Params.name)) }}
+      <a class="px-4 py-2 bg-gray-100 flex flex-row items-center justify-between hover:bg-gray-200 duration-200" href="{{ .RelPermalink | relLangURL }}">
+        <p class="mb-0 text-2xl font-semibold">{{ .Params.title }}</p>
+        <i class="fa fa-chevron-right"></i>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

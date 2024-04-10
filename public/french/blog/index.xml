@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on BizCraft - Responsive Html5 Template</title>
+    <link>http://localhost:1313/bizcraft/site/french/blog/</link>
+    <description>Recent content in Blog on BizCraft - Responsive Html5 Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Mar 2021 12:14:34 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/bizcraft/site/french/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>There are many variations of passages</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-1/</link>
+      <pubDate>Fri, 12 Mar 2021 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-1/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+    <item>
+      <title>If you are going to use a passage</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-2/</link>
+      <pubDate>Fri, 12 Feb 2021 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-2/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+    <item>
+      <title>The majority have suffered alteration in some form</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-3/</link>
+      <pubDate>Tue, 12 Jan 2021 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-3/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+    <item>
+      <title>Over the year we have lots of experience</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-4/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-4/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+    <item>
+      <title>Over the year we have lots of experience</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-5/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-5/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+    <item>
+      <title>Over the year we have lots of experience</title>
+      <link>http://localhost:1313/bizcraft/site/french/blog/post-6/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <guid>http://localhost:1313/bizcraft/site/french/blog/post-6/</guid>
+      <description>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</description>
+    </item>
+  </channel>
+</rss>

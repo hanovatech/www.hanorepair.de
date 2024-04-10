@@ -1,0 +1,11 @@
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+dialog { display: block; }
+
+dialog:not(:target):not([open]) { display: none; }

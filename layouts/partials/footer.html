@@ -1,0 +1,117 @@
+<!-- Footer start -->
+<footer id="footer" class="footer">
+	<div class="container">
+		<div class="mx-auto max-w-6xl flex flex-col md:flex-row gap-8 md:justify-between">
+			<!--/ Start Smartphone Hersteller -->
+			<div class="md:w-1/3 footer-widget text-center md:!text-left">
+				<h3 class="widget-title">Smartphones</h3>
+        {{ range first 10 ( where .Site.RegularPages "Section" "smartphone-hersteller" )}}
+				<div class="latest-post-items media">
+					<div class="latest-post-content media-body">
+						<h4 class="mb-0"><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
+						{{/*  <p class="post-meta">
+							<span class="author">Posted by <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author | title }}</a></span>
+							<span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
+								href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"> {{ if ne $index 0 }}, {{ end }}
+								{{ . | title }}</a> {{ end}}</span>
+						</p>  */}}
+					</div>
+				</div>
+				{{ end }}
+			</div>
+			<!--/ End Smartphone Hersteller -->
+
+			<!--/ Start Tablet Hersteller -->
+			<div class="md:w-1/3 footer-widget text-center ">
+				<h3 class="widget-title">Tablets</h3>
+        {{ range first 10 ( where .Site.RegularPages "Section" "tablet-hersteller" )}}
+				<div class="latest-post-items media">
+					<div class="latest-post-content media-body">
+						<h4 class="mb-0"><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
+						{{/*  <p class="post-meta">
+							<span class="author">Posted by <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author | title }}</a></span>
+							<span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
+								href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"> {{ if ne $index 0 }}, {{ end }}
+								{{ . | title }}</a> {{ end}}</span>
+						</p>  */}}
+					</div>
+				</div>
+				{{ end }}
+			</div>
+			<!--/ End Tablet Hersteller -->
+
+			<div class="md:w-1/3 footer-widget footer-about-us text-center md:!text-right">
+				<div class="mb-4">
+					<h3 class="widget-title">Kontaktdaten</h3>
+					<p>{{ .Site.Params.footer_content | markdownify }}</p>
+				</div>
+				<div class="mb-4">
+					<h4>Addresse</h4>
+					<p>{{ .Site.Params.address | markdownify }}</p>
+				</div>
+				<div class="mb-4">
+					<h4>Email</h4>
+					<a href="mailto:{{ .Site.Params.email }}" class="!text-white hover:!text-red-500 duration-200">{{ .Site.Params.email | markdownify }}</a>
+				</div>
+				<div class="mb-4">
+					<h4>Telefon</h4>
+					<a href="tel:{{ .Site.Params.phone }}" class="!text-white hover:!text-red-500 duration-200">{{ .Site.Params.phone | markdownify }}</a>
+				</div>
+				<div class="mb-4">
+					<a href="/impressum" class="!text-white hover:!text-red-500 duration-200">Impressum</a> &nbsp;•&nbsp; <a class="text-white hover:!text-red-500 duration-200" href="/datenschutz">Datenschutz</a>
+				</div>
+			</div>
+			<!--/ end about us -->
+		</div><!-- Row end -->
+	</div><!-- Container end -->
+</footer><!-- Footer end -->
+
+
+<!-- Copyright start -->
+<section id="copyright" class="copyright angle">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<ul class="footer-social unstyled">
+					<li>
+						{{ range .Site.Params.social }}
+						<a title="{{ .name }}" href="{{ .link | absURL }}">
+							<span class="icon-pentagon wow bounceIn"><i class="fa {{.icon}}"></i></span>
+						</a>
+						{{ end }}
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--/ Row end -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="copyright-info">{{ .Site.Params.copyright | markdownify }}</div>
+			</div>
+		</div>
+		<!--/ Row end -->
+		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
+			<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+		</div>
+	</div>
+	<!--/ Container end -->
+</section>
+<!--/ Copyright end -->
+
+</div><!-- Body inner end -->
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if .Site.Params.map.enable }}
+{{ with .Site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script>
+{{ end }}
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>

@@ -1,0 +1,71 @@
+<div class="body-inner">
+
+<!-- Header start -->
+<header id="header" class="fixed-top header" role="banner">
+  <a class="navbar-brand navbar-bg z-10" href="{{ .Site.BaseURL | relLangURL }}">
+    <img class="img-fluid float-right" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+  </a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="px-2.5 py-1.5 navbar-toggler ml-auto border-0 rounded-0 text-white" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span>
+      </button>
+
+      <div class="collapse !visible navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          {{ range .Site.Menus.main }}
+          {{ if or .HasChildren .Params.hasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <div class="dropdown-menu">
+              {{ if .Params.section }}
+                {{ $section := where $.Site.Pages "Section" .Params.section }}
+                {{ range $section }}
+                {{ if ne .Kind "section" }}
+                  <a class="dropdown-item" href="{{ .RelPermalink | relLangURL }}">{{ .Params.name }}</a>
+                {{ end }}
+                {{ end }}
+              {{ else }}
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>
+<!--/ Header end -->
