@@ -138,13 +138,18 @@ hasChildren = true
 
 [[Languages.de.menu.main]]
 parent = "Über uns"
-name = "Jobs"
-URL = "jobs/"
+name = "Kontakt"
+URL = "kontakt/"
 
 [[Languages.de.menu.main]]
 parent = "Über uns"
 name = "Anfahrt"
 URL = "anfahrt/"
+
+[[Languages.de.menu.main]]
+parent = "Über uns"
+name = "Standorte"
+URL = "standorte/"
 
 
 #################### default parameters ################################

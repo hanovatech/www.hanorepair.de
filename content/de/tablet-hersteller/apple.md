@@ -5,4 +5,5 @@ description: Apple ist ein US-amerjsonischer Hersteller von Smartphones, Tablets
 name: Apple
 ---
 
-Choose your model...
+# Wir reparieren Ihr Apple iPad
+Wir reparieren alle gängigen Apple iPad Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.

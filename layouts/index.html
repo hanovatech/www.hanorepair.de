@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := .Params }}
 
 <!-- Slider start -->
-{{ if $data.homepage.slider.enable }}
-{{ with $data.homepage.slider }}
+{{ if $data.slider.enable }}
+{{ with $data.slider }}
 <section id="home" class="p-0">
   <div id="main-slide" class="cd-hero">
     <ul class="cd-hero-slider">
@@ -59,8 +59,8 @@
 
 
 <!-- Service box start -->
-{{ if $data.homepage.service.enable }}
-{{ with $data.homepage.service.services }}
+{{ if $data.service.enable }}
+{{ with $data.service.services }}
 <section id="service" class="md:py-20 service angle">
   <div class="container">
     <div class="row">
@@ -90,8 +90,8 @@
 <!--/ Service box end -->
 
 <!-- Parallax 1 start -->
-{{ if $data.homepage.call_to_action.enable }}
-{{ with $data.homepage.call_to_action }}
+{{ if $data.call_to_action.enable }}
+{{ with $data.call_to_action }}
 <section class="my-12 md:my-32 md:mb-12 parallax" style="background-image: url('{{ .bg_image | absURL}}');">
   <div class="parallax-overlay"></div>
   <div class="container">
@@ -113,8 +113,8 @@
 
 
 <!-- Brands start -->
-{{ if $data.homepage.brands_logo_slider.enable }}
-{{ with $data.homepage.brands_logo_slider }}
+{{ if $data.brands_logo_slider.enable }}
+{{ with $data.brands_logo_slider }}
 <section id="clients" class="md:mb-32 !pt-0 clients">
   <div class="container">
     <div class="row wow fadeInLeft">
@@ -136,8 +136,8 @@
 <!--/ Brands end -->
 
 <!--/ About start -->
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
+{{ if $data.about.enable }}
+{{ with $data.about }}
 <section id="image-block" class="image-block p-0">
   <div class="container-fluid">
     <div class="row">
@@ -152,7 +152,7 @@
         </div>
         <div class="gap-30"></div>
         {{ range .about_item }}
-        <div class="image-block-content">
+        <div class="image-block-content !px-0">
           <span class="feature-icon float-left"><i class="fa {{ .icon }}"></i></span>
           <div class="feature-content">
             <h3>{{ .name | markdownify }}</h3>
@@ -169,63 +169,56 @@
 <!--/ About end -->
 
 <!-- Counter Strat -->
-{{ if $data.homepage.funfact.enable }}
+{{ if $data.funfact.enable }}
 <section id="funfacts" class="pt-0 md:pb-20">
   {{ partial "funfact.html" . }}
 </section>
 {{ end }}
 <!--/ Counter end -->
 
-<!-- Portfolio start -->
-{{ if $data.homepage.portfolio.enable }}
-{{ partial "portfolio.html" . }}
-{{ end }}
-<!-- Portfolio end -->
-
-<!-- Feature box start -->
-{{ if $data.homepage.feature.enable }}
-{{ with $data.homepage.feature }}
-<section id="feature" class="feature">
-  <div class="container">
-    <div class="row">
-      {{ range .feature_item }}
-      <div class="feature-box col-sm-4 wow fadeInDown mb-4" data-wow-delay=".5s">
-        <span class="feature-icon float-left"><i class="fa {{.icon}}"></i></span>
-        <div class="feature-content">
-          <h3>{{ .name | markdownify }}</h3>
-          <p>{{ .content | markdownify }}</p>
+<!-- Contact Strat -->
+<section id="contact" class="mx-auto max-w-5xl px-4 pb-32">
+  <h2 class="sr-only">Kontakt</h2>
+  <div class="row">
+    <div class="col-md-9">
+      <h3 class="sm:hidden">Kontaktformular</h3>
+      <form id="contact-form" name="contact-form" action="/kontakt-success" method="POST" netlify>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Ihr Name</label>
+              <input class="form-control" name="name" id="name" placeholder="" type="text" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Email</label>
+              <input class="form-control" name="email" id="email" placeholder="" type="email" required>
+            </div>
+          </div>
         </div>
+        <div class="form-group">
+          <label>Nachricht</label>
+          <textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <div class="text-left">
+          <button class="btn btn-primary solid blank" type="submit">Abschicken</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-3">
+      <div class="contact-info text-right">
+        <h3>Kontaktdaten</h3>
+        <p>{{ .Content }}</p>
+        <br>
+        <p><i class="fa fa-home info"></i> {{ .Site.Params.address | markdownify }} </p>
+        <p><i class="fa fa-phone info"></i> {{ .Site.Params.phone | markdownify }} </p>
+        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Params.email | markdownify }}</p>
       </div>
-      {{ end }}
-    </div><!-- Content row end -->
+    </div>
   </div>
-  <!--/ Container end -->
 </section>
-{{ end }}
-{{ end }}
-<!--/ Feature box end -->
-
-
-<!-- Team start -->
-{{ if $data.homepage.team.enable }}
-{{ partial "team.html" . }}
-{{ end }}
-<!--/ Team end -->
-
-
-<!-- Pricing table start -->
-{{ if $data.homepage.pricing.enable }}
-{{ partial "pricing.html" . }}
-{{ end }}
-<!--/ Pricing table end -->
-
-
-<!-- Testimonial start-->
-{{ if $data.homepage.testimonial.enable }}
-{{ partial "testimonial.html" . }}
-{{ end }}
-<!--/ Testimonial end-->
-
-
+<!--/ Contact end -->
 
 {{ end }}

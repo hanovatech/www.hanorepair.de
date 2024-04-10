@@ -20,7 +20,7 @@
               aria-expanded="false">
               {{ .Name }}
             </a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu shadow">
               {{ if .Params.section }}
                 {{ $section := where $.Site.Pages "Section" .Params.section }}
                 {{ range $section }}
