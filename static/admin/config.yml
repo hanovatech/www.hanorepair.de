@@ -50,7 +50,84 @@ collections:
               { label: "Beschreibung", name: description, widget: "string"}
             ]
           },
-          # Add fields for other services as needed
+          { label: "Display", name: "display", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Lautsprecher", name: "lautsprecher", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "mikrofon", name: "mikrofon", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Hoermuschel", name: "hoermuschel", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Vorderkamera", name: "vorderkamera", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Hauptkamera", name: "hauptkamera", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Kameraglas", name: "kameraglas", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Backcover", name: "backcover", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Rahmen", name: "rahmen", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Akku", name: "akku", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Ladebuchse", name: "ladebuchse", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Buttons", name: "buttons", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Software Update", name: "software_update", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },          
         ]
       }
 
