@@ -10,57 +10,57 @@ services:
     price: kostenlos
     description:
   wasserschaden:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   original_display:
-    enabled: false
+    enabled: true
     price: auf Anfrage
   glas_reparatur:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   lautsprecher:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   mikrofon:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   vorderkamera:
-    enabled: false
+    enabled: true
     price: auf Anfrage
   hauptkamera:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   kameraglas:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   backcover:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   rahmen:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   akku:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   ladebuchse:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   buttons:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
   software_update:
-    enabled: false
+    enabled: true
     price: auf Anfrage
     description:
 ---
