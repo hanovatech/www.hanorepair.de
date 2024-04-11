@@ -8,7 +8,7 @@ services:
   analyse:
     enabled: true
     price: kostenlos
-    description:
+    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.
   wasserschaden:
     enabled: true
     price: ab 120€

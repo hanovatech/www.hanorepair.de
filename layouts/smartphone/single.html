@@ -23,8 +23,8 @@
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
             <h4>Mehr zur Analyse</h4>
-            <p>
-              Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.
+             <p>
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -55,7 +55,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Mehr zu Wasserschäden</h4>
             <p>
-              Ist Ihr Handy durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -86,7 +86,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Displayaustausch</h4>
             <p>
-              Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -117,7 +117,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Lautsprechertausch</h4>
             <p>
-              Ein stets klarer Ton gewährleistet die Qualität eines Smartphones. Wir springen gerne ein, wenn dies nicht mehr der Fall ist.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -148,7 +148,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Mikrofonaustausch</h4>
             <p>
-              Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -179,7 +179,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Hörmuschelaustausch</h4>
             <p>
-              Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -210,7 +210,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der vorderen Kamera</h4>
             <p>
-              Das perfekte Selfie lässt sich nur mit einer einwandfreien Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer Frontkamera durchzuführen.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -241,7 +241,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der Hauptkamera</h4>
             <p>
-              Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen wir Ihnen gerne mit Rat und Tat zur Seite.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -272,7 +272,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Kameraglas</h4>
             <p>
-              Auch 200 Megapixel bringen nichts, wenn das Kameraglas zerkratzt oder zerbrochen ist. Die Reparatur geht schnell, hat aber enorme Effekte auf eine klare Sicht.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -303,7 +303,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Backcovers</h4>
             <p>
-              Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -334,7 +334,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Rahmens</h4>
             <p>
-              Der Rahmen oder auch das Gehäuse ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -365,7 +365,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Akkus</h4>
             <p>
-              Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -396,7 +396,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der Ladebuchse</h4>
             <p>
-              Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum Bestpreis.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -427,7 +427,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch der Buttons</h4>
             <p>
-              Haben Sie Probleme beim Einschalten Ihres Geräts? Schauen Sie bei uns gerne vorbei.
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -458,7 +458,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Software-Update</h4>
             <p>
-              Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!
+              {{ .description }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
