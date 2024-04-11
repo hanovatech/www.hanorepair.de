@@ -29,7 +29,7 @@ collections:
   ############### Smartphones ################
   - name: smartphones
     label: Smartphones
-    folder: /content/smartphone
+    folder: /content/de/smartphone
     create: true
     slug: "{{slug}}"
     fields:
