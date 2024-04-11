@@ -64,7 +64,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Modell", name: "name", widget: "string" }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Samsung", "Xiaomi", "Huawei"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Samsung", "Xiaomi", "Huawei", "Google", "HTC", "LG", "Blackberry", "Nokia", "Asus", "Motorola", "Sony", "CAT", "OnePlus"] }
       - { label: "Services", name: "services", widget: "object", fields: [
           { label: "Analyse", name: "analyse", widget: "object", fields: [
               { label: "Enabled", name: "enabled", widget: "boolean", required: false },
