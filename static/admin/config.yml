@@ -40,13 +40,13 @@ collections:
       - { label: "Services", name: "services", widget: "object", fields: [
           { label: "Analyse", name: "analyse", widget: "object", fields: [
               { label: "Enabled", name: "enabled", widget: "boolean" },
-              { label: "Preis", name: "price", widget: "string" }
+              { label: "Preis", name: "price", widget: "string" },
               { label: "Beschreibung", name: description, widget: "string"}
             ]
           },
           { label: "Wasserschaden", name: "wasserschaden", widget: "object", fields: [
               { label: "Enabled", name: "enabled", widget: "boolean" },
-              { label: "Preis", name: "price", widget: "string" }
+              { label: "Preis", name: "price", widget: "string" },
               { label: "Beschreibung", name: description, widget: "string"}
             ]
           },
