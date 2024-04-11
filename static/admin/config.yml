@@ -11,15 +11,14 @@ collections:
       ############### Homepage ################
       - name: home
         label: Home
-        file: "/content/_index.md"
+        file: "/content/de/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
-
   ############### Slider ################
   - name: slider
-    label: Slider
-    files:
+    label: Home Slider
+    files: "/content/de/_index.md"
       - name: slider
         label: Slider
         file: "/content/slider.md"
