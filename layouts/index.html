@@ -170,7 +170,7 @@
 {{ end }}
 <!--/ About end -->
 
-<!-- Counter Strat -->
+<!-- Counter start -->
 {{ if $data.funfact.enable }}
 <section id="funfacts" class="pt-0 md:pb-20">
   {{ partial "funfact.html" . }}
@@ -178,48 +178,9 @@
 {{ end }}
 <!--/ Counter end -->
 
-<!-- Contact Strat -->
-<section id="contact" class="mx-auto max-w-5xl px-4 pb-32">
-  <h2 class="sr-only">Kontakt</h2>
-  <div class="row">
-    <div class="col-md-9">
-      <h3 class="sm:hidden">Kontaktformular</h3>
-      <form id="contact-form" name="contact-form" action="/kontakt-success" method="POST" netlify>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <label>Ihr Name</label>
-              <input class="form-control" name="name" id="name" placeholder="" type="text" required>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label>Email</label>
-              <input class="form-control" name="email" id="email" placeholder="" type="email" required>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Nachricht</label>
-          <textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
-        </div>
-        <div data-netlify-recaptcha="true"></div>
-        <div class="text-left">
-          <button class="btn btn-primary solid blank" type="submit">Abschicken</button>
-        </div>
-      </form>
-    </div>
-    <div class="col-md-3">
-      <div class="contact-info text-right">
-        <h3>Kontaktdaten</h3>
-        <p>{{ .Content }}</p>
-        <br>
-        <p><i class="fa fa-home info"></i> {{ .Site.Params.address | markdownify }} </p>
-        <p><i class="fa fa-phone info"></i> {{ .Site.Params.phone | markdownify }} </p>
-        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Params.email | markdownify }}</p>
-      </div>
-    </div>
-  </div>
+<!-- Contact start -->
+<section id="contact-form" class="pb-32">
+  {{ partial "contact-form.html" . }}
 </section>
 <!--/ Contact end -->
 

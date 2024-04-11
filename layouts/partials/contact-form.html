@@ -1,0 +1,42 @@
+<div class="mx-auto max-w-5xl px-4">
+  <h2 class="sr-only">Kontakt</h2>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="col-span-1 md:order-last">
+      <div class="contact-info md:text-right">
+        <h3 class="mt-0">Kontaktdaten</h3>
+        <br>
+        <p><i class="fa fa-home info"></i> {{ .Site.Params.address | markdownify }} </p>
+        <p><i class="fa fa-clock-o info"></i> {{ .Site.Params.opening_hours | markdownify }} </p>
+        <p><i class="fa fa-phone info"></i> {{ .Site.Params.phone | markdownify }} </p>
+        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Params.email | markdownify }}</p>
+      </div>
+    </div>
+    <div class="col-span-3">
+      <h3 class="sm:hidden">Kontaktformular</h3>
+      <form id="contact-form" name="contact-form" action="/kontakt-success" method="POST" netlify class="mt-0">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Ihr Name</label>
+              <input class="form-control" name="name" id="name" placeholder="" type="text" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Email</label>
+              <input class="form-control" name="email" id="email" placeholder="" type="email" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Nachricht</label>
+          <textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <div class="text-left">
+          <button class="btn btn-primary solid blank" type="submit">Abschicken</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
