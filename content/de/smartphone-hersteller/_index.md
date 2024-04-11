@@ -1,6 +1,7 @@
 ---
-title: Smartphone Hersteller
+title: Smartphone Hersteller | HanoRepair
 description: 
+heading: Smartphone Hersteller
 ---
 
 # Smartphone Reparaturen für alle Hersteller

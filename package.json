@@ -1,7 +1,7 @@
 {
   "name": "www.hanorepair.de",
   "license": "UNLICENSED",
-  "author": "gethugothemes",
+  "author": "hanovatech",
   "scripts": {
     "dev": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",

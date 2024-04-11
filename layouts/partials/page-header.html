@@ -4,11 +4,11 @@
   <!-- Subpage title start -->
   <div class="banner-title-content !top-[35%] lg:!top-[45%]">
     <div class="text-center">
-      <p class="text-white text-3xl font-semibold">{{ .Title }}</p>
+      <p class="text-white text-3xl font-semibold">{{ or .Params.heading .Title }}</p>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb justify-content-center">
           <li class="breadcrumb-item !inline"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.home }}</a></li>
-          <li class="breadcrumb-item text-white !inline" aria-current="page">{{ .Title }}</li>
+          <li class="breadcrumb-item text-white !inline" aria-current="page">{{ or .Params.heading .Title }}</li>
         </ol>
       </nav>
     </div>

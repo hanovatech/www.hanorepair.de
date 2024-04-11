@@ -1,7 +1,8 @@
 ---
-title: New Smartphone
+title: iPhone 6S ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-manufacturer: 
+heading: iPhone 6S
+manufacturer: apple
 services:
   analyse:
     enabled: true

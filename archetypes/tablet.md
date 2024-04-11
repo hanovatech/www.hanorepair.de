@@ -1,7 +1,8 @@
 ---
-title: New Tablet
+title: iPad 3. Generation ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-manufacturer: 
+heading: iPad 3. Generation
+manufacturer: apple
 services:
   analyse:
     enabled: true
