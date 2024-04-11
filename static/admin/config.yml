@@ -39,5 +39,22 @@ collections:
       - { label: "Hersteller", name: "manufacturer", widget: "string" }
   
   ############### Tablet Hersteller ################
-  
+    - name: tablet-hersteller
+    label: Tablet Hersteller
+    folder: /content/tablet-hersteller
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
   ############### Tablets ################
+    - name: tablets
+    label: Tablets
+    folder: /content/tablet
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Hersteller", name: "manufacturer", widget: "string" }
