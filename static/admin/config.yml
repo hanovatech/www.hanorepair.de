@@ -21,7 +21,7 @@ collections:
     files: "/content/de/_index.md"
       - name: slider
         label: Slider
-        file: "/content/slider.md"
+        file:
         fields:
           - { label: "Enable", name: "enable", widget: "boolean", default: true }
           - { label: "Slider Items", name: "slider_item", widget: "list", fields: [
