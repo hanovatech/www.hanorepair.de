@@ -22,7 +22,7 @@ collections:
     files:
       - name: slider
         label: Home Slider
-        file: "/content/slider.md"
+        file: "/content/de/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
