@@ -156,8 +156,13 @@ description = "This is meta description"
 author = "HanoRepair"
 # contact info
 address = "Marienstraße 40a<br>30171 Hannover"
+opening_hours = "10 bis 19.30 Uhr"
 phone = "[0511-34082318](tel:0511-34082318)"
 email = "info@hanorepair.de"
+# google
+gmaps_api_key = "AIzaSyBdanO51ibHQTi0fFcyug3upt2I3SqCVVI"
+gmaps_query = "HanoRepair Hannover"
+gmaps_zoom = "15"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # copyright
