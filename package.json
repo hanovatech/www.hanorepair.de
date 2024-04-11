@@ -1,6 +1,5 @@
 {
   "name": "www.hanorepair.de",
-  "license": "UNLICENSED",
   "author": "hanovatech",
   "scripts": {
     "dev": "hugo server",
