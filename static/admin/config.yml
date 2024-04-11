@@ -16,30 +16,27 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
   ############### Slider ################
-  - name: slider
-    label: Home Slider
-    files: "/content/de/_index.md"
-      - name: slider
-        label: Slider
-        file:
-        fields:
-          - { label: "Enable", name: "enable", widget: "boolean", default: true }
-          - { label: "Slider Items", name: "slider_item", widget: "list", fields: [
-              { label: "Title", name: "title", widget: "string" },
-              { label: "Subtitle", name: "subtitle", widget: "string" },
-              { label: "Background Image", name: "bg_image", widget: "image" },
-              { label: "Image", name: "image", widget: "image", required: false },
-              { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] },
-              { label: "Navigator Label", name: "navigator.label", widget: "string" },
-              { label: "Navigator Icon", name: "navigator.icon", widget: "string" },
-              { label: "Buttons", name: "buttons", widget: "list", fields: [
-                  { label: "Label", name: "label", widget: "string" },
-                  { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
-                  { label: "Link", name: "link", widget: "string" }
-                ]
-              }
-            ]
-          }
+        - name: slider
+          label: Slider
+          file:
+          fields:
+            - { label: "Enable", name: "enable", widget: "boolean", default: true }
+            - { label: "Slider Items", name: "slider_item", widget: "list", fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Subtitle", name: "subtitle", widget: "string" },
+                { label: "Background Image", name: "bg_image", widget: "image" },
+                { label: "Image", name: "image", widget: "image", required: false },
+                { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] },
+                { label: "Navigator Label", name: "navigator.label", widget: "string" },
+                { label: "Navigator Icon", name: "navigator.icon", widget: "string" },
+                { label: "Buttons", name: "buttons", widget: "list", fields: [
+                    { label: "Label", name: "label", widget: "string" },
+                    { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
+                    { label: "Link", name: "link", widget: "string" }
+                  ]
+                }
+              ]
+            }
 
 
   ############### Smartphone Hersteller ################
