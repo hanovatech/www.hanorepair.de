@@ -7,7 +7,7 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Smartphone Reparatur <br>in Hannover"
+    - title : "Smartphone Reparatur <br>in Hannover Test"
       subtitle : "🚨 Handy kaputt? Wir helfen weiter!"
       bg_image : "uploads/smartphone-repair.jpg"
       image : ""
