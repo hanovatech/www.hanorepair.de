@@ -39,7 +39,7 @@ collections:
       - { label: "Hersteller", name: "manufacturer", widget: "string" }
   
   ############### Tablet Hersteller ################
-    - name: tablet-hersteller
+  - name: tablet-hersteller
     label: Tablet Hersteller
     folder: /content/tablet-hersteller
     create: true
@@ -48,7 +48,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
   ############### Tablets ################
-    - name: tablets
+  - name: tablets
     label: Tablets
     folder: /content/tablet
     create: true
