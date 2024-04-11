@@ -89,33 +89,11 @@
 {{ end }}
 <!--/ Service box end -->
 
-<!-- Parallax 1 start -->
-{{ if $data.call_to_action.enable }}
-{{ with $data.call_to_action }}
-<section class="my-12 md:my-32 md:mb-12 parallax" style="background-image: url('{{ .bg_image | absURL}}');">
-  <div class="parallax-overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        <h3>{{ .subtitle | markdownify}}</h3>
-        <p>
-          {{ range .buttons }}
-          <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}}">{{ .label }}</a>
-          {{ end }}
-        </p>
-      </div>
-    </div>
-  </div><!-- Container end -->
-</section><!-- Parallax 1 end -->
-{{ end }}
-{{ end }}
-
 
 <!-- Brands start -->
 {{ if $data.brands_logo_slider.enable }}
 {{ with $data.brands_logo_slider }}
-<section id="clients" class="md:mb-32 !pt-0 clients">
+<section id="clients" class="md:mt-32 !pb-0 clients">
   <div class="container">
     <div class="row wow fadeInLeft">
       <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
@@ -134,6 +112,30 @@
 {{ end }}
 {{ end }}
 <!--/ Brands end -->
+
+
+<!-- Parallax 1 start -->
+{{ if $data.call_to_action.enable }}
+{{ with $data.call_to_action }}
+<section class="my-12 md:my-32 md:mt-12 parallax" style="background-image: url('{{ .bg_image | absURL}}');">
+  <div class="parallax-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <h3>{{ .subtitle | markdownify}}</h3>
+        <p>
+          {{ range .buttons }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}}">{{ .label }}</a>
+          {{ end }}
+        </p>
+      </div>
+    </div>
+  </div><!-- Container end -->
+</section><!-- Parallax 1 end -->
+{{ end }}
+{{ end }}
+
 
 <!--/ About start -->
 {{ if $data.about.enable }}

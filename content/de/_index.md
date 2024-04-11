@@ -32,7 +32,7 @@ slider:
     ############### Slider item loop
     - title : "Garantie auf ausgewählte Reparaturen"
       subtitle : "🤝 Sprechen Sie uns an!"
-      bg_image : "images/slider/bg2.jpg"
+      bg_image : "uploads/macbook-banner.jpg"
       image_position : "left"
       # slider navigator
       navigator:
@@ -94,21 +94,6 @@ service:
         content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
 
 
-############################ Call to action #############################
-call_to_action:
-  enable : true
-  title : "Wir helfen Ihnen schnell weiter!"
-  subtitle : "Rufen Sie uns an oder kommen Sie vorbei."
-  bg_image : "uploads/smartphone-repair2.jpg"
-  buttons:
-    - label : "Zur Anfahrt"
-      style : "white"
-      link : "/anfahrt"
-    - label : "Jetzt Anrufen"
-      style : "solid"
-      link : "/kontakt"
-
-
 ############################ Brands logo slider ##########################
 brands_logo_slider:
   enable : true
@@ -131,6 +116,21 @@ brands_logo_slider:
     - name : "HTC Logo"
       logo : "uploads/htc-logo.png"
       link : "/smartphone-hersteller/htc"
+
+
+############################ Call to action #############################
+call_to_action:
+  enable : true
+  title : "Wir helfen Ihnen schnell weiter!"
+  subtitle : "Rufen Sie uns an oder kommen Sie vorbei."
+  bg_image : "uploads/smartphone-repair2.jpg"
+  buttons:
+    - label : "Zur Anfahrt"
+      style : "white"
+      link : "/anfahrt"
+    - label : "Jetzt Anrufen"
+      style : "solid"
+      link : "/kontakt"
 
   
 ############################### about ##################################

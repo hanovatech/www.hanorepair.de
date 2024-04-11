@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/content"
+public_folder: "/content"
+collections:
+  ############### Single Pages ################
+  - name: pages
+    label: Pages
+    files:
+      ############### Homepage ################
+      - name: home
+        label: Home
+        file: "/content/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+
+  ############### Smartphone Hersteller ################
+  - name: smartphone-hersteller
+    label: Smartphone Hersteller
+    folder: /content/smartphone-hersteller
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+
+  ############### Smartphones ################
+  - name: smartphones
+    label: Smartphones
+    folder: /content/smartphone
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Hersteller", name: "manufacturer", widget: "string" }
+  
+  ############### Tablet Hersteller ################
+  
+  ############### Tablets ################
