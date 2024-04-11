@@ -18,10 +18,10 @@ collections:
 
   ############### Slider ################
   - name: sliders
-    label: Home Sliders
+    label: Sliders
     files:
       - name: slider
-        label: Slider
+        label: Home Slider
         file: "/content/slider.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
