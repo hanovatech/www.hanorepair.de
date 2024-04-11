@@ -15,6 +15,26 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Slider", name: "slider", widget: "list", fields: [
+              { label: "Enable", name: "enable", widget: "boolean", default: true },
+              { label: "Slider Items", name: "slider_items", widget: "list", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Subtitle", name: "subtitle", widget: "string" },
+                  { label: "Background Image", name: "bg_image", widget: "image" },
+                  { label: "Image", name: "image", widget: "image", required: false },
+                  { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] },
+                  { label: "Navigator Label", name: "navigator_label", widget: "string" },
+                  { label: "Navigator Icon", name: "navigator_icon", widget: "string" },
+                  { label: "Buttons", name: "buttons", widget: "list", fields: [
+                      { label: "Label", name: "label", widget: "string" },
+                      { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
+                      { label: "Link", name: "link", widget: "string" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
   ############### Slider ################
 
 
