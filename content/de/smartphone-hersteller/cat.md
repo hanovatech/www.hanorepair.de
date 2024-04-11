@@ -1,7 +1,8 @@
 ---
-title: CAT Smartphones
+title: CAT ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-name: Blackberry
+heading: CAT Smartphones
+name: CAT
 ---
 
 # Wir reparieren Ihr CAT Smartphone

@@ -1,6 +1,7 @@
 ---
-title: Google Tablets
+title: Google ‣ Tablet Reparatur in Hannover 🛠️ Smartphone Werkstatt
 description: 
+heading: Google Tablets
 name: Google
 ---
 

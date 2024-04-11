@@ -32,7 +32,7 @@ slider:
     ############### Slider item loop
     - title : "Garantie auf ausgewählte Reparaturen"
       subtitle : "🤝 Sprechen Sie uns an!"
-      bg_image : "uploads/macbook-banner.jpg"
+      bg_image : "uploads/smartphone-repair2.jpg"
       image_position : "left"
       # slider navigator
       navigator:
@@ -50,7 +50,7 @@ slider:
     - title : "Macbook & iMac Reparaturen"
       subtitle : "👨‍💻 Wir helfen bei Problemen mit Ihrem Mac"
       bg_image : "images/slider/bg2.jpg"
-      image : "uploads/macbook-und-imac.png"
+      image : "uploads/macbook-banner.png"
       image_position : "right"
       # slider navigator
       navigator:
@@ -122,7 +122,7 @@ brands_logo_slider:
 call_to_action:
   enable : true
   title : "Wir helfen Ihnen schnell weiter!"
-  subtitle : "Rufen Sie uns an oder kommen Sie vorbei."
+  subtitle : "Rufen Sie uns an oder kommen Sie vorbei"
   bg_image : "uploads/smartphone-repair2.jpg"
   buttons:
     - label : "Zur Anfahrt"

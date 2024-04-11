@@ -1,6 +1,6 @@
 ---
 title: HanoRepair Standorte in Hannover
-description: "HanoRepair ist Ihr Ansprechpartner für Handy, Smartphone und Tablet Reparaturen in Hannover. Wir bieten Ihnen schnelle und professionelle Reparaturen zu fairen Preisen."
+description: Wir sind Ihr Ansprechpartner für Handy, Smartphone und Tablet Reparaturen in Hannover. Wir bieten Ihnen schnelle und professionelle Reparaturen zu fairen Preisen. Besuchen Sie uns in unseren Filialen in Hannover.
 heading: Unsere Standorte
 ---
 

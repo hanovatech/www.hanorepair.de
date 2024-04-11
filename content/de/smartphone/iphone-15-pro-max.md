@@ -1,12 +1,17 @@
 ---
-title: iPhone 15 Max
-description: iPhone 15 Max Reparaturen schnell und günstig in Zürich. Wir reparieren Ihr iPhone 15 Max Pro in 30 Minuten. Jetzt Termin vereinbaren.
+title: iPhone 15 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: iPhone 15 Pro Max Reparaturen schnell und günstig in Zürich. Wir reparieren Ihr iPhone 15 Max Pro in 30 Minuten. Jetzt Termin vereinbaren.
+
+name: iPhone 15 Pro Max
 manufacturer: apple
 services:
   analyse:
     enabled: true
     price: kostenlos
   wasserschaden:
+    enabled: true
+    price: ab 120€
+  display:
     enabled: true
     price: ab 120€
   lautsprecher:
@@ -25,9 +30,6 @@ services:
     enabled: true
     price: ab 120€
   kameraglas:
-    enabled: true
-    price: ab 120€
-  display:
     enabled: true
     price: ab 120€
   backcover:
@@ -49,3 +51,10 @@ services:
     enabled: true
     price: ab 120€
 ---
+
+# Wir reparieren Ihr iPhone 15 Pro Max
+
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **iPhone 15 Pro Max** wieder zum Laufen!
+Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
+Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!

@@ -1,7 +1,8 @@
 ---
-title: iPad 3. Generation ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: 
-heading: iPad 3. Generation
+title: iPad XY ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: This is a meta description
+
+name: iPad XY
 manufacturer: apple
 services:
   analyse:
@@ -50,3 +51,10 @@ services:
     enabled: false
     price: auf Anfrage
 ---
+
+# Wir reparieren Ihr MODEL_NAME
+
+Ihr Tablet ist kaputt oder hat einen Fehler? Wir bringen Ihr **MODEL_NAME** wieder zum Laufen!
+Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
+Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!

@@ -138,11 +138,6 @@ hasChildren = true
 
 [[Languages.de.menu.main]]
 parent = "Über uns"
-name = "Kontakt"
-URL = "kontakt/"
-
-[[Languages.de.menu.main]]
-parent = "Über uns"
 name = "Anfahrt"
 URL = "anfahrt/"
 
