@@ -24,22 +24,22 @@ collections:
         label: Home Slider
         file: "/content/de/_index.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
-          - { label: "Background Image", name: "bg_image", widget: "image" }
-          - { label: "Image", name: "image", widget: "image", required: false }
-          - { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] }
-          - { label: "Navigator", name: "navigator", widget: "object", fields: [
-              { label: "Label", name: "label", widget: "string" },
-              { label: "Icon", name: "icon", widget: "string" }
-            ]
-          }
-          - { label: "Buttons", name: "buttons", widget: "list", fields: [
-              { label: "Label", name: "label", widget: "string" },
-              { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
-              { label: "Link", name: "link", widget: "string" }
-            ]
-          }
+          - { label: "Slides", name: "slider.slider_item", widget: "list", types: [
+              { label: "Slide", name: "slide", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Subtitle", name: "subtitle", widget: "string" },
+                  { label: "Background Image", name: "bg_image", widget: "image" },
+                  { label: "Image", name: "image", widget: "image", required: false },
+                  { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] },
+                  { label: "Navigator Label", name: "navigator.label", widget: "string" },
+                  { label: "Navigator Icon", name: "navigator.icon", widget: "string" },
+                  { label: "Buttons", name: "buttons", widget: "list", fields: [
+                      { label: "Label", name: "label", widget: "string" },
+                      { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
+                      { label: "Link", name: "link", widget: "string" }
+                  ]}
+              ]}
+          ]}
 
 
   ############### Smartphone Hersteller ################
