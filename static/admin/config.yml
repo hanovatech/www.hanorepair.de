@@ -23,8 +23,8 @@ collections:
                   { label: "Background Image", name: "bg_image", widget: "image" },
                   { label: "Image", name: "image", widget: "image", required: false },
                   { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right", "center"] },
-                  { label: "Navigator Label", name: "navigator_label", widget: "string" },
-                  { label: "Navigator Icon", name: "navigator_icon", widget: "string" },
+                  { label: "Navigator Label", name: "navigator.label", widget: "string" },
+                  { label: "Navigator Icon", name: "navigator.icon", widget: "string" },
                   { label: "Buttons", name: "buttons", widget: "list", fields: [
                       { label: "Label", name: "label", widget: "string" },
                       { label: "Style", name: "style", widget: "select", options: ["solid", "white"] },
