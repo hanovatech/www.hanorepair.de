@@ -37,6 +37,21 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Modell", name: "name", widget: "string" }
       - { label: "Hersteller", name: "manufacturer", widget: "string" }
+      - { label: "Services", name: "services", widget: "object", fields: [
+          { label: "Analyse", name: "analyse", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Price", name: "price", widget: "string" }
+            ]
+          },
+          { label: "Wasserschaden", name: "wasserschaden", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Price", name: "price", widget: "string" }
+            ]
+          },
+          # Add fields for other services as needed
+        ]
+      }
+
   
   ############### Tablet Hersteller ################
   - name: tablet-hersteller
