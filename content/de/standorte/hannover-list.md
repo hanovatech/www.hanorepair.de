@@ -1,6 +1,7 @@
 ---
-title: Standort Hannover List
+title: HanoRepair in der Hannover List
 description: Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover List.
+heading: Hannover List
 ---
 
 # Handy Reparatur - iPhone, Samsung Galaxy, MacBook, iMac, Smartphones in Hannover SüdListstadt

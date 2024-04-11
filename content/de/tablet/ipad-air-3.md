@@ -1,6 +1,8 @@
 ---
-title: iPad Air 3. Generation
+title: iPad Air 3 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
+
+name: iPad Air 3
 manufacturer: apple
 services:
   analyse:

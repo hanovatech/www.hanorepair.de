@@ -1,6 +1,7 @@
 ---
-title: Blackberry
+title: Blackberry ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
+heading: Blackberry Smartphones
 name: Blackberry
 ---
 

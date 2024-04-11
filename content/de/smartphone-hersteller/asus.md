@@ -1,6 +1,7 @@
 ---
-title: Asus Smartphones
+title: Asus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
+heading: Asus Smartphones
 name: Asus
 ---
 

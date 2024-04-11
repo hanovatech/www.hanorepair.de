@@ -1,6 +1,7 @@
 ---
-title: "Standort Hannover Südstadt"
-description: "Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover Mitte."
+title: HanoRepair in der Hannover Südstadt
+description: Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover Mitte.
+heading: Hannover Südstadt
 ---
 
 # Handy Reparatur - iPhone, Samsung Galaxy, MacBook, iMac, Smartphones in der Hannover Südstadt

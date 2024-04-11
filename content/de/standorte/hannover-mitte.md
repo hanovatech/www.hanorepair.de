@@ -1,6 +1,7 @@
 ---
-title: "Standort Hannover Mitte"
+title: HanoRepair in Hannover Mitte
 description: "Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover Mitte."
+heading: Hannover Mitte
 ---
 
 # Handy Reparatur - iPhone, Samsung Galaxy, MacBook, iMac, Smartphones in Hannover Mitte

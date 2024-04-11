@@ -1,9 +1,10 @@
 ---
-title: Example ‣ Tablet Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: 
-heading: Example Tablets
-name: Example
+title: Apple ‣ Tablet Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: This is a meta description
+
+heading: Apple Tablets
+name: Apple
 ---
 
-# Wir reparieren Ihr Example Tablet
-Wir reparieren alle gängigen Example Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.
+# Wir reparieren Ihr Apple Tablet
+Wir reparieren alle gängigen Apple Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.
