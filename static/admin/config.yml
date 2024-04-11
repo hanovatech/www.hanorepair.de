@@ -135,7 +135,7 @@ collections:
   ############### Tablet Hersteller ################
   - name: tablet-hersteller
     label: Tablet Hersteller
-    folder: /content/tablet-hersteller
+    folder: /content/de/tablet-hersteller
     create: true
     slug: "{{slug}}"
     fields:
@@ -144,7 +144,7 @@ collections:
   ############### Tablets ################
   - name: tablets
     label: Tablets
-    folder: /content/tablet
+    folder: /content/de/tablet
     create: true
     slug: "{{slug}}"
     fields:
@@ -152,3 +152,96 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Modell", name: "name", widget: "string" }
       - { label: "Hersteller", name: "manufacturer", widget: "string" }
+      - { label: "Services", name: "services", widget: "object", fields: [
+          { label: "Analyse", name: "analyse", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Wasserschaden", name: "wasserschaden", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Original Display", name: "original_display", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Glas Reparatur", name: "glas_reparatur", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Lautsprecher", name: "lautsprecher", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "mikrofon", name: "mikrofon", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Vorderkamera", name: "vorderkamera", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Hauptkamera", name: "hauptkamera", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Kameraglas", name: "kameraglas", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Backcover", name: "backcover", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Rahmen", name: "rahmen", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Akku", name: "akku", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Ladebuchse", name: "ladebuchse", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Buttons", name: "buttons", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },
+          { label: "Software Update", name: "software_update", widget: "object", fields: [
+              { label: "Enabled", name: "enabled", widget: "boolean" },
+              { label: "Preis", name: "price", widget: "string" },
+              { label: "Beschreibung", name: description, widget: "string"}
+            ]
+          },          
+        ]
+      }
