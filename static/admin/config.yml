@@ -46,10 +46,10 @@ collections:
             name: service
             widget: object
             fields:
-              - { label: "Enable Slider", name: "enable", widget: "boolean" }
+              - { label: "Enable Services", name: "enable", widget: "boolean" }
               - name: services
                 label: Services
-                widget: list
+                widget: object
                 fields:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subtitle", name: "subtitle", widget: "string" }
