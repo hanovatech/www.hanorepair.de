@@ -72,34 +72,31 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Logo", name: "logo", widget: "image" }
                   - { label: "Link", name: "link", widget: "string" }
-          - label: "About"
-            name: "about"
-            widget: "object"
+          - label: About
+            name: about
+            widget: object
             fields:
               - { label: "Enable About Section", name: "enable", widget: "boolean" }
-              - name: "about_details"
-                widget: "object"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Subtitle", name: "subtitle", widget: "string" }
-                  - { label: "Background Image", name: "bg_image", widget: "image" }
-                  - { label: "Content", name: "content", widget: "string" }
-                  - name: "about_item"
-                    widget: "list"
-                    fields:
-                      - { label: "Label", name: "label", widget: "string" }
-                      - { label: "Name", name: "name", widget: "string" }
-                      - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
-                      - { label: "Content", name: "content", widget: "string" }
-          - label: "Fun Fact"
-            name: "funfact"
-            widget: "object"
-            fields:
-              - { label: "Enable Fun Fact Section", name: "enable", widget: "boolean" }
-              - name: "funfact_item"
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Background Image", name: "bg_image", widget: "image" }
+              - { label: "Content", name: "content", widget: "string" }
+              - name: about_item
+                Label: About Item
                 widget: "list"
                 fields:
                   - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
+                  - { label: "Content", name: "content", widget: "string" }
+          - label: Fun Fact
+            name: funfact
+            widget: object
+            fields:
+              - { label: "Enable Fun Fact Section", name: "enable", widget: "boolean" }
+              - name: funfact_item
+                widget: list
+                fields:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Count", name: "count", widget: "string" }
