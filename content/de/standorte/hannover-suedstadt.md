@@ -1,6 +1,6 @@
 ---
-title: HanoRepair in der Hannover Südstadt
-description: Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover Mitte.
+title: Hannover Südstadt ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Handy Reparatur Service ✔️ die Nr.1 in Hannover Südstadt ✔️ Express-Reparatur ✔️ OHNE Termin ✔️ Samsung, iPhone, Huawei, Xiaomi usw.✔️ MacBook & iMac & Tablets
 heading: Hannover Südstadt
 ---
 

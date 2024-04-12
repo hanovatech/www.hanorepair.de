@@ -4,6 +4,18 @@
   <div class="px-2 max-w-4xl mx-auto prose">
     {{ .Content }}
   </div>
+
+  {{ if .Params.contact_form }}
+  <div class="my-20">
+    {{ partial "contact-form.html" . }}
+  </div>
+  {{ end }}
+
+  {{ if .Params.gmaps }}
+  <div class="mt-28">
+    {{ partial "gmaps.html" . }}
+  </div>
+  {{ end }}
 </section>
 
 {{ end }}

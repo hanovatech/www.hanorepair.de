@@ -2,6 +2,8 @@
 title: Unsere Kontaktdaten | HanoRepair
 description: "Damit Sie uns finden und erreichen können, haben wir hier alle wichtigen Kontaktdaten für Sie zusammengestellt."
 heading: Kontakt
+contact_form: true
+gmaps: true
 ---
 
 # Ihr Ansprechpartner in Hannover

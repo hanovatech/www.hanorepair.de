@@ -1,21 +1,19 @@
 ---
-title: Impressum
-description:
+title: Impressum ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Impressum von HanoRepair Hannover
 ---
 
 # Impressum
 
-Unser Impressum gilt für die Seite hanovatech.de sowie für die HanovaTech Socialmedia Seiten auf Facebook, Instagram und Linkedin.
+Unser Impressum gilt für die Seite hanorepair.de sowie für die HanoRepair Socialmedia Seiten auf Facebook, Instagram und Linkedin.
 
-**HanovaTech GmbH**  
-Spielhagenstraße 25  
+**HanoRepair Hannover**  
+Marienstraße 40a  
 30171 Hannover
 
-**Geschäftsführer**: Hashem Mahmoud  
-**Umsatzsteuer-ID**: DE 363164508  
-**Steuernummer**: 25/208/26228  
-**Handelsregister**: HRB 225757  
-Amtsgericht Hannover  
+**Geschäftsführer**: Abdullah Khan  
+**Umsatzsteuer-ID**: DE 230909980   
+**Aufsichtsbehörde**: Hannover
 
 **Zuständige Kammer**  
 Industrie- und Handelskammer Hannover  
@@ -24,14 +22,14 @@ www.hannover.ihk.de
 
 ## Kontakt
 
-**Telefon**: +49 (0) 511 51512491  
-**E-Mail**: info@hanovatech.de  
-**Internet**: hanovatech.de
+**Telefon**: +49 (0) 511 34082318  
+**E-Mail**: info@hanorepair.de  
+**Internet**: hanorepair.de
 
 ## Inhaltlich verantwortlich
 
-HanovaTech GmbH  
-info@hanovatech.de
+HanoRepair Hannover  
+info@hanorepair.de
 
 ---
 

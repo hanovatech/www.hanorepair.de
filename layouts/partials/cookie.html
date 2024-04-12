@@ -1,0 +1,70 @@
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+{{ $cookieConsent := resources.Get "/utils/cookie-consent@4.1.0/cookie-consent.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $cookieConsent.RelPermalink }}" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+  cookieconsent.run({
+    "notice_banner_type": "interstitial",
+    "consent_type": "express",
+    "palette": "light",
+    "language": "de",
+    "page_load_consent_levels": ["strictly-necessary"],
+    "notice_banner_reject_button_hide": false,
+    "preferences_center_close_button_hide": false,
+    "page_refresh_confirmation_buttons": false,
+    "website_name": "HanoRepair",
+    "website_privacy_policy_url": "/datenschutz",
+    "website_impressum_url": "/impressum"
+  })
+})
+</script>
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+<style>
+  .termsfeed-com---nb-interstitial-overlay {
+    background: rgba(0,0,0,.5);
+  }
+
+  .termsfeed-com---nb-interstitial {
+    border-radius: .75rem !important;
+    max-width: 48rem !important;
+    margin: 0 auto !important;
+  }
+  
+  .termsfeed-com---nb .cc-nb-title::before {
+      content: "🍪 ";
+    }
+  
+  .termsfeed-com---nb button {
+    box-shadow: none !important;
+    border-radius: 0.375rem !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    padding: 0.625rem 0.875rem !important;
+  }
+  
+  .termsfeed-com---nb .cc-nb-okagree, .termsfeed-com---nb .cc-cp-foot-save {
+    background-color: #ee3b24 !important;
+  }
+  
+  .termsfeed-com---nb .cc-nb-okagree:hover, .termsfeed-com---nb .cc-cp-foot-save:hover {
+    background-color: #ee3b24 !important;
+  }
+
+  .termsfeed-com---nb .cc-nb-reject {
+    background-color: #de8377 !important;
+  }
+
+  .termsfeed-com---palette-light .cc-cp-foot-save {
+    background: #ee3b24;
+    box-shadow: none !important;
+    border-radius: 0.375rem !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    padding: 0.625rem 0.875rem !important;
+  }
+</style>

@@ -1,6 +1,6 @@
 ---
-title: Smartphone Reparatur in Hannover | HanoRepair
-description: Ihr Ansprechpartner für Handy, Smartphone und Tablet Reparaturen in Hannover. Wir bieten Ihnen schnelle und professionelle Reparaturen zu fairen Preisen.
+title: Handy Reparatur Hannover 🛠️ Smartphone Service
+description: Die Nr.1 für Handy Reparaturen in Hannover ✔ Samsung, iPhone, Huawei, Sony usw. ✔ Garantie ✔ Express-Service ✔ OHNE Termin ✔ MacBook & iMac & Tablet Service
 
 ############################ Slider ##########################
 slider:
@@ -21,7 +21,7 @@ slider:
           link : "/kontakt"
         - label : "Zur Reparatur"
           style : "solid"
-          link : "/smartphone-hersteller"
+          link : "/zur-reparatur"
 
     ############### Slider item loop
     - title : "Garantie auf ausgewählte Reparaturen"
@@ -108,9 +108,9 @@ call_to_action:
     - label : "Zur Anfahrt"
       style : "white"
       link : "/anfahrt"
-    - label : "Jetzt Anrufen"
+    - label : "Zur Reparatur"
       style : "solid"
-      link : "/kontakt"
+      link : "/zur-reparatur"
 
   
 ############################### about ##################################

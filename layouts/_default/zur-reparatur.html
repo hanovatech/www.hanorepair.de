@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section id="main-container">
+  <div class="pb-20 px-2 max-w-4xl mx-auto">
+    <h2 class="mb-4 text-3xl text-center">Wählen Sie den Gerätetyp</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
+
+      <a href="/smartphone-hersteller" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <i class="fa fa-mobile !text-6xl group-hover:!text-red-500"></i>
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Smartphone</h3>
+        </div>
+      </a>
+
+      <a href="/tablet-hersteller" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <i class="fa fa-tablet !text-6xl group-hover:!text-red-500"></i>
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Tablet</h3>
+        </div>
+      </a>
+
+      <a href="/macbook-und-imac" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <i class="fa fa-laptop !text-6xl group-hover:!text-red-500"></i>
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Macbook & iMac</h3>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  {{ if .Params.contact_form }}
+  <hr class="mt-12" />
+  <div class="my-20">
+    {{ partial "contact-form.html" . }}
+  </div>
+  {{ end }}
+</section>
+
+{{ end }}

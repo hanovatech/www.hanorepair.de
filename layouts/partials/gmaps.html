@@ -4,5 +4,5 @@
   loading="lazy"
   allowfullscreen
   referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/place?key={{ .Site.Params.gmaps_api_key }}&q={{ .Site.Params.gmaps_query }}&zoom={{ .Site.Params.gmaps_zoom }}">
+  src="https://www.google.com/maps/embed/v1/place?key={{ .Site.Data.settings.gmaps.api_key }}&q={{ .Site.Data.settings.gmaps.query }}&zoom={{ .Site.Data.settings.gmaps.zoom }}">
 </iframe>

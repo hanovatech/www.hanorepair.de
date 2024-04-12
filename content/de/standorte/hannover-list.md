@@ -1,6 +1,6 @@
 ---
-title: HanoRepair in der Hannover List
-description: Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover List.
+title: Hannover List ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Handy Reparatur Service ✔️ die Nr.1 in Hannover List ✔️ Express-Reparatur ✔️ OHNE Termin ✔️ Samsung, iPhone, Huawei, Xiaomi usw.✔️ MacBook & iMac & Tablets
 heading: Hannover List
 ---
 

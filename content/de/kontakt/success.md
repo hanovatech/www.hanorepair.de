@@ -8,4 +8,4 @@ heading: Nachricht versendet
 
 Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden.
 
-<a href="{{ .Site.BaseURL }}" class="mt-4 btn btn-primary solid">Zurück zur Startseite</a>
+<a href="/" class="mt-4 btn btn-primary solid">Zurück zur Startseite</a>

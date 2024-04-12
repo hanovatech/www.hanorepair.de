@@ -9,3 +9,7 @@ html {
 dialog { display: block; }
 
 dialog:not(:target):not([open]) { display: none; }
+
+.prose a {
+  color: #ee3b24;
+}

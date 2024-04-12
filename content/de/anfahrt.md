@@ -1,8 +1,8 @@
 ---
-layout: anfahrt
 title: Anfahrt ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: Damit Sie wissen wie Sie uns am besten erreichen, haben wir hier alle wichtigen Informationen für Sie zusammengestellt.
 heading: Anfahrt
+gmaps: true
 ---
 
 # So erreichen Sie uns

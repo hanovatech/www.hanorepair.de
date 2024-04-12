@@ -8,7 +8,7 @@
   <div class="py-20 px-2 max-w-2xl mx-auto">
     {{ $section := where $.Site.Pages "Section" "tablet-hersteller" }}
     <div class="flex flex-col gap-4">
-      <h2 class="text-3xl text-center">Hersteller</h2>
+      <h2 class="text-3xl text-center">Wählen Sie den Hersteller</h2>
 
       {{ range $section }}
       {{ if ne .Kind "section" }}

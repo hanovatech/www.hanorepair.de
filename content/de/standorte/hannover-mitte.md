@@ -1,6 +1,6 @@
 ---
-title: HanoRepair in Hannover Mitte
-description: "Sie brauchen eine Reparatur? Besuchen Sie uns in Hannover Mitte."
+title: Hannover Mitte ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Handy Reparatur Service ✔️ die Nr.1 in Hannover Mitte ✔️ Express-Reparatur ✔️ OHNE Termin ✔️ Samsung, iPhone, Huawei, Xiaomi usw.✔️ MacBook & iMac & Tablets
 heading: Hannover Mitte
 ---
 

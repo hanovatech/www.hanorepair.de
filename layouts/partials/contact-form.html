@@ -5,10 +5,10 @@
       <div class="contact-info md:text-right">
         <h3 class="mt-0">Kontaktdaten</h3>
         <br>
-        <p><i class="fa fa-home info"></i> {{ .Site.Params.address | markdownify }} </p>
-        <p><i class="fa fa-clock-o info"></i> {{ .Site.Params.opening_hours | markdownify }} </p>
-        <p><i class="fa fa-phone info"></i> {{ .Site.Params.phone | markdownify }} </p>
-        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Params.email | markdownify }}</p>
+        <p><i class="fa fa-home info"></i> {{ .Site.Data.settings.address | markdownify }} </p>
+        <p><i class="fa fa-clock-o info"></i> {{ .Site.Data.settings.opening_hours | markdownify }} </p>
+        <p><i class="fa fa-phone info"></i> {{ .Site.Data.settings.phone | markdownify }} </p>
+        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Data.settings.email | markdownify }}</p>
       </div>
     </div>
     <div class="col-span-3">
@@ -32,6 +32,7 @@
           <label>Nachricht</label>
           <textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
         </div>
+        <p>Mit abschicken der Nachricht erkläre ich mich mit der <a href="/datenschutz">Datenschutzerklärung</a> einverstanden.</p>
         <div data-netlify-recaptcha="true"></div>
         <div class="text-left">
           <button class="btn btn-primary solid blank" type="submit">Abschicken</button>
