@@ -85,7 +85,6 @@ collections:
                 Label: About Item
                 widget: list
                 fields:
-                  - { label: "Label", name: "label", widget: "string" }
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Content", name: "content", widget: "string" }
