@@ -56,10 +56,10 @@ collections:
                   - { label: "Title Icon", name: "title_icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/"}
                   - label: Service Item
                     name: service_item
-                    widget: object
+                    widget: list
                     fields:
                       - { label: "Name", name: "name", widget: "string" }
-                      - { label: "Icon", name: "icon", widget: "string" }
+                      - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                       - { label: "Content", name: "content", widget: "string" }
 
 
