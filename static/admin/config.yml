@@ -72,6 +72,21 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Logo", name: "logo", widget: "image" }
                   - { label: "Link", name: "link", widget: "string" }
+          - label: Call to action
+            name: call_to_action
+            widget: object
+            fields:
+              - { label: "Enable Call to action", name: "enable", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Background Image", name: "bg_image", widget: "image" }
+              - name: buttons
+                label: Buttons
+                widget: object
+                fields:
+                  { label: "Label", name: "label", widget: "string" }
+                  { label: "Style", name: "style", widget: "select", options: ["solid", "white"] }
+                  { label: "Link", name: "link", widget: "string" }
           - label: About
             name: about
             widget: object
