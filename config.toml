@@ -156,7 +156,7 @@ description = "This is meta description"
 author = "HanoRepair"
 # contact info
 address = "Marienstraße 40a<br>30171 Hannover"
-opening_hours = "10 bis 19.30 Uhr"
+opening_hours = "Mo.-Fr. 10.30-19 Uhr<br>Sa. 10.30-15 Uhr"
 phone = "[0511-34082318](tel:0511-34082318)"
 email = "info@hanorepair.de"
 # google
