@@ -82,7 +82,7 @@ collections:
               - { label: "Background Image", name: "bg_image", widget: "image" }
               - label: Buttons
                 name: buttons
-                widget: object
+                widget: list
                 fields:
                   { label: "Label", name: "label", widget: "string" }
                   { label: "Style", name: "style", widget: "select", options: ["solid", "white"] }
