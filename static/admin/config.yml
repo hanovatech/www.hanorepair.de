@@ -61,6 +61,18 @@ collections:
                       - { label: "Name", name: "name", widget: "string" }
                       - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                       - { label: "Content", name: "content", widget: "string" }
+            - label: Brands Logo Slider
+            - name: brands_logo_slider
+            - widget: object
+            - fields:
+                - label: Slider Item
+                - name: slider_item
+                - widget: list
+                - fields:
+                    - { label: "Name", name: "name", widget: "string" }
+                    - { label: "Logo", name: "logo", widget: "image" }
+                    - { label: "Link", name: "link", widget: "string" }
+                
 
 
       ############### Impressum ################
