@@ -4,7 +4,7 @@ description: Wir tauschen das Display deines iPhones gegen ein Original Ersatzte
 heading: iPhone Original-Display
 ---
 
-# Wir reparieren mit iPhone Originaldisplays
+# Wir reparieren mit Original iPhone-Displays
 Unser Anspruch ist es, **ausschließlich Original bzw. OEM-Teile** zu verwenden. Gerade bei iPhone-Displays stellt dies in der Reparaturbranche eine besondere Herausforderung dar: Es gibt praktisch keinerlei Möglichkeiten, die LCD´s direkt aus der Fabrik geliefert zu bekommen. Das ist auch der Grund, warum die meisten Smartphone-Reparaturwerkstätte eine iPhone-Display Reparatur mit originalen Displays nicht anbieten können.
 
 **Ganz im Gegensatz zu uns**: Wir scheuen keine Kosten und Mühen und bereiten Original-Displays mit einem Glasschaden wieder auf. In der Fachsprache ist dieser Vorgang auch als „Refurbishing“ bekannt. Das Refurbishing bedarf kostspieliger Anlagen und spezieller Fachkenntnisse, mit welchen unsere Werkstatt und unser Team ausgerüstet sind.
