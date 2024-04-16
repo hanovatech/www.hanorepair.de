@@ -14,32 +14,29 @@
       <div class="collapse !visible navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           {{ range .Site.Menus.main }}
-          {{ if or .HasChildren .Params.hasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <div class="dropdown-menu shadow">
-              {{ if .Params.section }}
-                {{ $section := where $.Site.Pages "Section" .Params.section }}
-                {{ range $section }}
-                {{ if ne .Kind "section" }}
-                  <a class="dropdown-item" href="{{ .RelPermalink | relLangURL }}">{{ .Params.name }}</a>
+            {{ if or .HasChildren .Params.hasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu shadow">
+                {{ if .Params.section }}
+                  {{ range where $.Site.RegularPages "Section" .Params.section }}
+                    <a class="dropdown-item" href="{{ .RelPermalink | relLangURL }}">{{ .Params.name }}</a>
+                  {{ end }}
+                {{ else }}
+                  {{ range .Children }}
+                  <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  {{ end }}
                 {{ end }}
-                {{ end }}
-              {{ else }}
-                {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-                {{ end }}
-              {{ end }}
-            </div>
-          </li>
-          {{ else }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
           {{ end }}
           <li class="nav-item">
             <a class="nav-link !p-2" style="color: white !important;" href="/kontakt"><span class="px-2.5 py-2 bg-[#ee3b24] rounded hover:bg-red-600">Kontakt</span></a>
