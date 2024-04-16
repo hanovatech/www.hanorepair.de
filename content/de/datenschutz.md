@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: Datenschutzerklärung für die Webseite hanorepair.de
+heading: Datenschutzerklärung
 ---
 
 # Datenschutzerklärung

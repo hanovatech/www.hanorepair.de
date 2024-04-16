@@ -48,7 +48,7 @@
 					<h4>Telefon</h4>
 					<a href="tel:{{ .Site.Params.phone }}" class="!text-white hover:!text-red-500 duration-200">{{ .Site.Data.settings.phone | markdownify }}</a>
 				</div>
-				<div class="mb-4">
+				<div>
 					<a href="/impressum" class="!text-white hover:!text-red-500 duration-200">Impressum</a> &nbsp;•&nbsp;
 					<a class="text-white hover:!text-red-500 duration-200" href="/datenschutz">Datenschutz</a>
 				</div>
@@ -83,9 +83,10 @@
 			</div>
 		</div>
 		<!--/ Row end -->
-		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
+		
+		{{/*  <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
 			<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
-		</div>
+		</div>  */}}
 	</div>
 	<!--/ Container end -->
 </section>

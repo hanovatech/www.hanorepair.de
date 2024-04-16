@@ -12,7 +12,7 @@
       {{ $imgPosition := .image_position | lower }}
       <li class="{{if eq $index 0}}selected{{end}}">
         <div class="overlay2">
-          <img src="{{ .bg_image | absURL }}" alt="slider">
+          <img src="{{ .bg_image | absURL }}" alt="slider" class="object-cover" >
         </div>
         {{if eq $imgPosition "right"}}
         {{ with .image }}
@@ -141,28 +141,26 @@
 {{ if $data.about.enable }}
 {{ with $data.about }}
 <section id="image-block" class="image-block p-0">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 ts-padding"
-        style="min-height:400px;background:url('{{ .bg_image | absURL }}') 50% 50% / cover no-repeat;">
+  <div class="grid md:grid-cols-2">
+    <div class="order-last md:!order-first ts-padding"
+      style="min-height:400px;background:url('{{ .bg_image | absURL }}') 50% 50% / cover no-repeat;">
+    </div>
+    <div class="ts-padding img-block-right">
+      <div class="img-block-head text-center">
+        <h2 class="mb-2">{{ .title | markdownify }}</h2>
+        <h3>{{ .subtitle | markdownify }}</h3>
+        <p>{{ .content | markdownify }}</p>
       </div>
-      <div class="col-md-6 ts-padding img-block-right">
-        <div class="img-block-head text-center">
-          <h2 class="mb-2">{{ .title | markdownify }}</h2>
-          <h3>{{ .subtitle | markdownify }}</h3>
+      <div class="gap-30"></div>
+      {{ range .about_item }}
+      <div class="image-block-content !px-0">
+        <span class="feature-icon float-left"><i class="fa {{ .icon }}"></i></span>
+        <div class="feature-content">
+          <h3>{{ .name | markdownify }}</h3>
           <p>{{ .content | markdownify }}</p>
         </div>
-        <div class="gap-30"></div>
-        {{ range .about_item }}
-        <div class="image-block-content !px-0">
-          <span class="feature-icon float-left"><i class="fa {{ .icon }}"></i></span>
-          <div class="feature-content">
-            <h3>{{ .name | markdownify }}</h3>
-            <p>{{ .content | markdownify }}</p>
-          </div>
-        </div>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>

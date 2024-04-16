@@ -7,7 +7,7 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Smartphone Reparatur <br>in Hannover Test"
+    - title : "Smartphone Reparatur <br>in Hannover"
       subtitle : "🚨 Handy kaputt? Wir helfen weiter!"
       bg_image : "uploads/smartphone-repair.jpg"
       image : ""
@@ -139,13 +139,13 @@ funfact:
     - name : "Clients"
       icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       count : "1200"
-    - name : "Item Sold"
+    - name : "Items Sold"
       icon : "fa-institution" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       count : "1277"
     - name : "Projects"
       icon : "fa-suitcase" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       count : "857"
-    - name : "Awwards"
+    - name : "Awards"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       count : "78"
 ---
