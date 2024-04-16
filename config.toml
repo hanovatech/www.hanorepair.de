@@ -105,44 +105,6 @@ link = "plugins/jquery.counterup.min.js"
 [[params.plugins.js]]
 link = "plugins/waypoints.min.js"
 
-
-############################## English navigation ###############################
-
-[[Languages.de.menu.main]]
-weight = 1
-name = "Smartphones"
-[[Languages.de.menu.main.params]]
-hasChildren = true
-section = "smartphone-hersteller"
-
-[[Languages.de.menu.main]]
-weight = 2
-name = "Tablets"
-[[Languages.de.menu.main.params]]
-hasChildren = true
-section = "tablet-hersteller"
-
-[[Languages.de.menu.main]]
-weight = 3
-name = "Macbook & iMac"
-URL = "macbook-und-imac/"
-
-[[Languages.de.menu.main]]
-weight = 4
-name = "Über uns"
-hasChildren = true
-
-[[Languages.de.menu.main]]
-parent = "Über uns"
-name = "Anfahrt"
-URL = "anfahrt/"
-
-[[Languages.de.menu.main]]
-parent = "Über uns"
-name = "Standorte"
-URL = "standorte/"
-
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"

@@ -1,0 +1,13 @@
+main:
+  - name: "Smartphones"
+    section: "smartphone-hersteller"
+  - name: "Tablets"
+    section: "tablet-hersteller"
+  - name: "Macbook & iMac"
+    url: "macbook-und-imac/"
+  - name: "Über uns"
+    children:
+      - name: "Anfahrt"
+        url: "anfahrt/"
+      - name: "Standorte"
+        url: "standorte/"

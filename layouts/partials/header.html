@@ -13,33 +13,35 @@
 
       <div class="collapse !visible navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
-          {{ range .Site.Menus.main }}
-            {{ if or .HasChildren .Params.hasChildren }}
+          {{ range .Site.Data.navigation.main }}
+            {{ if or .section .children }}
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
-                {{ .Name }}
+                {{ .name }}
               </a>
               <div class="dropdown-menu shadow">
-                {{ if .Params.section }}
-                  {{ range where $.Site.RegularPages "Section" .Params.section }}
+                {{ if .section }}
+                  {{ range where $.Site.RegularPages "Section" .section }}
                     <a class="dropdown-item" href="{{ .RelPermalink | relLangURL }}">{{ .Params.name }}</a>
                   {{ end }}
                 {{ else }}
-                  {{ range .Children }}
-                  <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  {{ range .children }}
+                    <a class="dropdown-item" href="{{ .url | relLangURL }}">{{ .name }}</a>
                   {{ end }}
                 {{ end }}
               </div>
             </li>
             {{ else }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .url | relLangURL }}">{{ .name }}</a>
             </li>
             {{ end }}
           {{ end }}
           <li class="nav-item">
-            <a class="nav-link !p-2" style="color: white !important;" href="/kontakt"><span class="px-2.5 py-2 bg-[#ee3b24] rounded hover:bg-red-600">Kontakt</span></a>
+            <a class="nav-link !p-2" style="color: white !important;" href="/kontakt">
+              <span class="px-2.5 py-2 bg-[#ee3b24] rounded hover:bg-red-600">Kontakt</span>
+            </a>
           </li>
         </ul>
         
