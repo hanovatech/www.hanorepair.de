@@ -24,7 +24,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Mehr zur Analyse</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
             </p>
@@ -54,7 +54,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Mehr zu Wasserschäden</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -85,7 +85,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Displayaustausch</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -116,7 +116,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Lautsprechertausch</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -147,7 +147,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Mikrofonaustausch</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -178,7 +178,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Hörmuschelaustausch</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -209,7 +209,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der vorderen Kamera</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -240,7 +240,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der Hauptkamera</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -271,7 +271,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Kameraglas</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -302,7 +302,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Backcovers</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -333,7 +333,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Rahmens</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -364,7 +364,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Akkus</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -395,7 +395,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zur Reparatur der Ladebuchse</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -426,7 +426,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch der Buttons</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -457,7 +457,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Software-Update</h4>
             <p>
-              {{ .description }}
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
