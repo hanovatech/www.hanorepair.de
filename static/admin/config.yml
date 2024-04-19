@@ -20,7 +20,6 @@ collections:
             name: slider
             widget: object
             fields:
-              - { label: "Enable Slider", name: "enable", widget: "boolean" }
               - name: slider_item
                 label: Slider Items
                 widget: list
@@ -48,7 +47,6 @@ collections:
             name: service
             widget: object
             fields:
-              - { label: "Enable Services", name: "enable", widget: "boolean" }
               - name: services
                 label: Services
                 widget: object
@@ -80,7 +78,6 @@ collections:
             name: call_to_action
             widget: object
             fields:
-              - { label: "Enable Call to action", name: "enable", widget: "boolean" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
               - { label: "Background Image", name: "bg_image", widget: "image" }
@@ -96,7 +93,6 @@ collections:
             name: about
             widget: object
             fields:
-              - { label: "Enable About Section", name: "enable", widget: "boolean" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
               - { label: "Background Image", name: "bg_image", widget: "image" }
@@ -113,7 +109,6 @@ collections:
             name: funfact
             widget: object
             fields:
-              - { label: "Enable Fun Fact Section", name: "enable", widget: "boolean" }
               - name: funfact_item
                 widget: list
                 fields:
