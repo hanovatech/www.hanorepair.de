@@ -9,12 +9,15 @@ gmaps:
   zoom: "15"
 
 social:
+  - name: "whatsapp"
+    icon: "fa-whatsapp"
+    link: "https://wa.me/4951134082318?text=Hallo!%20Ich%20interessiere%20mich%20f%C3%BCr%20eine%20Smartphone-%20oder%20eine%20Tabletreparatur"
+  - name: "google"
+    icon: "fa-google"
+    link: "https://g.co/kgs/RzKjYpb"
   - name: "facebook"
     icon: "fa-facebook"
     link: "https://www.facebook.com/hanorepair/"
   - name: "instagram"
     icon: "fa-instagram"
     link: "https://www.instagram.com/hanorepair/"
-  - name: "whatsapp"
-    icon: "fa-whatsapp"
-    link: "https://wa.me/4951134082318?text=Hallo!%20Ich%20interessiere%20mich%20f%C3%BCr%20eine%20Smartphone-%20oder%20eine%20Tabletreparatur"

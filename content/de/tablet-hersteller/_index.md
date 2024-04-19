@@ -1,7 +1,7 @@
 ---
-title: Tablet Reparatur in Hannover 🛠️ Smartphone Werkstatt
+title: Tablet Reparatur in Hannover 🛠️ Tablet Werkstatt
 description: 
-heading: Tablet Hersteller
+heading: Tablet Reparatur
 ---
 
 # Tablet Reparaturen für alle Hersteller

@@ -1,7 +1,7 @@
 ---
 title: Handy Reparatur in Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: Smartphone Hersteller
+heading: Smartphone Reparatur
 ---
 
 # Handy Reparaturen für alle Hersteller

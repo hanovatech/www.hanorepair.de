@@ -13,8 +13,8 @@ slider:
       image : ""
       image_position : "false"
       navigator:
-        label : "Repair"
-        icon : "fa-wrench" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+        label : "Handy"
+        icon : "fa-mobile" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       buttons:
         - label : "Kontakt"
           style : "white"
@@ -24,20 +24,55 @@ slider:
           link : "/zur-reparatur"
 
     ############### Slider item loop
-    - title : "Garantie auf ausgewählte Reparaturen"
-      subtitle : "🤝 Sprechen Sie uns an!"
+    - title : "Tablet Reparatur <br>in Hannover"
+      subtitle : "🚨 Tablet kaputt? Wir helfen weiter!"
       bg_image : "uploads/smartphone-repair2.jpg"
       image_position : "left"
       navigator:
-        label : "Safe"
-        icon : "fa-shield" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+        label : "Tablet"
+        icon : "fa-tablet" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       buttons:
+        - label : "Kontakt"
+          style : "white"
+          link : "/kontakt"
         - label : "Zur Reparatur"
           style : "solid"
-          link : "/smartphone-hersteller"
+          link : "/zur-reparatur"
 
     ############### Slider item loop
-    - title : "Macbook & iMac Reparaturen"
+    - title : "Smartwatch Reparatur <br>in Hannover"
+      subtitle : "🚨 Smartwatch kaputt? Wir helfen weiter!"
+      bg_image : "uploads/macbook-banner.jpg"
+      image_position : "right"
+      navigator:
+        label : "Watches"
+        icon : "fa-clock-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      buttons:
+        - label : "Kontakt"
+          style : "white"
+          link : "/kontakt"
+        - label : "Zur Reparatur"
+          style : "solid"
+          link : "/zur-reparatur"
+
+    ############### Slider item loop
+    - title : "Konsolen Reparatur <br>in Hannover"
+      subtitle : "🚨 Konsole kaputt? Wir helfen weiter!"
+      bg_image : "uploads/macbook-banner.jpg"
+      image_position : "right"
+      navigator:
+        label : "Konsole"
+        icon : "fa-gamepad" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      buttons:
+        - label : "Kontakt"
+          style : "white"
+          link : "/kontakt"
+        - label : "Zur Reparatur"
+          style : "solid"
+          link : "/zur-reparatur"
+
+    ############### Slider item loop
+    - title : "Macbook & iMac Reparatur <br>in Hannover"
       subtitle : "👨‍💻 Wir helfen bei Problemen mit Ihrem Mac"
       bg_image : "uploads/macbook-banner.jpg"
       image : "uploads/macbook-und-imac.png"
@@ -46,10 +81,28 @@ slider:
         label : "Apple"
         icon : "fa-apple" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       buttons:
-        # button loop
+        - label : "Kontakt"
+          style : "white"
+          link : "/kontakt"
         - label : "Zur Reparatur"
           style : "solid"
-          link : "/macbook-und-imac"
+          link : "/zur-reparatur"
+
+    ############### Slider item loop
+    - title : "Laptop Reparatur <br>in Hannover"
+      subtitle : "👨‍💻 Wir helfen bei Problemen mit Ihrem Laptop"
+      bg_image : "uploads/macbook-banner.jpg"
+      image_position : "right"
+      navigator:
+        label : "Laptop"
+        icon : "fa-laptop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      buttons:
+        - label : "Kontakt"
+          style : "white"
+          link : "/kontakt"
+        - label : "Zur Reparatur"
+          style : "solid"
+          link : "/zur-reparatur"
 
 
 ############################### Service ####################################
@@ -136,16 +189,16 @@ about:
 funfact:
   enable : true
   funfact_item:
-    - name : "Clients"
-      icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1200"
-    - name : "Items Sold"
-      icon : "fa-institution" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1277"
-    - name : "Projects"
-      icon : "fa-suitcase" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "857"
-    - name : "Awards"
+    - name : "Zufriedene Kunden"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "78"
+      count : "57863"
+    - name : "Reparierte Smartphones"
+      icon : "fa-mobile" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "61623"
+    - name : "Reparierte Tablets"
+      icon : "fa-tablet" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "7491"
+    - name : "Reparierte MacBooks"
+      icon : "fa-apple" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "4188"
 ---

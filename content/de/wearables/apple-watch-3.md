@@ -1,8 +1,8 @@
 ---
-title: iPad Air 3 ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
+title: Apple Watch 3 ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt
 description: 
 
-name: iPad Air 3
+name: Apple Watch 3
 manufacturer: apple
 services:
   analyse:

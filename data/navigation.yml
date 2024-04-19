@@ -3,11 +3,38 @@ main:
     section: "smartphone-hersteller"
   - name: "Tablets"
     section: "tablet-hersteller"
+  - name: "Wearables"
+    section: "wearables-hersteller"
   - name: "Macbook & iMac"
-    url: "macbook-und-imac/"
+    url: "/macbook-und-imac"
   - name: "Über uns"
     children:
+      - name: "Kontakt"
+        url: "/kontakt"
       - name: "Anfahrt"
-        url: "anfahrt/"
-      - name: "Standorte"
-        url: "standorte/"
+        url: "/anfahrt"
+footer:
+  device_types:
+    - name: Smartphones
+      url: "/smartphone-hersteller"
+    - name: Tablets
+      url: "/tablet-hersteller"
+    - name: Wearables
+      url: "/wearables-hersteller"
+    - name: Konsolen
+      url: "/konsolen-hersteller"
+    - name: Macbook & iMac
+      url: "/macbook-und-imac"
+    - name: Laptops & PC
+      url: https://hanovatech.de/repair
+  links:
+    - name: Kontakt
+      url: "/kontakt"
+    - name: Anfahrt
+      url: "/anfahrt"
+    - name: Services
+      url: "/services"
+    - name: Impressum
+      url: "/impressum"
+    - name: Datenschutz
+      url: "/datenschutz"

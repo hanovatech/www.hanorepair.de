@@ -1,9 +1,9 @@
 ---
-title: iPad Air 3 ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
+title: Playstation 5 ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt
 description: 
 
-name: iPad Air 3
-manufacturer: apple
+name: Playstation 5
+manufacturer: Playstation
 services:
   analyse:
     enabled: true
