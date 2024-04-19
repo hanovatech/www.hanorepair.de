@@ -15,6 +15,7 @@ collections:
         fields:
           - { label: "Meta Title", name: "title", widget: "string" }
           - { label: "Meta Description", name: "description", widget: "string", required: false }
+
           - label: Hero Slider
             name: slider
             widget: object
@@ -42,6 +43,7 @@ collections:
                       - { label: "Label", name: "label", widget: "string" }
                       - { label: "Style", name: "style", widget: "select", options: ["solid", "white"] }
                       - { label: "Link", name: "link", widget: "string" }
+
           - label: Service Types
             name: service
             widget: object
@@ -61,6 +63,7 @@ collections:
                       - { label: "Name", name: "name", widget: "string" }
                       - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                       - { label: "Content", name: "content", widget: "string" }
+
           - label: Brands Logo Slider
             name: brands_logo_slider
             widget: object
@@ -72,6 +75,7 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Logo", name: "logo", widget: "image" }
                   - { label: "Link", name: "link", widget: "string" }
+
           - label: Call to action
             name: call_to_action
             widget: object
@@ -104,7 +108,8 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Content", name: "content", widget: "string" }
-          - label: Fun Fact
+
+          - label: Counters
             name: funfact
             widget: object
             fields:
@@ -137,6 +142,7 @@ collections:
           - { label: "Content", name: "body", widget: "markdown" }
 
 
+
   ############### Smartphone Hersteller ################
   - name: smartphone-hersteller
     label: Smartphone Hersteller
@@ -149,6 +155,7 @@ collections:
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Smartphones", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Smartphone
+
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown" }
 
   ############### Smartphones ################
@@ -164,8 +171,10 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Modell", name: "name", default: "XYZ", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
+
 Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen!
 Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!", widget: "markdown" }
       - label: "Services"
@@ -292,6 +301,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Tablets", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Tablet
+
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown" }
 
   ############### Tablets ################
@@ -306,6 +316,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Microsoft", "Samsung"] }
       - { label: "Modell", name: "name", default: "XYZ", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
+
 Ihr Tablet ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen!
 Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
