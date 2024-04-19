@@ -127,8 +127,8 @@ collections:
           - { label: "Content", name: "body", widget: "markdown" }
 
       ############### Datenschutz ################
-      - name: impressum
-        label: Impressum
+      - name: datenschutz
+        label: Datenschutzerklärung
         file: "/content/de/datenschutz.md"
         fields:
           - { label: "Meta Title", name: "title", widget: "string" }
