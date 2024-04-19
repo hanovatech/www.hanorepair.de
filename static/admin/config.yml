@@ -595,7 +595,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Playstation", "Xbox", "Ninentdo"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. Playstation 5", widget: "string" }
-      - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihre XYZ
 
 Ihre Konsole ist kaputt oder hat einen Fehler? Wir bringen Ihre **XYZ** wieder zum Laufen!
 Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
