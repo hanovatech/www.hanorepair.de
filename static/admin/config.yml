@@ -158,105 +158,105 @@ collections:
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", widget: "string", value: "Auf Anfrage" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Wasserschaden"
           name: "wasserschaden"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Display"
           name: "display"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Lautsprecher"
           name: "lautsprecher"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Mikrofon"
           name: "mikrofon"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Hörmuschel"
           name: "hoermuschel"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Vorderkamera"
           name: "vorderkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Hauptkamera"
           name: "hauptkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Kameraglas"
           name: "kameraglas"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Backcover"
           name: "backcover"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Rahmen"
           name: "rahmen"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Akku"
           name: "akku"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Ladebuchse"
           name: "ladebuchse"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Buttons"
           name: "buttons"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
         - label: "Software Update"
           name: "software_update"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
 
 
   
@@ -290,15 +290,15 @@ collections:
             name: "analyse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false },
-              - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" },
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, value: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "string"}
           - label: "Wasserschaden"
             name: "wasserschaden"
             widget: "object"
             fields: 
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false },
-              - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" },
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, value: "Ist Ihr Tablet durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.", widget: "string"}
           - label: "Original Display"
             name: "original_display"
