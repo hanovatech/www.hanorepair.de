@@ -6,11 +6,11 @@ public_folder: "/uploads"
 collections:
   ############### Single Pages ################
   - name: pages
-    label: Pages
+    label: Einzelseiten
     files:
       ############### Homepage ################
       - name: home
-        label: Home
+        label: Startseite
         file: "/content/de/_index.md"
         fields:
           - { label: "Meta Title", name: "title", widget: "string" }
