@@ -172,7 +172,7 @@ collections:
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", widget: "string", value: "Auf Anfrage" }
-            - { label: "Beschreibung", name: "description", value: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "string" }
+            - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "string" }
         - label: "Wasserschaden"
           name: "wasserschaden"
           widget: "object"
