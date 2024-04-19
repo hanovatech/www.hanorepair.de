@@ -13,8 +13,8 @@ collections:
         label: Home
         file: "/content/de/_index.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
           - label: Hero Slider
             name: slider
             widget: object
@@ -116,15 +116,25 @@ collections:
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Count", name: "count", widget: "string" }
 
-
-
       ############### Impressum ################
       - name: impressum
         label: Impressum
         file: "/content/de/impressum.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### Datenschutz ################
+      - name: impressum
+        label: Impressum
+        file: "/content/de/datenschutz.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
 
 
   ############### Smartphone Hersteller ################
@@ -134,8 +144,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Meta Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller Name", name: "name", widget: "string" }
+      - { label: "Überschrift", name: "heading", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
 
   ############### Smartphones ################
   - name: smartphones
@@ -144,10 +157,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Meta Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "HTC", "Huawei", "LG", "Motorola", "Nokia", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
+      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
       - label: "Services"
         name: "services"
         widget: "object"
@@ -158,105 +172,105 @@ collections:
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", widget: "string", value: "Auf Anfrage" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "string" }
         - label: "Wasserschaden"
           name: "wasserschaden"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: 'Ist Ihr Handy durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.', widget: "string" }
         - label: "Display"
           name: "display"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität.", widget: "string" }
         - label: "Lautsprecher"
           name: "lautsprecher"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Ein stets klarer Ton gewährleistet die Qualität eines Smartphones. Wir springen gerne ein, wenn dies nicht mehr der Fall ist.", widget: "string" }
         - label: "Mikrofon"
           name: "mikrofon"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.", widget: "string" }
         - label: "Hörmuschel"
           name: "hoermuschel"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.", widget: "string" }
         - label: "Vorderkamera"
           name: "vorderkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Das perfekte Selfie lässt sich nur mit einer einwandfreien Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer Frontkamera durchzuführen.", widget: "string" }
         - label: "Hauptkamera"
           name: "hauptkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen wir Ihnen gerne mit Rat und Tat zur Seite.", widget: "string" }
         - label: "Kameraglas"
           name: "kameraglas"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Auch 200 Megapixel bringen nichts, wenn das Kameraglas zerkratzt oder zerbrochen ist. Die Reparatur geht schnell, hat aber enorme Effekte auf eine klare Sicht.", widget: "string" }
         - label: "Backcover"
           name: "backcover"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "string" }
         - label: "Rahmen"
           name: "rahmen"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Der Rahmen oder auch das Gehäuse ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "string" }
         - label: "Akku"
           name: "akku"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.", widget: "string" }
         - label: "Ladebuchse"
           name: "ladebuchse"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum Bestpreis.", widget: "string" }
         - label: "Buttons"
           name: "buttons"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Haben Sie Probleme beim Einschalten Ihres Geräts? Schauen Sie bei uns gerne vorbei.", widget: "string" }
         - label: "Software Update"
           name: "software_update"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
             - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", value: "", widget: "string" }
+            - { label: "Beschreibung", name: "description", value: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "string" }
 
 
   
@@ -267,8 +281,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Meta Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller Name", name: "name", widget: "string" }
+      - { label: "Überschrift", name: "heading", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
 
 
   ############### Tablets ################
@@ -278,10 +295,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Meta Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Microsoft", "Samsung"] }
+      - { label: "Modell", name: "name", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
       - label: "Services"
         name: "services"
         widget: "object"
@@ -299,7 +317,7 @@ collections:
             fields: 
               - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
               - { label: "Preis", name: "price", value: "Auf Anfrage", widget: "string" }
-              - { label: "Beschreibung", name: description, value: "Ist Ihr Tablet durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.", widget: "string"}
+              - { label: "Beschreibung", name: description, value: 'Ist Ihr Tablet durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.', widget: "string"}
           - label: "Original Display"
             name: "original_display"
             widget: "object"
