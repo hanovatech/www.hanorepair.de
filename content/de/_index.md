@@ -1,6 +1,6 @@
 ---
 title: Handy Reparatur Hannover 🛠️ Smartphone Service
-description: Die Nr.1 für Handy Reparaturen in Hannover ✔ Samsung, iPhone, Huawei, Sony usw. ✔ Garantie ✔ Express-Service ✔ OHNE Termin ✔ MacBook & iMac & Tablet Service
+description: "Die Nr.1 für Handy Reparaturen in Hannover ✔ Samsung, iPhone, Huawei, Sony usw. ✔ Garantie ✔ Express-Service ✔ OHNE Termin ✔ MacBook & iMac & Tablet Service"
 
 ############################ Slider ##########################
 slider:

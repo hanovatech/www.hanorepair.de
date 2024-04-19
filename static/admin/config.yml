@@ -121,6 +121,81 @@ collections:
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Count", name: "count", widget: "string" }
 
+      ############### Anfahrt ################
+      - name: anfahrt
+        label: Anfahrt
+        file: "/content/de/anfahrt.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### Kontakt ################
+      - name: kontakt
+        label: Kontakt
+        file: "/content/de/kontakt/_index.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### Kontakt Success ################
+      - name: kontakt-sucess
+        label: Kontaktanfrage abgeschickt
+        file: "/content/de/kontakt/success.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### iPhone Original-Display ################
+      - name: iphone-display
+        label: iPhone Original-Display
+        file: "/content/de/iphone-display.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### Macbook & iMac Reparatur ################
+      - name: macbook-und-imac
+        label: Macbook & iMac Reparatur
+        file: "/content/de/macbook-und-imac.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+          - label: Services
+            name: services
+            widget: object
+            fields:
+              - label: "Analyse"
+                name: "analyse"
+                widget: "object"
+                fields:
+                  - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+                  - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "markdown" }
+              - label: "Akku"
+                name: "akku"
+                widget: "object"
+                fields:
+                  - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+                  - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "markdown" }
+              - label: "Glas"
+                name: "glas"
+                widget: "object"
+                fields:
+                  - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+                  - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "markdown" }
+
       ############### Impressum ################
       - name: impressum
         label: Impressum
@@ -140,6 +215,20 @@ collections:
           - { label: "Meta Description", name: "description", widget: "string", required: false }
           - { label: "Überschrift", name: "heading", widget: "string" }
           - { label: "Content", name: "body", widget: "markdown" }
+
+
+
+  ############### Standorte ################
+  - name: standorte
+    label: Standorte
+    folder: /content/de/standorte
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Reparaturen in Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Überschrift", name: "heading", default: "XYZ Standort", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
 
 
 
@@ -168,7 +257,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "HTC", "Huawei", "LG", "Motorola", "Nokia", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
-      - { label: "Modell", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPhone 15 Pro Max", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
 Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen!
@@ -287,7 +376,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "markdown" }
 
 
-  
+
   ############### Tablet Hersteller ################
   - name: tablet-hersteller
     label: Tablet Hersteller
@@ -295,7 +384,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Tablets", widget: "string" }
@@ -310,10 +399,10 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Microsoft", "Samsung"] }
-      - { label: "Modell", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPad Air 3", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
 Ihr Tablet ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen!
@@ -430,3 +519,97 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
               - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "markdown" }
+
+
+
+  ############### Wearables Hersteller ################
+  - name: wearables-hersteller
+    label: Wearables Hersteller
+    folder: /content/de/wearables-hersteller
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Überschrift", name: "heading", default: "XYZ Wearables", widget: "string" }
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Wearable
+
+Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown" }
+
+  ############### Wearables ################
+  - name: wearables
+    label: Wearables
+    folder: /content/de/wearables
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Microsoft", "Samsung"] }
+      - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. Apple Watch 2", widget: "string" }
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
+
+Ihr Wearable ist kaputt oder hat einen Fehler? Wir bringen Ihre **XYZ** wieder zum Laufen!
+Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
+
+Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!", widget: "markdown" }
+      - label: "Services"
+        name: "services"
+        widget: "object"
+        fields:
+          - label: "Analyse"
+            name: "analyse"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown"}
+
+
+  
+  ############### Konsolen Hersteller ################
+  - name: konsolen-hersteller
+    label: Konsolen Hersteller
+    folder: /content/de/konsolen-hersteller
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Überschrift", name: "heading", default: "XYZ Konsolen", widget: "string" }
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihre XYZ Konsole
+
+Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown" }
+
+  ############### Konsolen ################
+  - name: konsolen
+    label: Konsolen
+    folder: /content/de/konsolen
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Playstation", "Xbox", "Ninentdo"] }
+      - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. Playstation 5", widget: "string" }
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
+
+Ihre Konsole ist kaputt oder hat einen Fehler? Wir bringen Ihre **XYZ** wieder zum Laufen!
+Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
+
+Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!", widget: "markdown" }
+      - label: "Services"
+        name: "services"
+        widget: "object"
+        fields:
+          - label: "Analyse"
+            name: "analyse"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown"}

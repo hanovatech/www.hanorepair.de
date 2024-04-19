@@ -24,7 +24,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Mehr zur Analyse</h4>
             <p>
-              Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -55,7 +55,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch des Akkus</h4>
             <p>
-              Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
@@ -86,7 +86,7 @@
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Glaswechsel</h4>
             <p>
-              Das Displayglas Ihres Geräts ist gesprungen oder hat einen Sprung? Wir tauschen das Glas Ihres Geräts schnell und zuverlässig aus.
+              {{ .description | markdownify }}
             </p>
             <p class="mb-6 text-center text-lg text-red-600 font-semibold">
               {{ .price }}
