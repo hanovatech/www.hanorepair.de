@@ -35,7 +35,7 @@ collections:
                     widget: object
                     fields:
                       - { label: "Label", name: "label", widget: "string" }
-                      - { label: "Icon", name: "icon", widget: "string" }
+                      - { label: "Icon", name: "icon", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/", widget: "string" }
                   - label: Buttons
                     name: buttons
                     widget: list
