@@ -2,7 +2,7 @@
 
 <section id="main-container">
   <div class="px-2 max-w-4xl mx-auto prose">
-    {{ with .GetPage (printf "../smartphone-hersteller//%s" .Params.manufacturer) }}
+    {{ with .GetPage (printf "../smartphone-hersteller/%s" .Params.manufacturer) }}
       <a href="{{ .RelPermalink }}" class="block mb-6">← Zurück zum Hersteller</a>
     {{ end }}
     {{ .Content }}
