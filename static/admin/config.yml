@@ -561,6 +561,34 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
               - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown"}
+          - label: "Glastausch"
+            name: "glas"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Mit einer Glasreparatur (soweit technisch möglich) sparen sie viel Geld und haben trotzdem ein identisches Produkt wie beim kompletten Displaywechsel!", widget: "markdown"}
+          - label: "Backcover"
+            name: "backcover"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown"}
+          - label: "Gehäusewechsel"
+            name: "gehaeuse"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Das Gehäuse ist nach dem Display das meist beschädigte Teil eines Wearables. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown"}
+          - label: "Akkuwechsel"
+            name: "akku"
+            widget: "object"
+            fields:
+              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Beschreibung", name: description, default: "Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.", widget: "markdown"}
 
 
   

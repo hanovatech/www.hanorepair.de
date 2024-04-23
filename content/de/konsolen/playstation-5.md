@@ -8,59 +8,44 @@ services:
   analyse:
     enabled: true
     price: kostenlos
+    description: 
+  hdmi:
+    enabled: true
+    price: auf Anfrage
+    description:
+  laufwerk:
+    enabled: true
+    price: auf Anfrage
+    description:
+  ladeanschluss:
+    enabled: true
+    price: auf Anfrage
+    description:
+  netzteil:
+    enabled: true
+    price: auf Anfrage
+    description:
+  reinigung:
+    enabled: true
+    price: auf Anfrage
     description:
   wasserschaden:
     enabled: true
     price: auf Anfrage
     description:
-  original_display:
-    enabled: true
-    price: auf Anfrage
-  glas_reparatur:
+  modifikation:
     enabled: true
     price: auf Anfrage
     description:
-  lautsprecher:
-    enabled: true
-    price: auf Anfrage
-    description:
-  mikrofon:
-    enabled: true
-    price: auf Anfrage
-    description:
-  vorderkamera:
-    enabled: true
-    price: auf Anfrage
-  hauptkamera:
-    enabled: true
-    price: auf Anfrage
-    description:
-  kameraglas:
-    enabled: true
-    price: auf Anfrage
-    description:
-  backcover:
-    enabled: true
-    price: auf Anfrage
-    description:
-  rahmen:
-    enabled: true
-    price: auf Anfrage
-    description:
-  akku:
-    enabled: true
-    price: auf Anfrage
-    description:
-  ladebuchse:
-    enabled: true
-    price: auf Anfrage
-    description:
-  buttons:
-    enabled: true
-    price: auf Anfrage
-    description:
-  software_update:
+  controller:
     enabled: true
     price: auf Anfrage
     description:
 ---
+
+# Wir reparieren Ihre Playstation 5
+
+Ihre Playstation ist kaputt oder hat einen Fehler? Wir bringen sie wieder zum Laufen!
+Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+
+Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!

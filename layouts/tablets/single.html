@@ -2,6 +2,9 @@
 
 <section id="main-container">
   <div class="px-2 max-w-4xl mx-auto prose">
+    {{ with .GetPage (printf "../tablet-hersteller//%s" .Params.manufacturer) }}
+      <a href="{{ .RelPermalink }}" class="block mb-6">← Zurück zum Hersteller</a>
+    {{ end }}
     {{ .Content }}
   </div>
 
@@ -12,7 +15,7 @@
       {{ with .Params.services.analyse }}
       {{ if .enabled }}
       <a href="#analyse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/analyse.png" alt="Analyse">
+        <img class="w-16 h-16 object-cover" src="/images/repair/analyse_smartphone.png" alt="Analyse">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Analyse</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
@@ -42,7 +45,7 @@
       {{ with .Params.services.wasserschaden }}
       {{ if .enabled }}
       <a href="#wasserschaden" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/wasserschaden.png" alt="Wasserschaden">
+        <img class="w-16 h-16 object-cover" src="/images/repair/wasserschaden_smartphone.png" alt="Wasserschaden">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Wasserschaden</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
@@ -352,7 +355,7 @@
       {{ with .Params.services.akku }}
       {{ if .enabled }}
       <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/akku.png" alt="Akku">
+        <img class="w-16 h-16 object-cover" src="/images/repair/akku_smartphone.png" alt="Akku">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Akku-Austausch</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
