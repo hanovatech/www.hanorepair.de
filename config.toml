@@ -107,7 +107,7 @@ link = "plugins/waypoints.min.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.svg"
+logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is a meta description"
