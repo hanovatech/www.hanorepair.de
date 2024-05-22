@@ -247,7 +247,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     label: Smartphones
     folder: /content/de/smartphones
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
