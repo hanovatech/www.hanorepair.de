@@ -218,7 +218,7 @@ collections:
     label: Standorte
     folder: /content/de/standorte
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Reparaturen in Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -232,7 +232,7 @@ collections:
     label: Smartphone Hersteller
     folder: /content/de/smartphone-hersteller
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -377,7 +377,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
     label: Tablet Hersteller
     folder: /content/de/tablet-hersteller
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -392,7 +392,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     label: Tablets
     folder: /content/de/tablets
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -522,7 +522,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
     label: Wearables Hersteller
     folder: /content/de/wearables-hersteller
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -537,7 +537,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     label: Wearables
     folder: /content/de/wearables
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -597,7 +597,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
     label: Konsolen Hersteller
     folder: /content/de/konsolen-hersteller
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
@@ -612,7 +612,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     label: Konsolen
     folder: /content/de/konsolen
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
