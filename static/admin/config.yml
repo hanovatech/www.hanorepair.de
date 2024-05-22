@@ -616,7 +616,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Playstation", "Xbox", "Ninentdo"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Playstation", "Xbox", "Nintendo"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. Playstation 5", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihre XYZ
 
