@@ -105,13 +105,13 @@ service:
           oder rufen Sie uns an (0511-34082318), wir sagen Ihnen wo das Problem
           liegt und helfen Ihnen gerne weiter. Für Sie entstehen hierbei noch
           keinerlei Kosten.
-      - name: Garantie für Sie
+      - name: Bis zu 12 Monate Garantie
         icon: fa-anchor
         content: "Für jede Reparatur mit einem iPhone-Originaldisplay, erhalten Sie von
           uns eine 12-monatige Garantie. Bei allen anderen Reparaturen gibt es 6
           Monate Garantie. Gerne tauschen wir durch uns verarbeitete Teile
           wieder aus. "
-      - name: Handys & Tablets
+      - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
         content: "Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
           Fachkräfte Ihnen, Ihr Gerät zügig wieder auf Vordermann zu bringen. "
