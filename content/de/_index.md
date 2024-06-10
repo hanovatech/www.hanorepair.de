@@ -101,19 +101,25 @@ service:
     service_item:
       - name: Kostenlose Diagnose
         icon: fa-search
-        content: KOSTENLOS
+        content: Zeigen Sie uns den Schaden vor Ort, per E-Mail (info@hanorepair.de),
+          oder rufen Sie uns an (0511-34082318), wir sagen Ihnen wo das Problem
+          liegt und helfen Ihnen gerne weiter. Für Sie entstehen hierbei noch
+          keinerlei Kosten.
       - name: Garantie für Sie
         icon: fa-anchor
-        content: High Life narwhal, banh mi PBR single-origin coffee Odd Future actually
-          aliqua polaroid befor
+        content: "Für jede Reparatur mit einem iPhone-Originaldisplay, erhalten Sie von
+          uns eine 12-monatige Garantie. Bei allen anderen Reparaturen gibt es 6
+          Monate Garantie. Gerne tauschen wir durch uns verarbeitete Teile
+          wieder aus. "
       - name: Handys & Tablets
         icon: fa-tablet
-        content: High Life narwhal, banh mi PBR single-origin coffee Odd Future actually
-          aliqua polaroid befor
+        content: "Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
+          Fachkräfte Ihnen, Ihr Gerät zügig wieder auf Vordermann zu bringen. "
       - name: Alle Modelle
         icon: fa-commenting-o
-        content: High Life narwhal, banh mi PBR single-origin coffee Odd Future actually
-          aliqua polaroid befor
+        content: "Wir haben uns auf die Reparatur von Smartphones und Tablets von
+          renommierten Marken wie Apple, Samsung, Huawei und Sony spezialisiert.
+          Unser Service deckt nahezu alle Modelle dieser & weiterer Marken ab. "
 brands_logo_slider:
   enable: true
   slider_item:
