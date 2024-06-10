@@ -113,8 +113,10 @@ service:
           wieder aus. "
       - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
-        content: "Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
-          Fachkräfte Ihnen, Ihr Gerät zügig wieder auf Vordermann zu bringen. "
+        content: Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
+          Fachkräfte Ihnen, Ihr Gerät zügig wieder auf Vordermann zu bringen.
+          Dabei bearbeiten wir jeden Hersteller und jedes Modell (soweit
+          Ersatzteile lieferbar sind)
       - name: Alle Modelle
         icon: fa-commenting-o
         content: "Wir haben uns auf die Reparatur von Smartphones und Tablets von
