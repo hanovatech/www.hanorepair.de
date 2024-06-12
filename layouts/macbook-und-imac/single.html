@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+<section id="main-container">
+  <div class="px-2 max-w-4xl mx-auto prose">
+    {{ .Content }}
+  </div>
+
+  <div class="py-20 px-2 max-w-4xl mx-auto">
+    <h2 class="mb-4 text-3xl text-center">Preisübersicht</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
+
+      {{ with .Params.services.analyse }}
+      {{ if .enabled }}
+      <a href="#analyse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/analyse.png" alt="Analyse">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Analyse</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="analyse">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Mehr zur Analyse</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.akku }}
+      {{ if .enabled }}
+      <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/akku.png" alt="Akku">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Akku-Austausch</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="akku">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Austausch des Akkus</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.glas }}
+      {{ if .enabled }}
+      <a href="#glas" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/display.png" alt="Displayaustausch">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Glaswechsel</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="glas">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Glaswechsel</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  
+  {{ partial "call-to-action" }}
+</section>
+
+{{ end }}

@@ -6,7 +6,7 @@ main:
   - name: "Wearables"
     section: "wearables-hersteller"
   - name: "Macbook & iMac"
-    url: "/macbook-und-imac"
+    section: "macbook-und-imac"
   - name: "Über uns"
     children:
       - name: "Kontakt"
