@@ -233,105 +233,105 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
           name: "analyse"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
         - label: "Wasserschaden"
           name: "wasserschaden"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: 'Ist Ihr Handy durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.', widget: "markdown", required: false }
         - label: "Display"
           name: "display"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität.", widget: "markdown", required: false }
         - label: "Lautsprecher"
           name: "lautsprecher"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Ein stets klarer Ton gewährleistet die Qualität eines Smartphones. Wir springen gerne ein, wenn dies nicht mehr der Fall ist.", widget: "markdown", required: false }
         - label: "Mikrofon"
           name: "mikrofon"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.", widget: "markdown", required: false }
         - label: "Hörmuschel"
           name: "hoermuschel"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.", widget: "markdown", required: false }
         - label: "Vorderkamera"
           name: "vorderkamera"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Das perfekte Selfie lässt sich nur mit einer einwandfreien Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer Frontkamera durchzuführen.", widget: "markdown", required: false }
         - label: "Hauptkamera"
           name: "hauptkamera"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen wir Ihnen gerne mit Rat und Tat zur Seite.", widget: "markdown", required: false }
         - label: "Kameraglas"
           name: "kameraglas"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Auch 200 Megapixel bringen nichts, wenn das Kameraglas zerkratzt oder zerbrochen ist. Die Reparatur geht schnell, hat aber enorme Effekte auf eine klare Sicht.", widget: "markdown", required: false }
         - label: "Backcover"
           name: "backcover"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown", required: false }
         - label: "Rahmen"
           name: "rahmen"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Der Rahmen oder auch das Gehäuse ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
         - label: "Akku"
           name: "akku"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.", widget: "markdown", required: false }
         - label: "Ladebuchse"
           name: "ladebuchse"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum Bestpreis.", widget: "markdown", required: false }
         - label: "Buttons"
           name: "buttons"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Haben Sie Probleme beim Einschalten Ihres Geräts? Schauen Sie bei uns gerne vorbei.", widget: "markdown", required: false }
         - label: "Software Update"
           name: "software_update"
           widget: "object"
           fields:
-            - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "markdown", required: false }
 
@@ -378,105 +378,105 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             name: "analyse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Wasserschaden"
             name: "wasserschaden"
             widget: "object"
             fields: 
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: 'Ist Ihr Tablet durch Flüssigkeiten jeglicher Art beschädigt worden? Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins Trockene.', widget: "markdown", required: false }
           - label: "Original Display"
             name: "original_display"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität.", widget: "markdown", required: false }
           - label: "Glas Reparatur"
             name: "glas_reparatur"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Mit einer Glasreparatur (soweit technisch möglich) sparen sie viel Geld und haben trotzdem ein identisches Produkt wie beim kompletten Displaywechsel!", widget: "markdown", required: false }
           - label: "Lautsprecher"
             name: "lautsprecher"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Ein stets klarer Ton gewährleistet die Qualität eines Tablets. Wir springen gerne ein, wenn dies nicht mehr der Fall ist.", widget: "markdown", required: false }
           - label: "Mikrofon"
             name: "mikrofon"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.", widget: "markdown", required: false }
           - label: "Vorderkamera"
             name: "vorderkamera"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Das perfekte Selfie lässt sich nur mit einer einwandfreien Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer Frontkamera durchzuführen.", widget: "markdown", required: false }
           - label: "Hauptkamera"
             name: "hauptkamera"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen wir Ihnen gerne mit Rat und Tat zur Seite.", widget: "markdown", required: false }
           - label: "Kameraglas"
             name: "kameraglas"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Auch 200 Megapixel bringen nichts, wenn das Kameraglas zerkratzt oder zerbrochen ist. Die Reparatur geht schnell, hat aber enorme Effekte auf eine klare Sicht.", widget: "markdown", required: false }
           - label: "Backcover"
             name: "backcover"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown", required: false }
           - label: "Rahmen"
             name: "rahmen"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Der Rahmen oder auch das Gehäuse ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
           - label: "Akku"
             name: "akku"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.", widget: "markdown", required: false }
           - label: "Ladebuchse"
             name: "ladebuchse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum Bestpreis.", widget: "markdown", required: false }
           - label: "Buttons"
             name: "buttons"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Haben Sie Probleme beim Einschalten Ihres Geräts? Schauen Sie bei uns gerne vorbei.", widget: "markdown", required: false }
           - label: "Software Update"
             name: "software_update"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "markdown", required: false }
 
@@ -523,35 +523,35 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             name: "analyse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Glastausch"
             name: "glas"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Mit einer Glasreparatur (soweit technisch möglich) sparen sie viel Geld und haben trotzdem ein identisches Produkt wie beim kompletten Displaywechsel!", widget: "markdown", required: false }
           - label: "Backcover"
             name: "backcover"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown", required: false }
           - label: "Gehäusewechsel"
             name: "gehaeuse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Das Gehäuse ist nach dem Display das meist beschädigte Teil eines Wearables. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
           - label: "Akkuwechsel"
             name: "akku"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen ausgesetzt.", widget: "markdown", required: false }
 
@@ -598,7 +598,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             name: "analyse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
 
@@ -626,20 +626,20 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             name: "analyse"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Akku"
             name: "akku"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum Bestpreis.", widget: "markdown", required: false }
           - label: "Glas"
             name: "glas"
             widget: "object"
             fields:
-              - { label: "Enabled", name: "enabled", widget: "boolean", required: false }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.", widget: "markdown", required: false }
