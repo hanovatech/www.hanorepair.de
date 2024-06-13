@@ -171,8 +171,8 @@ about:
       content: Die Reparaturabwicklung bei Hanorepair findet so schnell wie nirgends
         anders statt. Ein Ersatzteil lagert nicht? Kein Problem, schon zum
         nächsten Morgen liegt dieses zum Einbau bereit. Express Reparatur nötig?
-        Kein Problem, die meisten Geräte können wir in weniger as 1 Stunde nach
-        Abgabe, schon wieder zur Abholung bereitstellen!
+        Auch Kein Problem, die meisten Geräte können wir in weniger as 1 Stunde
+        nach Abgabe fertigstellen!
     - name: Gute Qualität
       icon: fa-diamond
       content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
