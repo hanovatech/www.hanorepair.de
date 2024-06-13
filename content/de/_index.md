@@ -178,7 +178,7 @@ about:
       content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
         direkt vom Hersteller oder hochwertige Kopie, wir haben für jede
         Preisklasse die beste verfügbare Qualität parat
-    - name: Garantie für deine Sicherheit
+    - name: Garantie für jeden
       icon: fa-shield
       content: Wir stehen hinter unserer Reparatur! Deshalb gewähren wir mit jeder
         Reparatur einen Garantiezeitraum auf unsere Arbeit und auf das
