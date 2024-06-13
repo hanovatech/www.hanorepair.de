@@ -158,15 +158,21 @@ call_to_action:
 about:
   enable: true
   title: Über uns
-  subtitle: Seit 2010 in Hannover
+  subtitle: Seit 2014 in Hannover
   bg_image: uploads/smartphone-repair3.jpg
-  content: Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-    ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor
-    Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
+  content: Seit 2014 arbeiten wir schon fleißig an euren Geräten. Auch 10 Jahre
+    später stehen wir noch genauso motiviert und hilfsbereit für euch als
+    zuverlässiger Reparaturdienstleister zur Seite. In nahezu jedem Fall und bei
+    jedem Problem ist die Lösung mit Uns parat. Jedem Problem und jedem Defekt
+    sind wir gewachsen. Überzeug dich doch einfach selber!
   about_item:
     - name: Schnelle Reparatur
       icon: fa-tachometer
-      content: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+      content: Die Reparaturabwicklung bei Hanorepair findet so schnell wie nirgends
+        anders statt. Ein Ersatzteil lagert nicht? Kein Problem, schon zum
+        nächsten Morgen liegt dieses zum Einbau bereit. Express Reparatur nötig?
+        Kein Problem, die meisten Geräte können wir in weniger as 1 Stunde nach
+        Abgabe, schon wieder zur Abholung bereitstellen!
     - name: Gute Qualität
       icon: fa-diamond
       content: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut
