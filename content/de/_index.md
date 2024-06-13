@@ -175,7 +175,9 @@ about:
         Abgabe, schon wieder zur Abholung bereitstellen!
     - name: Gute Qualität
       icon: fa-diamond
-      content: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+      content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
+        direkt vom Hersteller oder hochwertige Kopie, wir haben für jede
+        Preisklasse die beste verfügbare Qualität parat
     - name: Garantie für Sie
       icon: fa-shield
       content: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut
