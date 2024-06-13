@@ -54,7 +54,7 @@ slider:
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
-        label: Konsole
+        label: Konsolen
         icon: fa-gamepad
       buttons:
         - label: Kontakt
