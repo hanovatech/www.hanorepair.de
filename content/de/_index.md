@@ -180,7 +180,7 @@ about:
         Preisklasse die beste verfügbare Qualität parat
     - name: Garantie für jeden
       icon: fa-shield
-      content: Wir stehen hinter unserer Reparatur! Deshalb gewähren wir mit jeder
+      content: Wir stehen hinter unserer Arbeit! Deshalb gewähren wir mit jeder
         Reparatur einen Garantiezeitraum auf unsere Arbeit und auf das
         verwendete Ersatzteil. Bei Originalteilen geben wir sogar bis zu 2 Jahre
         Garantie!
