@@ -78,12 +78,12 @@ slider:
         - label: Zur Reparatur
           style: solid
           link: /zur-reparatur
-    - title: Laptop Reparatur <br>in Hannover
-      subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Laptop
+    - title: Laptop & Computer Reparatur <br>in Hannover
+      subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Laptop oder PC
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
-        label: Laptop
+        label: PC
         icon: fa-laptop
       buttons:
         - label: Kontakt
