@@ -36,12 +36,12 @@ slider:
           style: solid
           link: /zur-reparatur
     - title: Smartwatch Reparatur <br>in Hannover
-      subtitle: 🚨 Smartwatch kaputt? Wir helfen weiter!
+      subtitle: 🚨 Smartwatch oder Wearable kaputt? Wir helfen weiter!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
-        label: Watches
-        icon: fa-clock-o
+        label: Wearables
+        icon: fa-circle-o-notch
       buttons:
         - label: Kontakt
           style: white
