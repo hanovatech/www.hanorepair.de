@@ -178,9 +178,12 @@ about:
       content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
         direkt vom Hersteller oder hochwertige Kopie, wir haben für jede
         Preisklasse die beste verfügbare Qualität parat
-    - name: Garantie für Sie
+    - name: Garantie für deine Sicherheit
       icon: fa-shield
-      content: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+      content: Wir stehen hinter unserer Reparatur! Deshalb gewähren wir mit jeder
+        Reparatur einen Garantiezeitraum auf unsere Arbeit und auf das
+        verwendete Ersatzteil. Bei Originalteilen geben wir sogar bis zu 2 Jahre
+        Garantie!
 funfact:
   enable: true
   funfact_item:
