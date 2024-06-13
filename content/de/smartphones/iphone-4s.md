@@ -89,7 +89,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr XYZ
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+# Wir reparieren Ihr iPhone 4S
+
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **iPhone 4S** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
