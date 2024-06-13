@@ -612,7 +612,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Apple Reparatur Hannover 🛠️ Apple Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
-      - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Kategorie Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "Apple XYZ", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr Apple XYZ
 
@@ -627,6 +627,8 @@ Wir reparieren alle XYZ Generationen. Wählen Sie Ihre Generation aus, um mehr �
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Apple Reparatur Hannover 🛠️ Apple Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Kategorie", name: "category", widget: "select", options: ["Macbook Pro", "Macbook Air", "iMac", "Mac Mini", "Mac Pro"] }
+      - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. Macbook Pro M3", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
 Ihr XYZ ist kaputt oder hat einen Fehler? Wir bringen Ihr **XYZ** wieder zum Laufen!
