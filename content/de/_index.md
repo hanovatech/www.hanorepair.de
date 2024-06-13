@@ -69,7 +69,7 @@ slider:
       image: uploads/macbook-und-imac.png
       image_position: right
       navigator:
-        label: Apple
+        label: Mac
         icon: fa-apple
       buttons:
         - label: Kontakt
