@@ -1,6 +1,7 @@
 ---
 title: Macbook Pro M3 ‣ Macbook Reparatur Hannover 🛠️ Apple Werkstatt
 description: "..."
+category: Macbook Pro
 name: Macbook Pro M3
 services:
   analyse:

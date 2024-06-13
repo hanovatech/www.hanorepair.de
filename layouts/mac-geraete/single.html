@@ -2,13 +2,15 @@
 
 <section id="main-container">
   <div class="px-2 max-w-4xl mx-auto prose">
+    {{ with .GetPage (printf "../mac-kategorien/%s" .Params.category) }}
+      <a href="{{ .RelPermalink }}" class="block mb-6">← Zurück zum Hersteller</a>
+    {{ end }}
     {{ .Content }}
   </div>
 
   <div class="py-20 px-2 max-w-4xl mx-auto">
     <h2 class="mb-4 text-3xl text-center">Preisübersicht</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
-
       {{ with .Params.services.analyse }}
       {{ if .enabled }}
       <a href="#analyse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">

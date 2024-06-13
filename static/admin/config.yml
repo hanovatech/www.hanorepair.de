@@ -602,10 +602,26 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
               - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
 
-  ############### Macbook & iMac Reparatur ################
-  - name: macbook-und-imac
-    label: Macbook & iMac
-    folder: "/content/de/macbook-und-imac"
+  
+  ############### Mac Kategorien ################
+  - name: mac-kategorien
+    label: Mac Kategorien
+    folder: /content/de/mac-kategorien
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Meta Title", name: "title", default: "XYZ ‣ Apple Reparatur Hannover 🛠️ Apple Werkstatt", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
+      - { label: "Überschrift", name: "heading", default: "Apple XYZ", widget: "string" }
+      - { label: "Content", name: "body", default: "# Wir reparieren Ihr Apple XYZ
+
+Wir reparieren alle XYZ Generationen. Wählen Sie Ihre Generation aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }
+
+  ############### Mac Geräte ################
+  - name: macs
+    label: Mac Geräte
+    folder: "/content/de/mac-geraete"
     create: true
     slug: "{{name}}"
     fields:
