@@ -6,10 +6,9 @@
   </div>
 
   <div class="py-20 px-2 max-w-2xl mx-auto">
-    {{ $section := where $.Site.Pages "Section" "konsolen" }}
     <div class="flex flex-col gap-4">
       <h2 class="text-3xl text-center">Wählen Sie das Modell</h2>
-
+      {{ $section := where $.Site.Pages.ByDate.Reverse "Section" "konsolen" }}
       {{ range $section }}
       {{ if and (ne .Kind "section") (eq (lower .Params.manufacturer) (lower $.Params.name)) }}
       <a class="px-4 py-2 text-gray-600 bg-gray-100 flex flex-row items-center justify-between hover:text-red-600 hover:ring hover:ring-red-500 duration-200" href="{{ .RelPermalink | relLangURL }}">

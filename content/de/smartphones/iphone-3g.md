@@ -1,6 +1,7 @@
 ---
 title: iPhone 3G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 3G
+date: 2011-10-06T14:48:00.000Z
 manufacturer: Apple
 name: iPhone 3G
 services:
