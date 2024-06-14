@@ -181,7 +181,7 @@ about:
     - name: Garantie für jeden
       icon: fa-shield
       content: Wir stehen hinter unserer Arbeit! Deshalb gewähren wir mit jeder
-        Reparatur einen Garantiezeitraum auf unsere Arbeit und auf das
+        Reparatur einen Garantiezeitraum auf unsere Dienstleistung und auf das
         verwendete Ersatzteil. Bei Originalteilen geben wir sogar bis zu 2 Jahre
         Garantie!
 funfact:
