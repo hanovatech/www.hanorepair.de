@@ -1,6 +1,7 @@
 ---
 title: iPhone 13 Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 13 Pro
+date: 2024-06-18T22:06:00.000Z
 manufacturer: Apple
 name: iPhone 13 Pro
 services:
