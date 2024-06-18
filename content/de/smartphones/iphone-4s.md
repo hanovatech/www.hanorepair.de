@@ -1,7 +1,7 @@
 ---
 title: iPhone 4S ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 4S
-date: 2024-06-18T22:14:00.000Z
+date: 2024-06-05T00:14:00.000Z
 manufacturer: Apple
 name: iPhone 4S
 services:
