@@ -1,6 +1,7 @@
 ---
 title: iPhone 12 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 12 Pro Max
+date: 2024-06-18T22:03:00.000Z
 manufacturer: Apple
 name: iPhone 12 Pro Max
 services:
