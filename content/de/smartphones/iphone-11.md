@@ -1,6 +1,7 @@
 ---
 title: iPhone 11 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 11
+date: 2024-06-18T16:24:00.000Z
 manufacturer: Apple
 name: iPhone 11
 services:
