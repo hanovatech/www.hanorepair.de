@@ -1,7 +1,7 @@
 ---
 title: iPhone 5S ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 5S
-date: 2024-06-18T22:17:00.000Z
+date: 2024-06-08T00:17:00.000Z
 manufacturer: Apple
 name: iPhone 5S
 services:
