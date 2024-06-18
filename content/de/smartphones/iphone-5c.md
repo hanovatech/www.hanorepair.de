@@ -1,6 +1,7 @@
 ---
 title: iPhone 5C ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 5C
+date: 2024-06-18T22:16:00.000Z
 manufacturer: Apple
 name: iPhone 5C
 services:
