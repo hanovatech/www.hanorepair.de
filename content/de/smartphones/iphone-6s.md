@@ -1,6 +1,7 @@
 ---
 title: iPhone 6 Plus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 6 Plus
+date: 2024-06-18T22:19:00.000Z
 manufacturer: Apple
 name: iPhone 6 Plus
 services:
