@@ -1,7 +1,7 @@
 ---
 title: iPhone 12 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 12
-date: 2024-06-18T22:26:00.000Z
+date: 2024-06-18T22:01:00.000Z
 manufacturer: Apple
 name: iPhone 12
 services:
