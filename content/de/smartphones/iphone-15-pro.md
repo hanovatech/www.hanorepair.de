@@ -1,6 +1,7 @@
 ---
 title: iPhone 15 Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 15 Pro
+date: 2024-06-18T22:16:00.000Z
 manufacturer: Apple
 name: iPhone 15 Pro
 services:
