@@ -1,6 +1,7 @@
 ---
 title: iPhone 14 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 14
+date: 2024-06-18T22:09:00.000Z
 manufacturer: Apple
 name: iPhone 14
 services:
