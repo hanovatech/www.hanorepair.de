@@ -1,7 +1,7 @@
 ---
 title: iPhone 4 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 4
-date: 2024-06-18T22:13:00.000Z
+date: 2024-06-04T00:13:00.000Z
 manufacturer: Apple
 name: iPhone 4
 services:
