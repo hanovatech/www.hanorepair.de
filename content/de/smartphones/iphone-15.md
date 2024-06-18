@@ -1,6 +1,7 @@
 ---
 title: iPhone 15 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 15
+date: 2024-06-18T22:15:00.000Z
 manufacturer: Apple
 name: iPhone 15
 services:
