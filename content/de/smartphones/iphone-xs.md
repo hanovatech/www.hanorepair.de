@@ -1,6 +1,7 @@
 ---
 title: iPhone XS ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone XS
+date: 2024-06-18T14:23:00.000Z
 manufacturer: Apple
 name: iPhone XS
 services:
