@@ -1,6 +1,7 @@
 ---
 title: iPhone XS Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone XS Max
+date: 2024-06-18T15:23:00.000Z
 manufacturer: Apple
 name: iPhone XS Max
 services:
