@@ -1,7 +1,7 @@
 ---
 title: iPhone SE ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone SE
-date: 2024-06-18T22:22:00.000Z
+date: 2024-06-13T00:22:00.000Z
 manufacturer: Apple
 name: iPhone SE
 services:
