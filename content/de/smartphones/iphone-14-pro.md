@@ -1,6 +1,7 @@
 ---
 title: iPhone 14 Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 14 Pro
+date: 2024-06-18T22:11:00.000Z
 manufacturer: Apple
 name: iPhone 14 Pro
 services:
