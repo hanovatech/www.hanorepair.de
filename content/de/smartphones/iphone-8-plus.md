@@ -1,6 +1,7 @@
 ---
 title: iPhone 8 Plus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 8 Plus
+date: 2024-06-17T22:21:00.000Z
 manufacturer: Apple
 name: iPhone 8 Plus
 services:
