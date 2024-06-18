@@ -1,6 +1,7 @@
 ---
 title: iPhone 7 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 7
+date: 2024-06-18T22:23:00.000Z
 manufacturer: Apple
 name: iPhone 7
 services:
