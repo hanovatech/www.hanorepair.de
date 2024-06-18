@@ -1,6 +1,7 @@
 ---
 title: iPhone SE 3. Generation ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone SE 3. Generation
+date: 2024-06-18T22:08:00.000Z
 manufacturer: Apple
 name: iPhone SE 3. Generation
 services:
