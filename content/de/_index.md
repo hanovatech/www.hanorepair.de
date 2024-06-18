@@ -41,7 +41,7 @@ slider:
       image_position: right
       navigator:
         label: Wearables
-        icon: fa-circle-o-notch
+        icon: fa-clock-o
       buttons:
         - label: Kontakt
           style: white
@@ -105,12 +105,12 @@ service:
           oder rufen Sie uns an (0511-34082318), wir sagen Ihnen wo das Problem
           liegt und helfen Ihnen gerne weiter. Für Sie entstehen hierbei noch
           keinerlei Kosten.
-      - name: Bis zu 12 Monate Garantie
+      - name: Bis zu 24 Monate Garantie
         icon: fa-anchor
-        content: "Für jede Reparatur mit einem iPhone-Originaldisplay, erhalten Sie von
-          uns eine 12-monatige Garantie. Bei allen anderen Reparaturen gibt es 6
-          Monate Garantie. Gerne tauschen wir durch uns verarbeitete Teile
-          wieder aus. "
+        content: "Für jede Reparatur mit einem Originalbauteil, erhalten Sie von uns
+          eine 12 oder 24 monatige Garantie. Bei allen anderen Reparaturen gibt
+          es bis zu 6 Monate Garantie. Gerne tauschen wir durch uns verarbeitete
+          fehlerhafte Teile im Rahmen der Garantie ohne weiteres aus. "
       - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
         content: Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
