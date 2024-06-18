@@ -1,6 +1,7 @@
 ---
 title: iPhone 13 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 13
+date: 2024-06-18T22:05:00.000Z
 manufacturer: Apple
 name: iPhone 13
 services:
