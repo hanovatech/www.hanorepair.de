@@ -1,6 +1,7 @@
 ---
 title: iPhone 14 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 14 Pro Max
+date: 2024-06-18T22:13:00.000Z
 manufacturer: Apple
 name: iPhone 14 Pro Max
 services:
