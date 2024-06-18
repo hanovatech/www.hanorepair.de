@@ -1,6 +1,7 @@
 ---
 title: iPhone X ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone X
+date: 2024-06-18T10:21:00.000Z
 manufacturer: Apple
 name: iPhone X
 services:
