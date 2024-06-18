@@ -1,7 +1,7 @@
 ---
 title: iPhone 2G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 2G
-date: 2024-06-18T22:11:00.000Z
+date: 2024-06-01T22:16:00.000Z
 manufacturer: Apple
 name: iPhone 2G
 services:
