@@ -1,6 +1,7 @@
 ---
 title: iPhone 13 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 13 Pro Max
+date: 2024-06-18T22:07:00.000Z
 manufacturer: Apple
 name: iPhone 13 Pro Max
 services:
