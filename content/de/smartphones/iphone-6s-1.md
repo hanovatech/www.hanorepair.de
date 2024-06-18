@@ -1,7 +1,7 @@
 ---
 title: iPhone 6S ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 6S
-date: 2024-06-18T22:20:00.000Z
+date: 2024-06-11T00:20:00.000Z
 manufacturer: Apple
 name: iPhone 6S
 services:
