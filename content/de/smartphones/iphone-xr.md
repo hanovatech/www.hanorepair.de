@@ -1,6 +1,7 @@
 ---
 title: iPhone XR ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone XR
+date: 2024-06-18T11:22:00.000Z
 manufacturer: Apple
 name: iPhone XR
 services:
