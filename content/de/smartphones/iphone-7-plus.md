@@ -1,7 +1,7 @@
 ---
 title: iPhone 7 Plus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 7 Plus
-date: 2024-06-18T22:24:00.000Z
+date: 2024-06-15T00:24:00.000Z
 manufacturer: Apple
 name: iPhone 7 Plus
 services:
