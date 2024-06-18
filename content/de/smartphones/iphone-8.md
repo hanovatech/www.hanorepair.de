@@ -1,7 +1,7 @@
 ---
 title: iPhone 8 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 8
-date: 2024-06-18T22:25:00.000Z
+date: 2024-06-16T00:25:00.000Z
 manufacturer: Apple
 name: iPhone 8
 services:
