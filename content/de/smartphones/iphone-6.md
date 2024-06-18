@@ -1,7 +1,7 @@
 ---
 title: iPhone 6 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 6
-date: 2024-06-18T22:18:00.000Z
+date: 2024-06-09T00:18:00.000Z
 manufacturer: Apple
 name: iPhone 6
 services:
