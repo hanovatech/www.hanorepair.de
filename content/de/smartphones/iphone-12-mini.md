@@ -1,7 +1,7 @@
 ---
 title: iPhone 12 Mini ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 12 Mini
-date: 2024-06-18T20:25:00.000Z
+date: 2024-06-18T22:00:00.000Z
 manufacturer: Apple
 name: iPhone 12 Mini
 services:
