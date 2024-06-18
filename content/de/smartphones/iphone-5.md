@@ -1,7 +1,7 @@
 ---
 title: iPhone 5 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 5
-date: 2024-06-18T22:15:00.000Z
+date: 2024-06-06T00:15:00.000Z
 manufacturer: Apple
 name: iPhone 5
 services:
