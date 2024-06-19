@@ -1,5 +1,5 @@
 ---
-title: Google Pixel ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+title: Pixel ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: Pixel
 date: 2024-06-19T23:35:00.000Z
 manufacturer: Google
