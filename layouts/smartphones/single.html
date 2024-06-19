@@ -43,37 +43,6 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.wasserschaden }}
-      {{ if .enabled }}
-      <a href="#wasserschaden" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/wasserschaden_smartphone.png" alt="Wasserschaden">
-        <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Wasserschaden</h3>
-          <p class="mb-0 text-gray-600">{{ .price }}</p>
-        </div>
-      </a>
-      <dialog id="wasserschaden">
-        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
-        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
-          <div class="p-4 max-w-2xl bg-white">
-            <h4>Mehr zu Wasserschäden</h4>
-            <p>
-              {{ .description | markdownify }}
-            </p>
-            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
-              {{ .price }}
-            </p>
-            <div class="flex flex-row gap-2">
-              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
-              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
-              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
-            </div>
-          </div>
-        </div>
-      </dialog>
-      {{ end }}
-      {{ end }}
-
       {{ with .Params.services.display }}
       {{ if .enabled }}
       <a href="#display" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
@@ -105,20 +74,20 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.lautsprecher }}
+      {{ with .Params.services.akku }}
       {{ if .enabled }}
-      <a href="#lautsprecher" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/lautsprecher.png" alt="Lautsprecher">
+      <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/akku_smartphone.png" alt="Akku">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Lautsprecher</h3>
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Akku-Austausch</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="lautsprecher">
+      <dialog id="akku">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Lautsprechertausch</h4>
+            <h4>Infos zum Austausch des Akkus</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -136,20 +105,20 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.mikrofon }}
+      {{ with .Params.services.backcover }}
       {{ if .enabled }}
-      <a href="#mikrofon" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/mikrofon.png" alt="Mikrofon">
+      <a href="#backcover" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/backcover.png" alt="Backcover">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Mikrofon</h3>
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Backcover</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="mikrofon">
+      <dialog id="backcover">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Mikrofonaustausch</h4>
+            <h4>Infos zum Austausch des Backcovers</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -167,20 +136,20 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.hoermuschel }}
+      {{ with .Params.services.rahmen }}
       {{ if .enabled }}
-      <a href="#hoermuschel" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/hoermuschel.png" alt="Hörmuschel">
+      <a href="#rahmen" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/rahmen.png" alt="Rahmen">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Hörmuschel</h3>
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Rahmen</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="hoermuschel">
+      <dialog id="rahmen">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Hörmuschelaustausch</h4>
+            <h4>Infos zum Austausch des Rahmens</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -291,99 +260,6 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.backcover }}
-      {{ if .enabled }}
-      <a href="#backcover" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/backcover.png" alt="Backcover">
-        <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Backcover</h3>
-          <p class="mb-0 text-gray-600">{{ .price }}</p>
-        </div>
-      </a>
-      <dialog id="backcover">
-        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
-        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
-          <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Austausch des Backcovers</h4>
-            <p>
-              {{ .description | markdownify }}
-            </p>
-            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
-              {{ .price }}
-            </p>
-            <div class="flex flex-row gap-2">
-              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
-              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
-              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
-            </div>
-          </div>
-        </div>
-      </dialog>
-      {{ end }}
-      {{ end }}
-
-      {{ with .Params.services.rahmen }}
-      {{ if .enabled }}
-      <a href="#rahmen" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/rahmen.png" alt="Rahmen">
-        <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Rahmen</h3>
-          <p class="mb-0 text-gray-600">{{ .price }}</p>
-        </div>
-      </a>
-      <dialog id="rahmen">
-        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
-        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
-          <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Austausch des Rahmens</h4>
-            <p>
-              {{ .description | markdownify }}
-            </p>
-            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
-              {{ .price }}
-            </p>
-            <div class="flex flex-row gap-2">
-              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
-              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
-              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
-            </div>
-          </div>
-        </div>
-      </dialog>
-      {{ end }}
-      {{ end }}
-
-      {{ with .Params.services.akku }}
-      {{ if .enabled }}
-      <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/akku_smartphone.png" alt="Akku">
-        <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Akku-Austausch</h3>
-          <p class="mb-0 text-gray-600">{{ .price }}</p>
-        </div>
-      </a>
-      <dialog id="akku">
-        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
-        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
-          <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Austausch des Akkus</h4>
-            <p>
-              {{ .description | markdownify }}
-            </p>
-            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
-              {{ .price }}
-            </p>
-            <div class="flex flex-row gap-2">
-              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
-              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
-              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
-            </div>
-          </div>
-        </div>
-      </dialog>
-      {{ end }}
-      {{ end }}
-
       {{ with .Params.services.ladebuchse }}
       {{ if .enabled }}
       <a href="#ladebuchse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
@@ -429,6 +305,130 @@
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Austausch der Buttons</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.lautsprecher }}
+      {{ if .enabled }}
+      <a href="#lautsprecher" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/lautsprecher.png" alt="Lautsprecher">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Lautsprecher</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="lautsprecher">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Lautsprechertausch</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.hoermuschel }}
+      {{ if .enabled }}
+      <a href="#hoermuschel" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/hoermuschel.png" alt="Hörmuschel">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Hörmuschel</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="hoermuschel">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Hörmuschelaustausch</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.mikrofon }}
+      {{ if .enabled }}
+      <a href="#mikrofon" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/mikrofon.png" alt="Mikrofon">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Mikrofon</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="mikrofon">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Mikrofonaustausch</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-red-600 font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-red-600 !border !border-red-600 rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-red-600 rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.wasserschaden }}
+      {{ if .enabled }}
+      <a href="#wasserschaden" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/wasserschaden_smartphone.png" alt="Wasserschaden">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Wasserschaden</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="wasserschaden">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Mehr zu Wasserschäden</h4>
             <p>
               {{ .description | markdownify }}
             </p>
