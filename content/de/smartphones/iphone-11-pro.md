@@ -1,7 +1,7 @@
 ---
 title: iPhone 11 Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 11 Pro
-date: 2024-06-18T17:24:00.000Z
+date: 2024-06-19T00:16:00.000Z
 manufacturer: Apple
 name: iPhone 11 Pro
 services:
