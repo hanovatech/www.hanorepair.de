@@ -1,9 +1,9 @@
 ---
-title: OnePlus Nord 2T ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: OnePlus Nord 2T
+title: OnePlus Nord 2T 5G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: OnePlus Nord 2T 5G
 date: 2024-06-20T18:36:00.000Z
 manufacturer: OnePlus
-name: OnePlus Nord 2T
+name: OnePlus Nord 2T 5G
 services:
   ladebuchse:
     enabled: true
