@@ -1,9 +1,9 @@
 ---
-title: One ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: One
+title: OnePlus One ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: OnePlus One
 date: 2024-06-20T18:13:00.000Z
 manufacturer: OnePlus
-name: One
+name: OnePlus One
 services:
   ladebuchse:
     enabled: true
@@ -92,6 +92,6 @@ services:
 ---
 # Wir reparieren Ihr OnePlus One
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **One** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr OnePlus **One** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
