@@ -363,7 +363,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Erstellungsdatum", name: "date", widget: "datetime", required: false }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Microsoft", "Samsung"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Lenovo", "Microsoft", "Samsung"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPad Air 3", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
