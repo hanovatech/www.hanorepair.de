@@ -8,7 +8,7 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb justify-content-center">
           <li class="breadcrumb-item !inline"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.home }}</a></li>
-          <li class="breadcrumb-item text-white !inline" aria-current="page">{{ or .Params.heading .Params.name .Title }}</li>
+          <li class="breadcrumb-item text-white !inline" aria-current="page">{{ or .Params.breadcrumb .Params.manufacturer .Params.heading .Params.name .Title }}</li>
         </ol>
       </nav>
     </div>

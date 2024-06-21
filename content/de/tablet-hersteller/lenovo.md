@@ -2,6 +2,7 @@
 title: Lenovo ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
 name: Lenovo
 heading: Lenovo Tablets
+breadcrumb: Tablet Reparaturen
 ---
 # Wir reparieren Ihr Lenovo Tablet
 

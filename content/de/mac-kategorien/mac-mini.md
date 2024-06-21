@@ -2,6 +2,7 @@
 title: Mac Mini Reparatur Hannover 🛠️ Apple Werkstatt
 description: "..."
 heading: Apple Mac Mini
+breadcrumb: iMac & Macbook Reparaturen
 name: Mac Mini
 ---
 

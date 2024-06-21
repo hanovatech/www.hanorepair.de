@@ -2,6 +2,7 @@
 title: Samsung Galaxy Watch ‣ Wearables Reparatur in Hannover 🛠️ Wearables Werkstatt
 description: 
 heading: Samsung Galaxy Watch
+breadcrumb: Tablet Reparaturen
 name: Samsung
 ---
 

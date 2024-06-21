@@ -1,6 +1,7 @@
 ---
 title: Sony ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: Sony Smartphones
+heading: Sony Smartphone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: Sony
 ---

@@ -203,6 +203,7 @@ collections:
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Smartphones", widget: "string" }
+      - { label: "Breadcrumb", name: "breadcrumb", default: "Smartphone Reparaturen", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Smartphone
 
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }
@@ -217,7 +218,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Erstellungsdatum", name: "date", widget: "datetime", required: false }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "HTC", "Huawei", "LG", "Motorola", "Nokia", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "Honor", "HTC", "Huawei", "LG", "Motorola", "Nokia", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPhone 15 Pro Max", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
@@ -349,6 +350,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Tablets", widget: "string" }
+      - { label: "Breadcrumb", name: "breadcrumb", default: "Tablet Reparaturen", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Tablet
 
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }
@@ -363,7 +365,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Erstellungsdatum", name: "date", widget: "datetime", required: false }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Lenovo", "Microsoft", "Samsung"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Google", "Lenovo", "Microsoft", "OnePlus", "Samsung"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPad Air 3", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
@@ -495,6 +497,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Wearables", widget: "string" }
+      - { label: "Breadcrumb", name: "breadcrumb", default: "Wearables Reparaturen", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ Wearable
 
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }
@@ -571,6 +574,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Hersteller Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "XYZ Konsolen", widget: "string" }
+      - { label: "Breadcrumb", name: "breadcrumb", default: "Konsolen Reparaturen", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihre XYZ Konsole
 
 Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }
@@ -618,6 +622,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Kategorie Name", name: "name", default: "XYZ", widget: "string" }
       - { label: "Überschrift", name: "heading", default: "Apple XYZ", widget: "string" }
+      - { label: "Breadcrumb", name: "breadcrumb", default: "Mac & iMac Reparaturen", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr Apple XYZ
 
 Wir reparieren alle XYZ Generationen. Wählen Sie Ihre Generation aus, um mehr über die möglichen Reparaturen und Preise zu erfahren.", widget: "markdown", required: false }

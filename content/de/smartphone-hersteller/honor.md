@@ -1,8 +1,9 @@
 ---
 title: Honor ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: Honor
+heading: Honor Smartphone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: Honor
-heading: Honor Smartphones
 ---
 # Wir reparieren Ihr Honor Smartphone
 

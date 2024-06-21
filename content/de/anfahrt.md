@@ -1,13 +1,14 @@
 ---
 title: Anfahrt ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: Damit Sie wissen wie Sie uns am besten erreichen, haben wir hier alle wichtigen Informationen für Sie zusammengestellt.
-heading: Anfahrt
+heading: Viele Wege führen zu Hanorepair
+breadcrumb: Anfahrt
 gmaps: true
 ---
 
-# So erreichen Sie uns
+# So finden Sie zu uns
 
-Damit Sie auch gut zu uns finden, haben wir hier alle wichtigen Informationen für Sie zusammengestellt.
+Damit Sie auch gut zu uns finden, haben wir hier alle wichtigen Hinweise zur Anfahrt für Sie zusammengestellt.
 
 ## Mit dem Auto
 Anfahrt mit dem PKW über Fernstraßen: Messeschnellweg Ausfahrt “Pferdeturm”. Folgen Sie der Straße “Hans-Böckler-Allee” stadteinwärts für etwa 5 min. Anfahrt von Süden: Folgen Sie der Hildesheimer Straße Richtung Norden bis zum Aegidientorplatz und biegen Sie dann 2x scharf ab, um in die Marienstr. zu gelangen.  

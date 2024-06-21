@@ -2,6 +2,7 @@
 title: Apple Watch ‣ Wearables Reparatur in Hannover 🛠️ Wearables Werkstatt
 description: 
 heading: Apple Watch
+breadcrumb: Tablet Reparaturen
 name: Apple
 ---
 

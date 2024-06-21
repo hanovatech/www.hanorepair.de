@@ -1,7 +1,8 @@
 ---
 title: Google ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: Google Smartphones
+heading: Google Pixel Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: Google
 ---
 

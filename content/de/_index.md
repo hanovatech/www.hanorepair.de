@@ -20,7 +20,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: /smartphone-hersteller
     - title: Tablet Reparatur <br>in Hannover
       subtitle: 🚨 Tablet kaputt? Wir helfen weiter!
       bg_image: uploads/smartphone-repair2.jpg
@@ -34,7 +34,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: /tablet-hersteller
     - title: Smartwatch Reparatur <br>in Hannover
       subtitle: 🚨 Smartwatch oder Wearable kaputt? Wir helfen weiter!
       bg_image: uploads/macbook-banner.jpg
@@ -48,7 +48,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: /wearables-hersteller
     - title: Konsolen Reparatur <br>in Hannover
       subtitle: 🚨 Konsole kaputt? Wir helfen weiter!
       bg_image: uploads/macbook-banner.jpg
@@ -62,7 +62,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: /konsolen-hersteller
     - title: Macbook & iMac Reparatur <br>in Hannover
       subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Mac
       bg_image: uploads/macbook-banner.jpg
@@ -77,7 +77,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: /mac-kategorien
     - title: Laptop & Computer Reparatur <br>in Hannover
       subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Laptop oder PC
       bg_image: uploads/macbook-banner.jpg
@@ -91,7 +91,7 @@ slider:
           link: /kontakt
         - label: Zur Reparatur
           style: solid
-          link: /zur-reparatur
+          link: https://hanovatech.de/repair
 service:
   enable: true
   services:

@@ -1,7 +1,8 @@
 ---
 title: OnePlus ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
-name: OnePlus
 heading: OnePlus Tablets
+breadcrumb: Tablet Reparaturen
+name: OnePlus
 ---
 # Wir reparieren Ihr OnePlus Tablet
 

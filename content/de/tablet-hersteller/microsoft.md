@@ -2,6 +2,7 @@
 title: Microsoft ‣ Surface Reparatur in Hannover 🛠️ Tablet Werkstatt
 description: 
 heading: Microsoft Surfaces
+breadcrumb: Tablet Reparaturen
 name: Microsoft
 ---
 

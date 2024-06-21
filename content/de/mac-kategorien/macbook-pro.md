@@ -1,8 +1,9 @@
 ---
 title: MacBook Pro Reparatur Hannover 🛠️ Apple Werkstatt
-description: ...
+description: 
 name: MacBook Pro
 heading: Apple MacBook Pro
+breadcrumb: iMac & Macbook Reparaturen
 ---
 # Wir reparieren Ihr MacBook Pro
 

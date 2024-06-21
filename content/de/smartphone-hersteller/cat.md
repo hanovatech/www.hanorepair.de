@@ -1,7 +1,8 @@
 ---
 title: CAT ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: CAT Smartphones
+heading: CAT Smartphone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: CAT
 ---
 

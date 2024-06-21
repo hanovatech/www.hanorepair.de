@@ -8,6 +8,10 @@
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
+  {{ if .Page.Params.noindex }}
+  <meta name="robots" content="noindex">
+  {{ end }}
+
   <!-- Tailwind CSS Links Start -->
   {{ $styles := resources.Get "tailwind/styles.scss" | toCSS | postCSS (dict "config" "./assets/tailwind/postcss.config.js") | minify | fingerprint | resources.PostProcess }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">

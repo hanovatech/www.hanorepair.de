@@ -2,6 +2,7 @@
 title: Apple ‣ Tablet Reparatur in Hannover 🛠️ Tablet Werkstatt
 description: 
 heading: Apple iPads
+breadcrumb: Tablet Reparaturen
 name: Apple
 ---
 

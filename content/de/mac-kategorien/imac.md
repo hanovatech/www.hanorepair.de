@@ -2,6 +2,7 @@
 title: iMac Reparatur Hannover 🛠️ Apple Werkstatt
 description: "..."
 heading: Apple iMac
+breadcrumb: iMac & Macbook Reparaturen
 name: iMac
 ---
 

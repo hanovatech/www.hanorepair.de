@@ -2,6 +2,7 @@
 title: Google Pixel Watch ‣ Wearables Reparatur in Hannover 🛠️ Wearables Werkstatt
 description: 
 heading: Google Pixel Watch
+breadcrumb: Tablet Reparaturen
 name: Google
 ---
 

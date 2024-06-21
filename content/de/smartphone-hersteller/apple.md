@@ -1,7 +1,8 @@
 ---
 title: Apple ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: Apple iPhones
+heading: Apple iPhone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: Apple
 ---
 

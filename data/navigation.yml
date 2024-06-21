@@ -32,8 +32,6 @@ footer:
       url: "/kontakt"
     - name: Anfahrt
       url: "/anfahrt"
-    - name: Services
-      url: "/services"
     - name: Impressum
       url: "/impressum"
     - name: Datenschutz

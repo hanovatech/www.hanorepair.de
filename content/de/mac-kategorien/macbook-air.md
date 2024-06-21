@@ -1,8 +1,9 @@
 ---
 title: MacBook Air Reparatur Hannover 🛠️ Apple Werkstatt
-description: ...
+description: 
 name: MacBook Air
 heading: Apple MacBook Air
+breadcrumb: iMac & Macbook Reparaturen
 ---
 # Wir reparieren Ihren MacBook Air
 

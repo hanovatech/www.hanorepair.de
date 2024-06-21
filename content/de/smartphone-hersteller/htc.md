@@ -1,7 +1,8 @@
 ---
 title: HTC ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: HTC Smartphones
+heading: HTC Smartphone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: HTC
 ---
 

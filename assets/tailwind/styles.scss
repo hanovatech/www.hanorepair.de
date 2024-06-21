@@ -13,3 +13,14 @@ dialog:not(:target):not([open]) { display: none; }
 .prose a {
   color: #ee3b24;
 }
+
+.dropdown .dropdown-menu {
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown .dropdown-menu {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+}

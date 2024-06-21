@@ -1,6 +1,7 @@
 ---
 title: LG ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: 
-heading: LG Smartphones
+heading: LG Smartphone Reparaturen
+breadcrumb: Smartphone Reparaturen
 name: LG
 ---
