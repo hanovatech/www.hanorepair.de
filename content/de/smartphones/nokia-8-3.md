@@ -1,9 +1,9 @@
 ---
-title: Nokia 8.3 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Nokia 8.3
+title: Nokia 5.3 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Nokia 5.3
 date: 2024-06-22T22:29:00.000Z
 manufacturer: Nokia
-name: Nokia 8.3
+name: Nokia 5.3
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Nokia 8.3
+# Wir reparieren Ihr Nokia 5.3
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Nokia 8.3** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Nokia 5.3** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
