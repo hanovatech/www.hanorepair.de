@@ -1,9 +1,9 @@
 ---
-title: Moto G6 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Moto G6
+title: Moto G5S ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Moto G5S
 date: 2024-06-22T20:01:00.000Z
 manufacturer: Motorola
-name: Moto G6
+name: Moto G5S
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Moto G6
+# Wir reparieren Ihr Moto G5S
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Moto G6** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Moto G5S** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
