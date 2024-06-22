@@ -1,9 +1,9 @@
 ---
-title: Nokia 8.3 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Nokia 8.3
+title: Nokia 8.3 5G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Nokia 8.3 5G
 date: 2024-06-22T22:30:00.000Z
 manufacturer: Nokia
-name: Nokia 8.3
+name: Nokia 8.3 5G
 services:
   ladebuchse:
     enabled: true
