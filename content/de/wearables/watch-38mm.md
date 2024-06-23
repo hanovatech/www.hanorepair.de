@@ -1,5 +1,5 @@
 ---
-title: Watch 38MM ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt
+title: Watch 38MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
 description: Watch 38MM
 date: 2024-06-23T21:23:00.000Z
 manufacturer: Apple
