@@ -36,7 +36,7 @@ services:
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
 ---
-# Wir reparieren Ihr XYZ
+# Wir reparieren Ihre Watch Series 3 38MM
 
 Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Series 3 38MM** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
