@@ -1,9 +1,9 @@
 ---
-title: Xiaomi 13C ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Xiaomi 13C
+title: Xiaomi 13T Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Xiaomi 13T Pro
 date: 2024-06-23T17:01:00.000Z
 manufacturer: Xiaomi
-name: Xiaomi 13C
+name: Xiaomi 13T Pro
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Xiaomi 13C
+# Wir reparieren Ihr Xiaomi 13T Pro
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Xiaomi 13C** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Xiaomi 13T Pro** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
