@@ -36,7 +36,7 @@ services:
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
 ---
-# Wir reparieren Ihr Watch Series 8 45MM
+# Wir reparieren Ihre Watch Series 8 45MM
 
 Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Series 8 45MM** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
