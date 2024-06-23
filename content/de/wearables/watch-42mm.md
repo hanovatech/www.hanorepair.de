@@ -1,5 +1,5 @@
 ---
-title: Watch 42MM ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt
+title: Watch 42MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
 description: Watch 42MM
 date: 2024-06-23T21:24:00.000Z
 manufacturer: Apple
