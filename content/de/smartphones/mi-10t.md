@@ -1,9 +1,9 @@
 ---
-title: Mi 10T ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Mi 10T
+title: Mi 10 Lite ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Mi 10 Lite
 date: 2024-06-23T16:48:00.000Z
 manufacturer: Xiaomi
-name: Mi 10T
+name: Mi 10 Lite
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Mi 10T
+# Wir reparieren Ihr Mi 10 Lite
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Mi 10T** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Mi 10 Lite** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
