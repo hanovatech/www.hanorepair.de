@@ -1,9 +1,9 @@
 ---
-title: Apple iPad Mini ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
-description: Apple iPad Mini
+title: iPad Mini ‣ iPad Reparatur Hannover 🛠️ Tablet Werkstatt
+description: iPad Mini
 date: 2024-06-23T21:59:00.000Z
 manufacturer: Apple
-name: Apple iPad Mini
+name: iPad Mini
 services:
   ladebuchse:
     enabled: true
@@ -91,8 +91,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Apple iPad Mini
+# Wir reparieren Ihr iPad Mini
 
-Ihr iPad ist kaputt oder hat einen Fehler? Wir bringen Ihr **Apple iPad Mini** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr iPad ist kaputt oder hat einen Fehler? Wir bringen Ihr **iPad Mini** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
