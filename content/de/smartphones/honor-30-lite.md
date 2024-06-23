@@ -1,9 +1,9 @@
 ---
-title: Honor 30 Lite ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Honor 30 Lite
+title: Honor 30 Pro ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Honor 30 Pro
 date: 2024-06-23T20:51:00.000Z
 manufacturer: Honor
-name: Honor 30 Lite
+name: Honor 30 Pro
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Honor 30 Lite
+# Wir reparieren Ihr Honor 30 Pro
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Honor 30 Lite** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Honor 30 Pro** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
