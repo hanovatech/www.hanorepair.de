@@ -1,5 +1,5 @@
 ---
-title: Watch Series 1 42MM ‣ Wearables Reparatur Hannover 🛠️ Wearables Werkstatt
+title: Watch Series 1 42MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
 description: Watch Series 1 42MM
 date: 2024-06-23T21:25:00.000Z
 manufacturer: Apple
