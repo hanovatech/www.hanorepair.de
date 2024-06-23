@@ -1,5 +1,5 @@
 ---
-title: iPad 10 ‣ Tablet Reparatur Hannover 🛠️ Tablet Werkstatt
+title: iPad 10 ‣ iPad Reparatur Hannover 🛠️ Tablet Werkstatt
 description: iPad 10
 date: 2024-06-23T22:14:00.000Z
 manufacturer: Apple
