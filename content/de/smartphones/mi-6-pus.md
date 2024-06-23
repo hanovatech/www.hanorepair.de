@@ -1,9 +1,9 @@
 ---
-title: Mi 6 Pus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Mi 6 Pus
+title: Mi 6 Plus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Mi 6 Plus
 date: 2024-06-23T16:40:00.000Z
 manufacturer: Xiaomi
-name: Mi 6 Pus
+name: Mi 6 Plus
 services:
   ladebuchse:
     enabled: true
@@ -90,8 +90,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Mi 6 Pus
+# Wir reparieren Ihr Mi 6 Plus
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Mi 6 Pus** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Mi 6 Plus** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
