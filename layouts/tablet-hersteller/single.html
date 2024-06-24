@@ -11,7 +11,7 @@
       {{ $section := where $.Site.Pages.ByDate.Reverse "Section" "tablets" }}
       {{ range $section }}
       {{ if and (ne .Kind "section") (eq (lower .Params.manufacturer) (lower $.Params.name)) }}
-      <a class="px-4 py-2 text-gray-600 bg-gray-100 flex flex-row items-center justify-between hover:text-red-600 hover:ring hover:ring-[#bd2227] duration-200" href="{{ .RelPermalink | relLangURL }}">
+      <a class="px-4 py-2 text-gray-600 bg-gray-100 flex flex-row items-center justify-between hover:text-[#bd2227] hover:ring hover:ring-[#bd2227] duration-200" href="{{ .RelPermalink | relLangURL }}">
         <p class="mb-0 text-2xl font-semibold">{{ .Params.name }}</p>
         <i class="fa fa-chevron-right"></i>
       </a>
