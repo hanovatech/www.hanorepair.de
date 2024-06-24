@@ -218,7 +218,7 @@ Wir reparieren alle gängigen XYZ Modelle. Wählen Sie Ihr Modell aus, um mehr �
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
       - { label: "Erstellungsdatum", name: "date", widget: "datetime", required: false }
-      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "Honor", "HTC", "Huawei", "LG", "Motorola", "Nokia", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
+      - { label: "Hersteller", name: "manufacturer", widget: "select", options: ["Apple", "Asus", "Blackberry", "CAT", "Google", "Honor", "HTC", "Huawei", "LG", "Motorola", "Nokia", "Nothing", "OnePlus", "Samsung", "Sony", "Xiaomi"] }
       - { label: "Modell", name: "name", default: "XYZ", hint: "Modellbezeichnung wie z.B. iPhone 15 Pro Max", widget: "string" }
       - { label: "Content", name: "body", default: "# Wir reparieren Ihr XYZ
 
