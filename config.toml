@@ -124,6 +124,6 @@ weight = 1
 
 [Languages.de.params]
 # footer content
-footer_content = "Rufen Sie an oder kommen Sie vorbei.<br>Wir helfen Ihnen gerne weiter."
+footer_content = ""
 # copyright
 copyright = "Copyright by HanoRepair | Website by [HanovaTech](https://hanovatech.de/)"
