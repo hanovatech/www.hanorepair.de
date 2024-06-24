@@ -236,7 +236,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
-            - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+            - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
         - label: "Display"
           name: "display"
@@ -383,7 +383,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             widget: "object"
             fields:
               - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
-              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Wasserschaden"
             name: "wasserschaden"
@@ -530,7 +530,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             widget: "object"
             fields:
               - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
-              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Glastausch"
             name: "glas"
@@ -607,7 +607,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             widget: "object"
             fields:
               - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
-              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
               - { label: "Beschreibung", name: description, default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
 
   
@@ -655,7 +655,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             widget: "object"
             fields:
               - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
-              - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+              - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
               - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
           - label: "Akku"
             name: "akku"
