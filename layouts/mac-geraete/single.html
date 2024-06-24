@@ -13,10 +13,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
       {{ with .Params.services.analyse }}
       {{ if .enabled }}
-      <a href="#analyse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+      <a href="#analyse" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/analyse.png" alt="Analyse">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Analyse</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Analyse</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
@@ -44,10 +44,10 @@
 
       {{ with .Params.services.akku }}
       {{ if .enabled }}
-      <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+      <a href="#akku" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/akku.png" alt="Akku">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Akku-Austausch</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Akku-Austausch</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
@@ -75,10 +75,10 @@
 
       {{ with .Params.services.glas }}
       {{ if .enabled }}
-      <a href="#glas" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-red-500 duration-200">
+      <a href="#glas" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/display.png" alt="Displayaustausch">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-red-500 duration-200">Glaswechsel</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Glaswechsel</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>

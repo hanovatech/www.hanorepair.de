@@ -1,14 +1,14 @@
 <div class="mx-auto max-w-5xl px-4">
   <h2 class="sr-only">Kontakt</h2>
-  <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
     <div class="col-span-1 md:order-last">
       <div class="contact-info md:text-right">
         <h3 class="mt-0">Kontaktdaten</h3>
         <br>
-        <p><i class="fa fa-home info"></i> {{ .Site.Data.settings.address | markdownify }} </p>
-        <p><i class="fa fa-clock-o info"></i> {{ .Site.Data.settings.opening_hours | markdownify }} </p>
-        <p><i class="fa fa-phone info"></i> {{ .Site.Data.settings.phone | markdownify }} </p>
-        <p><i class="fa fa-envelope-o info"></i> {{ .Site.Data.settings.email | markdownify }}</p>
+        <p class="!text-xl"><i class="fa fa-home info"></i> {{ .Site.Data.settings.address | markdownify }} </p>
+        <p class="!text-xl"><i class="fa fa-clock-o info"></i> {{ .Site.Data.settings.opening_hours | markdownify }} </p>
+        <p class="!text-xl"><i class="fa fa-phone info"></i> {{ .Site.Data.settings.phone | markdownify }} </p>
+        <p class="!text-xl"><i class="fa fa-envelope-o info"></i> {{ .Site.Data.settings.email | markdownify }}</p>
       </div>
     </div>
     <div class="col-span-3">
