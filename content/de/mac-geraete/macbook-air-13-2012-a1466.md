@@ -1,9 +1,9 @@
 ---
 title: MacBook Air 13" 2012-2017 (A1466) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
-description: MacBook Air 13" 2012 (A1466)
+description: MacBook Air 13" 2012-2017 (A1466)
 date: 2024-06-29T13:26:00.000Z
 category: Macbook Air
-name: MacBook Air 13" 2012 (A1466)
+name: MacBook Air 13" 2012-2017 (A1466)
 services:
   analyse:
     enabled: true
@@ -23,8 +23,8 @@ services:
     description: Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir
       tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.
 ---
-# Wir reparieren Ihr MacBook Air 13" 2012 (A1466)
+# Wir reparieren Ihr MacBook Air 13" (A1466)
 
-Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Air 13" 2012 (A1466)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Air 13" (A1466)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
