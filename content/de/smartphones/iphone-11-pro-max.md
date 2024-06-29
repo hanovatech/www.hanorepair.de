@@ -1,7 +1,7 @@
 ---
 title: iPhone 11 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 11 Pro Max
-date: 2024-06-18T18:24:00.000Z
+date: 2024-06-18T20:31:00.000Z
 manufacturer: Apple
 name: iPhone 11 Pro Max
 services:
