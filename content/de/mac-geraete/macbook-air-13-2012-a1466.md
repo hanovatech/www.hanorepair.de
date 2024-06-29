@@ -1,5 +1,5 @@
 ---
-title: MacBook Air 13" 2012 (A1466) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+title: MacBook Air 13" 2012-2017 (A1466) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
 description: MacBook Air 13" 2012 (A1466)
 date: 2024-06-29T13:26:00.000Z
 category: Macbook Air
