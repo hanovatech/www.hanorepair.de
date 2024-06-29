@@ -1,7 +1,7 @@
 ---
 title: iPhone SE 2. Generation ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone SE 2. Generation
-date: 2024-06-18T19:24:00.000Z
+date: 2024-06-18T20:28:00.000Z
 manufacturer: Apple
 name: iPhone SE 2. Generation
 services:
