@@ -1,9 +1,9 @@
 ---
-title: MacBook Air 11" 2011 (A1369) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
-description: MacBook Air 11" 2011 (A1369)
+title: MacBook Air 11" 2011 (A1370) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+description: MacBook Air 11" 2011 (A1370)
 date: 2024-06-29T13:21:00.000Z
 category: Macbook Air
-name: MacBook Air 11" 2011 (A1369)
+name: MacBook Air 11" 2011 (A1370)
 services:
   analyse:
     enabled: true
@@ -25,6 +25,6 @@ services:
 ---
 # Wir reparieren Ihr MacBook Air 11"
 
-Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Air 11" 2011 (A1369)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Air 11" 2011 (A1370)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
