@@ -1,7 +1,7 @@
 ---
 title: iPhone 15 Pro Max ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: iPhone 15 Pro Max
-date: 2024-06-18T22:17:00.000Z
+date: 2024-06-19T00:18:00.000Z
 manufacturer: Apple
 name: iPhone 15 Pro Max
 services:
