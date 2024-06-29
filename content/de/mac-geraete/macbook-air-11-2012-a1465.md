@@ -1,5 +1,5 @@
 ---
-title: MacBook Air 11" 2012 (A1465) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+title: MacBook Air 11" 2012-2015 (A1465) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
 description: MacBook Air 11" 2012 (A1465)
 date: 2024-06-29T13:25:00.000Z
 category: Macbook Air
