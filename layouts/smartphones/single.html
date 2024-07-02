@@ -43,16 +43,16 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.displayOriginal }}
+      {{ with .Params.services.display }}
       {{ if .enabled }}
-      <a href="#displayOriginal" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+      <a href="#display" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/display.png" alt="Displayaustausch">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Displayaustausch (Original)</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="displayOriginal">
+      <dialog id="display">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
@@ -167,16 +167,16 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.gehause }}
+      {{ with .Params.services.rahmen }}
       {{ if .enabled }}
-      <a href="#gehause" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+      <a href="#rahmen" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/rahmen.png" alt="Gehäuse">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Gehäuse</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="gehause">
+      <dialog id="rahmen">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
@@ -198,16 +198,16 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.frontkamera }}
+      {{ with .Params.services.vorderkamera }}
       {{ if .enabled }}
-      <a href="#frontkamera" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+      <a href="#vorderkamera" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/vorderkamera.png" alt="Frontkamera">
         <div class="md:text-center">
           <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Frontkamera</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="frontkamera">
+      <dialog id="vorderkamera">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">

@@ -239,7 +239,7 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
         - label: "Display Original"
-          name: "displayOriginal"
+          name: "display"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
@@ -267,14 +267,14 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown", required: false }
         - label: "Gehäuse"
-          name: "gehaeuse"
+          name: "rahmen"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Das Gehäuse bzw. der Rahmen ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
         - label: "Frontkamera"
-          name: "frontkamera"
+          name: "vorderkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
