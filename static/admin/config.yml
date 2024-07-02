@@ -238,13 +238,20 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Kostenlos", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere Kunden selbstverständlich kostenlos.", widget: "markdown", required: false }
-        - label: "Display"
-          name: "display"
+        - label: "Display Original"
+          name: "displayOriginal"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", default: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität.", widget: "markdown", required: false }
+            - { label: "Beschreibung", name: "description", default: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität mit einem originalen Display.", widget: "markdown", required: false }
+        - label: "Display Kopie"
+          name: "displayKopie"
+          widget: "object"
+          fields:
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
+            - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+            - { label: "Beschreibung", name: "description", default: "Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht originales Display bietet in der Regel eine ähnliche gute Qualität zu einem günstigeren Preis.", widget: "markdown", required: false }
         - label: "Akku"
           name: "akku"
           widget: "object"
@@ -259,15 +266,15 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit unserem Backcover Austausch wieder in Top-Form.", widget: "markdown", required: false }
-        - label: "Rahmen"
-          name: "rahmen"
+        - label: "Gehäuse"
+          name: "gehaeuse"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", default: "Der Rahmen oder auch das Gehäuse ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
-        - label: "Vorderkamera"
-          name: "vorderkamera"
+            - { label: "Beschreibung", name: "description", default: "Das Gehäuse bzw. der Rahmen ist nach dem Display das meist beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu- Erscheinungsbild und liefert optimalen Schutz.", widget: "markdown", required: false }
+        - label: "Frontkamera"
+          name: "frontkamera"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
@@ -308,13 +315,13 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Ein stets klarer Ton gewährleistet die Qualität eines Smartphones. Wir springen gerne ein, wenn dies nicht mehr der Fall ist.", widget: "markdown", required: false }
-        - label: "Hörmuschel"
+        - label: "Ohrmuschel"
           name: "hoermuschel"
           widget: "object"
           fields:
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
-            - { label: "Beschreibung", name: "description", default: "Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.", widget: "markdown", required: false }
+            - { label: "Beschreibung", name: "description", default: "Klare Gespräche ohne Missverständnisse! Mit einer neuen Ohrmuschel können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.", widget: "markdown", required: false }
         - label: "Mikrofon"
           name: "mikrofon"
           widget: "object"
@@ -336,6 +343,20 @@ Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unt
             - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
             - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
             - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Software helfen wir gerne weiter. Ein Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer einfach, jedoch kein Problem für Uns!", widget: "markdown", required: false }
+        - label: "Biometrie Reparatur"
+          name: "biometrie"
+          widget: "object"
+          fields:
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
+            - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+            - { label: "Beschreibung", name: "description", default: "Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir bringen Ihr Gerät dazu Sie wieder zu erkennen!", widget: "markdown", required: false }
+        - label: "Platinenreparatur"
+          name: "platine"
+          widget: "object"
+          fields:
+            - { label: "Enabled", name: "enabled", widget: "boolean", default: true, required: false }
+            - { label: "Preis", name: "price", default: "Auf Anfrage", widget: "string" }
+            - { label: "Beschreibung", name: "description", default: "Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück des Smartphones. Wir können selbst schwierige Schäden wieder beheben!", widget: "markdown", required: false }
 
 
 

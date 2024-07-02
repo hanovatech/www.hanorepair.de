@@ -43,20 +43,51 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.display }}
+      {{ with .Params.services.displayOriginal }}
       {{ if .enabled }}
-      <a href="#display" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+      <a href="#displayOriginal" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
         <img class="w-16 h-16 object-cover" src="/images/repair/display.png" alt="Displayaustausch">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Displayaustausch</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Displayaustausch (Original)</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="display">
+      <dialog id="displayOriginal">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Displayaustausch</h4>
+            <h4>Infos zum Displayaustausch (Original-Display)</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-[#bd2227] font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-[#bd2227] rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.displayKopie }}
+      {{ if .enabled }}
+      <a href="#displayKopie" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/display.png" alt="Displayaustausch">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Displayaustausch (Kopie)</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="displayKopie">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zum Displayaustausch (Kopie)</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -136,20 +167,20 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.rahmen }}
+      {{ with .Params.services.gehause }}
       {{ if .enabled }}
-      <a href="#rahmen" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/rahmen.png" alt="Rahmen">
+      <a href="#gehause" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/rahmen.png" alt="Gehäuse">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Rahmen</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Gehäuse</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="rahmen">
+      <dialog id="gehause">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Austausch des Rahmens</h4>
+            <h4>Infos zum Austausch des Gehäuses</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -167,20 +198,20 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.services.vorderkamera }}
+      {{ with .Params.services.frontkamera }}
       {{ if .enabled }}
-      <a href="#vorderkamera" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/vorderkamera.png" alt="Vorderkamera">
+      <a href="#frontkamera" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/vorderkamera.png" alt="Frontkamera">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Vorderkamera</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Frontkamera</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
-      <dialog id="vorderkamera">
+      <dialog id="frontkamera">
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zur Reparatur der vorderen Kamera</h4>
+            <h4>Infos zur Reparatur der Frontkamera</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -356,9 +387,9 @@
       {{ with .Params.services.hoermuschel }}
       {{ if .enabled }}
       <a href="#hoermuschel" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
-        <img class="w-16 h-16 object-cover" src="/images/repair/hoermuschel.png" alt="Hörmuschel">
+        <img class="w-16 h-16 object-cover" src="/images/repair/hoermuschel.png" alt="Ohrmuschel">
         <div class="md:text-center">
-          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Hörmuschel</h3>
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Ohrmuschel</h3>
           <p class="mb-0 text-gray-600">{{ .price }}</p>
         </div>
       </a>
@@ -366,7 +397,7 @@
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
-            <h4>Infos zum Hörmuschelaustausch</h4>
+            <h4>Infos zum Tausch der Ohrmuschel</h4>
             <p>
               {{ .description | markdownify }}
             </p>
@@ -460,6 +491,68 @@
         <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
           <div class="p-4 max-w-2xl bg-white">
             <h4>Infos zum Software-Update</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-[#bd2227] font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-[#bd2227] rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.biometrie }}
+      {{ if .enabled }}
+      <a href="#biometrie" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/software-update.png" alt="Biometrie">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Biometrie</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="biometrie">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zur Biometrie</h4>
+            <p>
+              {{ .description | markdownify }}
+            </p>
+            <p class="mb-6 text-center text-lg text-[#bd2227] font-semibold">
+              {{ .price }}
+            </p>
+            <div class="flex flex-row gap-2">
+              <a href="tel:051134082318" class="sm:hidden !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Jetzt Anrufen</a>
+              <a href="/kontakt" class="hidden sm:block !w-full px-4 py-2 text-center bg-[#bd2227] !border !border-[#bd2227] rounded text-white hover:bg-red-700">Zum Kontakt</a>
+              <a href="#!" class="!w-full px-4 py-2 text-center bg-white border border-[#bd2227] rounded hover:!bg-gray-100">Schließen</a>
+            </div>
+          </div>
+        </div>
+      </dialog>
+      {{ end }}
+      {{ end }}
+
+      {{ with .Params.services.platine }}
+      {{ if .enabled }}
+      <a href="#platine" class="group p-4 bg-gray-100 flex !flex-row-reverse md:!flex-col justify-between items-center gap-4 hover:ring hover:ring-[#bd2227] duration-200">
+        <img class="w-16 h-16 object-cover" src="/images/repair/backcover.png" alt="Platinen-Reparatur">
+        <div class="md:text-center">
+          <h3 class="!text-lg font-bold group-hover:text-[#bd2227] duration-200">Platinen-Reparatur</h3>
+          <p class="mb-0 text-gray-600">{{ .price }}</p>
+        </div>
+      </a>
+      <dialog id="platine">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+        <div class="fixed inset-0 z-10 p-2 w-screen overflow-y-auto flex items-center justify-center">
+          <div class="p-4 max-w-2xl bg-white">
+            <h4>Infos zur Platinen-Reparatur</h4>
             <p>
               {{ .description | markdownify }}
             </p>
