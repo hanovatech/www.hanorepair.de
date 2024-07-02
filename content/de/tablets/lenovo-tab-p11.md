@@ -17,6 +17,14 @@ services:
     description: Bei Schäden an der Software helfen wir gerne weiter. Ein
       Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer
       einfach, jedoch kein Problem für Uns!
+  biometrie:
+    enabled: true
+    price: Auf Anfrage
+    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir bringen Ihr Gerät dazu Sie wieder zu erkennen!
+  platine:
+    enabled: true
+    price: Auf Anfrage
+    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   buttons:
     enabled: true
     price: Auf Anfrage
