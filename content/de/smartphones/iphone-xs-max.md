@@ -25,8 +25,10 @@ services:
   display:
     enabled: true
     price: 215€
-    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
-      und genießen Sie bald wieder einwandfreie Bildqualität.
+    description: Dieser Austausch bezieht sich je nach Verfügbarkeit auf ein
+      OEM-Displaymodul. Das Displaymodul unterscheidet sich in keinem Faktor vom
+      Ab-Werk verbauten Modul und bietet die selbe Qualität und Robustheit die
+      man als iPhone-User kennt und liebt
   hoermuschel:
     enabled: true
     price: 85€
@@ -35,10 +37,10 @@ services:
   displayKopie:
     enabled: true
     price: 155€
-    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
-      und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
-      originales Display bietet in der Regel eine ähnliche gute Qualität zu
-      einem günstigeren Preis.
+    description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit ein
+      Soft-OLED Displaymodul vom Hersteller: JK oder GX. Das Modul ist baugleich
+      zum Original und in Auflösung, Bildwiederholfrequenz, Farbspektrum und
+      Helligkeit nahezu identisch."
   wasserschaden:
     enabled: true
     price: 85€
