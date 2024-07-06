@@ -59,7 +59,7 @@ services:
       des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   analyse:
     enabled: true
-    price: Auf Anfrage
+    price: Kostenlos
     description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
       gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
       für unsere Kunden selbstverständlich kostenlos.
