@@ -7,7 +7,8 @@ slider:
   enable: true
   slider_item:
     - title: Smartphone Reparatur <br>in Hannover
-      subtitle: 🚨 Handy kaputt? Wir helfen weiter!
+      subtitle: 🚨 Smartphone kaputt? Wir reparieren dein Gerät unkompliziert und
+        schnell!
       bg_image: uploads/smartphone-repair.jpg
       image: ""
       image_position: "false"
@@ -36,7 +37,7 @@ slider:
           style: solid
           link: /tablet-hersteller
     - title: Smartwatch Reparatur <br>in Hannover
-      subtitle: 🚨 Smartwatch oder Wearable kaputt? Wir helfen weiter!
+      subtitle: 🚨 Smartwatch oder Wearable kaputt? Wir reparieren deine Watch!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
