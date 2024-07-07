@@ -95,33 +95,35 @@ slider:
 service:
   enable: true
   services:
-    title: Unser Service für Sie
-    subtitle: Unser Team hilft Ihnen mit Ihrem Problem weiter!
+    title: Unser Service für Dich
+    subtitle: Unser Team hilft Dir mit deinem Problem weiter!
     title_icon: fa-cogs
     service_item:
       - name: Kostenlose Diagnose
         icon: fa-search
-        content: Zeigen Sie uns den Schaden vor Ort, per E-Mail (info@hanorepair.de),
-          oder rufen Sie uns an (0511-34082318), wir sagen Ihnen wo das Problem
-          liegt und helfen Ihnen gerne weiter. Für Sie entstehen hierbei noch
+        content: Zeige uns den Schaden vor Ort, per E-Mail (info@hanorepair.de), oder
+          rufe uns unter (0511-34082318) an , wir sagen dir wo das Problem liegt
+          und helfen dir gerne direkt weiter. Für Dich entstehen hierbei
           keinerlei Kosten.
       - name: Bis zu 24 Monate Garantie
         icon: fa-anchor
-        content: "Für jede Reparatur mit einem Originalbauteil, erhalten Sie von uns
-          eine 12 oder 24 monatige Garantie. Bei allen anderen Reparaturen gibt
-          es bis zu 6 Monate Garantie. Gerne tauschen wir durch uns verarbeitete
-          fehlerhafte Teile im Rahmen der Garantie ohne weiteres aus. "
+        content: "Für jede Smartphone Reparatur mit einem Originalbauteil, erhältst du
+          von uns eine 12 oder 24 monatige Garantie. Bei allen anderen
+          Smartphone-Reparaturen gibt es bis zu 6 Monate Garantie. Gerne
+          tauschen wir durch uns verarbeitete fehlerhafte Bauteile im Rahmen der
+          Garantie ohne weiteres aus. "
       - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
         content: Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
-          Fachkräfte Ihnen, Ihr Gerät zügig wieder auf Vordermann zu bringen.
-          Dabei bearbeiten wir jeden Hersteller und jedes Modell (soweit
-          Ersatzteile lieferbar sind)
+          Fachkräfte Ihnen, Ihr Smartphone zügig wieder auf Vordermann zu
+          bringen. Dabei bearbeiten wir jeden Hersteller und jedes Modell ohne
+          Ausnahme (soweit Ersatzteile verfügbar sind)
       - name: Alle Modelle
         icon: fa-commenting-o
-        content: "Wir haben uns auf die Reparatur von Smartphones und Tablets von
-          renommierten Marken wie Apple, Samsung, Huawei und Sony spezialisiert.
-          Unser Service deckt nahezu alle Modelle dieser & weiterer Marken ab. "
+        content: Wir haben uns auf die Smartphone & Tablet Reparatur von renommierten
+          Marken wie Apple, Samsung, Xiaomi, OnePlus, Google und vielen weiteren
+          spezialisiert. Unser Service deckt nahezu alle Marken und alle Modelle
+          ab!
 brands_logo_slider:
   enable: true
   slider_item:
@@ -145,8 +147,8 @@ brands_logo_slider:
       link: /smartphone-hersteller/htc
 call_to_action:
   enable: true
-  title: Wir helfen Ihnen schnell weiter!
-  subtitle: Rufen Sie uns an oder kommen Sie vorbei
+  title: Wir reparieren dein Smartphone in Rekordzeit!
+  subtitle: Rufe einfach an oder komm direkt vorbei!
   bg_image: uploads/smartphone-repair2.jpg
   buttons:
     - label: Zur Anfahrt
@@ -160,30 +162,29 @@ about:
   title: Über uns
   subtitle: Seit 2014 in Hannover
   bg_image: uploads/smartphone-repair3.jpg
-  content: Seit 2014 arbeiten wir schon fleißig an euren Geräten. Auch 10 Jahre
-    später stehen wir noch genauso motiviert und hilfsbereit für euch als
-    zuverlässiger Reparaturdienstleister zur Seite. In nahezu jedem Fall und bei
-    jedem Problem ist die Lösung mit Uns parat. Jedem Problem und jedem Defekt
-    sind wir gewachsen. Überzeug dich doch einfach selber!
+  content: Seit 2014 reparieren wir eure Smartphones & Tablets mit großem Erfolg.
+    Auch 10 Jahre später stehen wir noch genauso motiviert und hilfsbereit für
+    euch als zuverlässiger Reparaturdienstleister zur Seite. In nahezu jedem
+    Fall und bei jedem Problem ist die Lösung mit Uns vorhanden. Jedem Problem
+    und jedem Defekt sind wir gewachsen. Überzeug dich gerne selbst!
   about_item:
     - name: Schnelle Reparatur
       icon: fa-tachometer
       content: Die Reparaturabwicklung bei Hanorepair findet so schnell wie nirgends
         anders statt. Ein Ersatzteil lagert nicht? Kein Problem, schon zum
         nächsten Morgen liegt dieses zum Einbau bereit. Express Reparatur nötig?
-        Auch Kein Problem, die meisten Geräte können wir in weniger as 1 Stunde
-        nach Abgabe fertigstellen!
-    - name: Gute Qualität
+        Auch Kein Problem, die meisten Geräte können wir in 1 Stunde oder
+        weniger fertigstellen!
+    - name: Die beste Qualität
       icon: fa-diamond
       content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
         direkt vom Hersteller oder hochwertige Kopie, wir haben für jede
-        Preisklasse die beste verfügbare Qualität parat
-    - name: Garantie für jeden
+        Preisklasse die beste verfügbare Qualität parat!
+    - name: Garantie & Gewährlesitung für jede Reparatur
       icon: fa-shield
-      content: Wir stehen hinter unserer Arbeit! Deshalb gewähren wir mit jeder
-        Reparatur einen Garantiezeitraum auf unsere Dienstleistung und auf das
-        verwendete Ersatzteil. Bei Originalteilen geben wir sogar bis zu 2 Jahre
-        Garantie!
+      content: "Wir stehen hinter unserer Arbeit! Deshalb gewähren wir mit jeder
+        Reparatur einen festen Garantiezeitraum auf unsere Dienstleistung und
+        auf das verwendete Ersatzteil. "
 funfact:
   enable: true
   funfact_item:
