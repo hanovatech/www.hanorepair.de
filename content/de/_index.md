@@ -102,9 +102,9 @@ service:
       - name: Kostenlose Diagnose
         icon: fa-search
         content: Zeige uns den Schaden vor Ort, per E-Mail (info@hanorepair.de), oder
-          rufe uns unter (0511-34082318) an , wir sagen dir wo das Problem liegt
-          und helfen dir gerne direkt weiter. Für Dich entstehen hierbei
-          keinerlei Kosten.
+          rufe uns unter (0511-34082318) an , wir überprüfen dein Gerät und
+          finden die beste Reparaturmöglichkeit für dich. Für Dich entstehen
+          hierbei keinerlei Kosten.
       - name: Bis zu 24 Monate Garantie
         icon: fa-anchor
         content: "Für jede Smartphone Reparatur mit einem Originalbauteil, erhältst du
