@@ -7,7 +7,7 @@ slider:
   enable: true
   slider_item:
     - title: Smartphone Reparatur <br>in Hannover
-      subtitle: 🚨 Smartphone kaputt? Wir reparieren dein Smartphone zeitnah!
+      subtitle: 🚨 Smartphone kaputt? Wir reparieren dein Smartphone!
       bg_image: uploads/smartphone-repair.jpg
       image: ""
       image_position: "false"
@@ -50,7 +50,7 @@ slider:
           style: solid
           link: /wearables-hersteller
     - title: Konsolen Reparatur <br>in Hannover
-      subtitle: 🚨 Konsole kaputt? wir klären das!
+      subtitle: 🚨 Konsole kaputt? wir regeln das!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
