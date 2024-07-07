@@ -37,7 +37,7 @@ services:
   displayKopie:
     enabled: true
     price: 125€
-    description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit ein
+    description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit einem
       In-Cell-LCD-Displaymodul vom Hersteller: FDX. Das Modul ist baugleich zum
       Original und in Auflösung, Bildwiederholfrequenz, Farbspektrum und
       Helligkeit nahezu identisch."
