@@ -7,8 +7,7 @@ slider:
   enable: true
   slider_item:
     - title: Smartphone Reparatur <br>in Hannover
-      subtitle: 🚨 Smartphone kaputt? Wir reparieren dein Gerät unkompliziert und
-        schnell!
+      subtitle: 🚨 Smartphone kaputt? Wir reparieren dein Smartphone zeitnah!
       bg_image: uploads/smartphone-repair.jpg
       image: ""
       image_position: "false"
@@ -23,7 +22,7 @@ slider:
           style: solid
           link: /smartphone-hersteller
     - title: Tablet Reparatur <br>in Hannover
-      subtitle: 🚨 Tablet kaputt? Wir helfen weiter!
+      subtitle: 🚨 Tablet kaputt? Wir reparieren dein Tablet!
       bg_image: uploads/smartphone-repair2.jpg
       image_position: left
       navigator:
@@ -37,7 +36,7 @@ slider:
           style: solid
           link: /tablet-hersteller
     - title: Smartwatch Reparatur <br>in Hannover
-      subtitle: 🚨 Smartwatch oder Wearable kaputt? Wir reparieren deine Watch!
+      subtitle: 🚨 Smartwatch kaputt? Wir reparieren deine Watch!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
@@ -51,7 +50,7 @@ slider:
           style: solid
           link: /wearables-hersteller
     - title: Konsolen Reparatur <br>in Hannover
-      subtitle: 🚨 Konsole kaputt? Wir helfen weiter!
+      subtitle: 🚨 Konsole kaputt? wir klären das!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
@@ -65,7 +64,7 @@ slider:
           style: solid
           link: /konsolen-hersteller
     - title: Macbook & iMac Reparatur <br>in Hannover
-      subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Mac
+      subtitle: Wir reparieren deinen Mac!
       bg_image: uploads/macbook-banner.jpg
       image: uploads/macbook-und-imac.png
       image_position: right
@@ -80,7 +79,7 @@ slider:
           style: solid
           link: /mac-kategorien
     - title: Laptop & Computer Reparatur <br>in Hannover
-      subtitle: 👨‍💻 Wir helfen bei Problemen mit Ihrem Laptop oder PC
+      subtitle: Wir reparieren deinen Laptop oder PC!
       bg_image: uploads/macbook-banner.jpg
       image_position: right
       navigator:
