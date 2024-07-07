@@ -37,10 +37,10 @@ services:
   displayKopie:
     enabled: true
     price: 175€
-    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
-      und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
-      originales Display bietet in der Regel eine ähnliche gute Qualität zu
-      einem günstigeren Preis.
+    description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit einem
+      Soft-OLED Displaymodul vom Hersteller: JK oder GX. Das Modul ist baugleich
+      zum Original und in Auflösung, Bildwiederholfrequenz, Farbspektrum und
+      Helligkeit nahezu identisch."
   wasserschaden:
     enabled: true
     price: 85€
