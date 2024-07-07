@@ -106,7 +106,7 @@ service:
           finden die beste Reparaturmöglichkeit für dich. Für Dich entstehen
           hierbei keinerlei Kosten.
       - name: Bis zu 24 Monate Garantie
-        icon: fa-anchor
+        icon: fa-shield
         content: "Für jede Smartphone Reparatur mit einem Originalbauteil, erhältst du
           von uns eine 12 oder 24 monatige Garantie. Bei allen anderen
           Smartphone-Reparaturen gibt es bis zu 6 Monate Garantie. Gerne
@@ -119,7 +119,7 @@ service:
           bringen. Dabei bearbeiten wir jeden Hersteller und jedes Modell ohne
           Ausnahme (soweit Ersatzteile verfügbar sind)
       - name: Alle Modelle
-        icon: fa-commenting-o
+        icon: fa-thumbs-o-up
         content: Wir haben uns auf die Smartphone & Tablet Reparatur von renommierten
           Marken wie Apple, Samsung, Xiaomi, OnePlus, Google und vielen weiteren
           spezialisiert. Unser Service deckt nahezu alle Marken und alle Modelle
