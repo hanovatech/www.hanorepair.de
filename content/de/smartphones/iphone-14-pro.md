@@ -55,6 +55,8 @@ services:
   platine:
     enabled: true
     price: Auf Anfrage
+    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück
+      des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   analyse:
     price: Kostenlos
     description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
@@ -92,6 +94,9 @@ services:
   biometrie:
     enabled: true
     price: Auf Anfrage
+    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das
+      entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir
+      bringen Ihr Gerät dazu Sie wieder zu erkennen!
   hauptkamera:
     price: 155€
     description: Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen
