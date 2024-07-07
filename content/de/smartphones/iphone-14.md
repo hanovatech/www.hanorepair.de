@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 515€
+    price: Auf Anfrage
     description: Dieser Austausch bezieht sich je nach Verfügbarkeit auf ein
       OEM-Displaymodul. Das Displaymodul unterscheidet sich in keinem Faktor vom
       Ab-Werk verbauten Modul und bietet die selbe Qualität und Robustheit die
@@ -59,7 +59,7 @@ services:
       des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   analyse:
     enabled: true
-    price: Auf Anfrage
+    price: Kostenlos
     description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
       gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
       für unsere Kunden selbstverständlich kostenlos.
