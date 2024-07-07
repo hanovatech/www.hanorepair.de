@@ -1,9 +1,9 @@
 ---
-title: Note 7 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Note 7
+title: Note 5 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Note 5
 date: 2024-06-23T19:05:00.000Z
 manufacturer: Samsung
-name: Note 7
+name: Note 5
 services:
   ladebuchse:
     enabled: true
@@ -17,14 +17,6 @@ services:
     description: Bei Schäden an der Software helfen wir gerne weiter. Ein
       Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer
       einfach, jedoch kein Problem für Uns!
-  biometrie:
-    enabled: true
-    price: Auf Anfrage
-    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir bringen Ihr Gerät dazu Sie wieder zu erkennen!
-  platine:
-    enabled: true
-    price: Auf Anfrage
-    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   buttons:
     enabled: true
     price: Auf Anfrage
@@ -32,18 +24,21 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: Auf Anfrage
+    price: 175€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität.
-  displayKopie:
-    enabled: true
-    price: Auf Anfrage
-    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht originales Display bietet in der Regel eine ähnliche gute Qualität zu einem günstigeren Preis.
   hoermuschel:
     enabled: true
     price: Auf Anfrage
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
+  displayKopie:
+    enabled: false
+    price: Auf Anfrage
+    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
+      und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
+      originales Display bietet in der Regel eine ähnliche gute Qualität zu
+      einem günstigeren Preis.
   wasserschaden:
     enabled: true
     price: Auf Anfrage
@@ -52,12 +47,17 @@ services:
       Trockene.
   backcover:
     enabled: true
-    price: Auf Anfrage
+    price: 80€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
-  analyse:
+  platine:
     enabled: true
     price: Auf Anfrage
+    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück
+      des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
+  analyse:
+    enabled: true
+    price: Kostenlos
     description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
       gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
       für unsere Kunden selbstverständlich kostenlos.
@@ -69,7 +69,7 @@ services:
       auf eine klare Sicht.
   akku:
     enabled: true
-    price: Auf Anfrage
+    price: 85€
     description: Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
@@ -89,6 +89,12 @@ services:
     price: Auf Anfrage
     description: Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin
       problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.
+  biometrie:
+    enabled: true
+    price: Auf Anfrage
+    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das
+      entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir
+      bringen Ihr Gerät dazu Sie wieder zu erkennen!
   hauptkamera:
     enabled: true
     price: Auf Anfrage
@@ -96,14 +102,14 @@ services:
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
     enabled: true
-    price: Auf Anfrage
+    price: 90€
     description: Der Rahmen oder auch das Gehäuse ist nach dem Display das meist
       beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Galaxy Note
+# Wir reparieren Ihr Galaxy Note 5
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Note 7** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei. (Falls dieses noch nicht explodiert ist ;)
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Note 5** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
