@@ -104,7 +104,7 @@ services:
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
     enabled: true
-    price: 435€
+    price: 390€
     description: Der Rahmen oder auch das Gehäuse ist nach dem Display das meist
       beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
