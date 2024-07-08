@@ -123,8 +123,8 @@ service:
         icon: fa-thumbs-o-up
         content: Wir haben uns auf die Smartphone & Tablet Reparatur von renommierten
           Marken wie Apple, Samsung, Xiaomi, OnePlus, Google und vielen weiteren
-          spezialisiert. Unser Service deckt nahezu alle Marken und alle Modelle
-          ab!
+          spezialisiert. Unser Service deckt jedoch auch nahezu alle Marken und
+          alle Modelle ab!
 brands_logo_slider:
   enable: true
   slider_item:
