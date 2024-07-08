@@ -114,10 +114,11 @@ service:
           Garantie ohne weiteres aus. "
       - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
-        content: Durch eine zielgerichtete & qualitative Arbeitsweise helfen unsere
-          Fachkräfte Ihnen, Ihr Smartphone zügig wieder auf Vordermann zu
-          bringen. Dabei bearbeiten wir jeden Hersteller und jedes Modell ohne
-          Ausnahme (soweit Ersatzteile verfügbar sind)
+        content: Wir reparieren alles was in unsere Werkstatt passt! Durch eine
+          zielgerichtete & qualitative Arbeitsweise helfen unsere Fachkräfte
+          Dir, Dein Smartphone zügig wieder auf Vordermann zu bringen. Jedoch
+          bearbeiten wir jeden Hersteller und jedes Modell und jede Geräteart
+          ohne Ausnahme (soweit Ersatzteile verfügbar sind)
       - name: Alle Modelle
         icon: fa-thumbs-o-up
         content: Wir haben uns auf die Smartphone & Tablet Reparatur von renommierten
