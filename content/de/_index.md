@@ -101,10 +101,10 @@ service:
     service_item:
       - name: Kostenlose Diagnose
         icon: fa-search
-        content: Zeige uns den Schaden vor Ort, per E-Mail (info@hanorepair.de), oder
-          rufe uns unter (0511-34082318) an , wir überprüfen dein Gerät und
-          finden die beste Reparaturmöglichkeit für dich. Für Dich entstehen
-          hierbei keinerlei Kosten.
+        content: Zeige uns den Schaden an deinem Handy gerne vor Ort, per E-Mail
+          (info@hanorepair.de), oder rufe uns unter (0511-34082318) an , wir
+          überprüfen dein Gerät und finden die beste Reparaturmöglichkeit für
+          dich. Für Dich entstehen hierbei keinerlei Kosten.
       - name: Bis zu 24 Monate Garantie
         icon: fa-shield
         content: "Für jede Smartphone Reparatur mit einem Originalbauteil, erhältst du
@@ -114,11 +114,11 @@ service:
           Garantie ohne weiteres aus. "
       - name: Smartphones, Tablets & Mehr
         icon: fa-tablet
-        content: Wir reparieren alles was in unsere Werkstatt passt! Durch eine
-          zielgerichtete & qualitative Arbeitsweise helfen unsere Fachkräfte
-          Dir, Dein Smartphone zügig wieder auf Vordermann zu bringen. Jedoch
-          bearbeiten wir jeden Hersteller und jedes Modell und jede Geräteart
-          ohne Ausnahme (soweit Ersatzteile verfügbar sind)
+        content: Wir Handys, Tablets, Computer & alles weitere was in unsere Werkstatt
+          passt! Durch eine zielgerichtete & qualitative Arbeitsweise helfen
+          unsere Fachkräfte Dir, Dein Smartphone zügig wieder auf Vordermann zu
+          bringen. Jedoch bearbeiten wir jeden Hersteller und jedes Modell und
+          jede Geräteart ohne Ausnahme (soweit Ersatzteile verfügbar sind)
       - name: Alle Modelle
         icon: fa-thumbs-o-up
         content: Wir haben uns auf die Smartphone & Tablet Reparatur von renommierten
@@ -163,11 +163,12 @@ about:
   title: Über uns
   subtitle: Seit 2014 in Hannover
   bg_image: uploads/smartphone-repair3.jpg
-  content: Seit 2014 reparieren wir eure Smartphones & Tablets mit großem Erfolg.
-    Auch 10 Jahre später stehen wir noch genauso motiviert und hilfsbereit für
-    euch als zuverlässiger Reparaturdienstleister zur Seite. In nahezu jedem
-    Fall und bei jedem Problem ist die Lösung mit Uns vorhanden. Jedem Problem
-    und jedem Defekt sind wir gewachsen. Überzeug dich gerne selbst!
+  content: Seit 2014 reparieren wir eure Handys, Smartphones & Tablets mit großem
+    Erfolg. Auch 10 Jahre später stehen wir noch genauso motiviert und
+    hilfsbereit für euch als zuverlässiger Reparaturdienstleister zur Seite. In
+    nahezu jedem Fall und bei jedem Problem ist die Lösung mit Uns vorhanden.
+    Jedem Problem und jedem Defekt sind wir gewachsen. Überzeug dich gerne
+    selbst!
   about_item:
     - name: Schnelle Reparatur
       icon: fa-tachometer
@@ -181,7 +182,7 @@ about:
       content: Bei Hanorepair kommt nur die beste Qualität in Frage. Ob Originalteil
         direkt vom Hersteller oder hochwertige Kopie, wir haben für jede
         Preisklasse die beste verfügbare Qualität parat!
-    - name: Garantie & Gewährlesitung für jede Reparatur
+    - name: Garantie & Gewährleistung für jede Reparatur
       icon: fa-shield
       content: "Wir stehen hinter unserer Arbeit! Deshalb gewähren wir mit jeder
         Reparatur einen festen Garantiezeitraum auf unsere Dienstleistung und
