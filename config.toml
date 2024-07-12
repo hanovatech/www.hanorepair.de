@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hanorepair.netlify.app/"
+baseURL = "https://www.hanorepair.de/"
 title = "HanoRepair - Smartphone, Tablet, Macbook & iMac Reparatur in Hannover"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Berlin"
