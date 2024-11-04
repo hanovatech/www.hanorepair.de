@@ -36,7 +36,7 @@ services:
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
     enabled: true
-    price: 265€
+    price: 255€
     description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit einem
       Soft-OLED Displaymodul vom Hersteller: JK oder GX. Das Modul ist baugleich
       zum Original und in Auflösung, Bildwiederholfrequenz, Farbspektrum und
