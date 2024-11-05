@@ -33,8 +33,8 @@ services:
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
-    enabled: false
-    price: Auf Anfrage
+    enabled: true
+    price: 145€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
       originales Display bietet in der Regel eine ähnliche gute Qualität zu
