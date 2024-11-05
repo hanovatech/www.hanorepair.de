@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 175€
+    price: 135€
     description: Dieser Austausch bezieht sich je nach Verfügbarkeit auf ein
       OEM-Displaymodul. Das Displaymodul unterscheidet sich in keinem Faktor vom
       Ab-Werk verbauten Modul und bietet die selbe Qualität und Robustheit die
@@ -35,7 +35,7 @@ services:
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
-    enabled: true
+    enabled: false
     price: 125€
     description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit einem
       In-Cell-LCD-Displaymodul vom Hersteller: FDX. Das Modul ist baugleich zum
