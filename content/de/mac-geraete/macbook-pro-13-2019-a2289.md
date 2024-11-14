@@ -1,9 +1,9 @@
 ---
-title: MacBook Pro 13'' 2019 (A2289) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
-description: MacBook Pro 13'' 2019 (A2289)
+title: MacBook Pro 13'' 2020 (A2289) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+description: MacBook Pro 13'' 2020 (A2289)
 date: 2024-11-14T17:20:00.000Z
 category: Macbook Pro
-name: MacBook Pro 13'' 2019 (A2289)
+name: MacBook Pro 13'' 2020 (A2289)
 services:
   analyse:
     enabled: true
