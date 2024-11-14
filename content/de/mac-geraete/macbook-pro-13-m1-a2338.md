@@ -1,9 +1,9 @@
 ---
-title: MacBook Pro 13'' M1 (A2338) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
-description: MacBook Pro 13'' M1 (A2338)
+title: MacBook Pro 13'' M1 & M2 (A2338) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+description: MacBook Pro 13'' M1 & M2 (A2338)
 date: 2024-11-14T17:23:00.000Z
 category: Macbook Pro
-name: MacBook Pro 13'' M1 (A2338)
+name: MacBook Pro 13'' M1 & M2 (A2338)
 services:
   analyse:
     enabled: true
@@ -23,8 +23,8 @@ services:
     description: Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir
       tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.
 ---
-# Wir reparieren Ihr MacBook Pro 13'' M1 (A2338)
+# Wir reparieren Ihr MacBook Pro 13'' M1 & M2 (A2338)
 
-Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Pro 13'' M1 (A2338)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr MacBook ist kaputt oder hat einen Fehler? Wir bringen Ihr **MacBook Pro 13'' M1 & M2 (A2338)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
