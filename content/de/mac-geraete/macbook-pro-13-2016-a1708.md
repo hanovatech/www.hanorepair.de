@@ -1,9 +1,9 @@
 ---
-title: MacBook Pro 13'' 2016 (A1708) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
-description: MacBook Pro 13'' 2016 (A1708)
+title: MacBook Pro 13'' 2016-2017 (A1708) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+description: MacBook Pro 13'' 2016-2017 (A1708)
 date: 2024-11-14T17:07:00.000Z
 category: Macbook Pro
-name: MacBook Pro 13'' 2016 (A1708)
+name: MacBook Pro 13'' 2016-2017 (A1708)
 services:
   analyse:
     enabled: true
