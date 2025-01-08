@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 355€
+    price: 435€
     description: Dieser Austausch bezieht sich je nach Verfügbarkeit auf ein
       OEM-Displaymodul. Das Displaymodul unterscheidet sich in keinem Faktor vom
       Ab-Werk verbauten Modul und bietet die selbe Qualität und Robustheit die
