@@ -69,7 +69,7 @@ services:
       auf eine klare Sicht.
   akku:
     enabled: true
-    price: "Angebot: 80€"
+    price: Sonderangebot! 80€
     description: Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
