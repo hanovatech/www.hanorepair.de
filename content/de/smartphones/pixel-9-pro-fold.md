@@ -24,10 +24,10 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: Auf Anfrage
+    price: 255€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
-      originalen Display.
+      originalen Display. Dieser Preis bezieht sich auf das ''Outer Display''
   hoermuschel:
     enabled: true
     price: Auf Anfrage
