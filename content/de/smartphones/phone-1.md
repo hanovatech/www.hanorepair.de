@@ -1,9 +1,9 @@
 ---
-title: Phone (1) ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Phone (1)
+title: Nothing Phone (1) ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Nothing Phone (1)
 date: 2025-02-03T19:22:00.000Z
 manufacturer: Nothing
-name: Phone (1)
+name: Nothing Phone (1)
 services:
   ladebuchse:
     enabled: true
