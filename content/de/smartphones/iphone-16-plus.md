@@ -13,7 +13,7 @@ services:
       zum Bestpreis.
   software_update:
     enabled: true
-    price: Auf Anfrage
+    price: 65€
     description: Bei Schäden an der Software helfen wir gerne weiter. Ein
       Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer
       einfach, jedoch kein Problem für Uns!
@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: Auf Anfrage
+    price: 545€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -34,7 +34,7 @@ services:
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Ohrmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
-    enabled: true
+    enabled: false
     price: Auf Anfrage
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
@@ -42,13 +42,13 @@ services:
       einem günstigeren Preis.
   wasserschaden:
     enabled: true
-    price: Auf Anfrage
+    price: 85€
     description: Ist Ihr Handy durch Flüssigkeiten jeglicher Art beschädigt worden?
       Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins
       Trockene.
   backcover:
     enabled: true
-    price: Auf Anfrage
+    price: 335€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
   platine:
@@ -64,7 +64,7 @@ services:
       für unsere Kunden selbstverständlich kostenlos.
   kameraglas:
     enabled: true
-    price: Auf Anfrage
+    price: 70€
     description: Auch 200 Megapixel bringen nichts, wenn das Kameraglas zerkratzt
       oder zerbrochen ist. Die Reparatur geht schnell, hat aber enorme Effekte
       auf eine klare Sicht.
