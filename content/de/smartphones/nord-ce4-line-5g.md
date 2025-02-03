@@ -1,9 +1,9 @@
 ---
-title: Nord CE4 Line 5G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Nord CE4 Line 5G
+title: Nord CE4 Lite 5G ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: Nord CE4 Lite 5G
 date: 2025-02-03T19:18:00.000Z
 manufacturer: OnePlus
-name: Nord CE4 Line 5G
+name: Nord CE4 Lite 5G
 services:
   ladebuchse:
     enabled: true
@@ -109,8 +109,8 @@ services:
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
       Erscheinungsbild und liefert optimalen Schutz.
 ---
-# Wir reparieren Ihr Nord CE4 Line 5G
+# Wir reparieren Ihr Nord CE4 Lite 5G
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Nord CE4 Line 5G** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Nord CE4 Lite 5G** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
