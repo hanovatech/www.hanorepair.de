@@ -1,6 +1,7 @@
 ---
 title: S25 Plus ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: S25 Plus
+date: 2025-02-03T19:08:00.000Z
 manufacturer: Samsung
 name: S25 Plus
 services:
