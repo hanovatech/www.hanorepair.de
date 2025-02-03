@@ -33,7 +33,7 @@ services:
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Ohrmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
-    enabled: true
+    enabled: false
     price: Auf Anfrage
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
@@ -101,7 +101,7 @@ services:
     description: Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
-    enabled: true
+    enabled: false
     price: Auf Anfrage
     description: Das Gehäuse bzw. der Rahmen ist nach dem Display das meist
       beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab
