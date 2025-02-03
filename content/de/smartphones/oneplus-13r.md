@@ -1,6 +1,7 @@
 ---
 title: OnePlus 13R ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
 description: OnePlus 13R
+date: 2025-02-03T19:29:00.000Z
 manufacturer: OnePlus
 name: OnePlus 13R
 services:
