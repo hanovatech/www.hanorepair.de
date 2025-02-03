@@ -1,8 +1,8 @@
 ---
-title: Nord 4 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
-description: Nord 4
+title: OnePlus Nord 4 ‣ Handy Reparatur Hannover 🛠️ Smartphone Werkstatt
+description: OnePlus Nord 4
 manufacturer: OnePlus
-name: Nord 4
+name: OnePlus Nord 4
 services:
   ladebuchse:
     enabled: true
@@ -110,6 +110,6 @@ services:
 ---
 # Wir reparieren Ihr OnePlus Nord 4
 
-Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr **Nord 4** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Smartphone ist kaputt oder hat einen Fehler? Wir bringen Ihr OnePlus **Nord 4** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
