@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 490€
+    price: 515€
     description: Dieser Austausch bezieht sich je nach Verfügbarkeit auf ein
       OEM-Displaymodul. Das Displaymodul unterscheidet sich in keinem Faktor vom
       Ab-Werk verbauten Modul und bietet die selbe Qualität und Robustheit die
@@ -36,11 +36,11 @@ services:
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
     enabled: true
-    price: 315€
+    price: 335€
     description: "Dieser Austausch bezieht sich auf einen Displaywechsel mit einem
       Soft-OLED Displaymodul vom Hersteller: JK oder GX. Das Modul ist baugleich
       zum Original und in Auflösung, Bildwiederholfrequenz, Farbspektrum und
-      Helligkeit nahezu identisch.."
+      Helligkeit nahezu identisch. Dieses Display ist 120Hz fähig"
   wasserschaden:
     enabled: true
     price: 85€
