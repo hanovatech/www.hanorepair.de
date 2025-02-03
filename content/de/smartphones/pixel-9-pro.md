@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: Auf Anfrage
+    price: 465€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -34,7 +34,7 @@ services:
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Ohrmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
-    enabled: true
+    enabled: false
     price: Auf Anfrage
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
