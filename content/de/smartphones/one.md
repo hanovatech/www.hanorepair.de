@@ -17,14 +17,6 @@ services:
     description: Bei Schäden an der Software helfen wir gerne weiter. Ein
       Neu-aufsetzen oder eine Reparatur der Geräte Software ist nicht immer
       einfach, jedoch kein Problem für Uns!
-  biometrie:
-    enabled: true
-    price: Auf Anfrage
-    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir bringen Ihr Gerät dazu Sie wieder zu erkennen!
-  platine:
-    enabled: true
-    price: Auf Anfrage
-    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   buttons:
     enabled: true
     price: Auf Anfrage
@@ -35,15 +27,18 @@ services:
     price: Auf Anfrage
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität.
-  displayKopie:
-    enabled: true
-    price: Auf Anfrage
-    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht originales Display bietet in der Regel eine ähnliche gute Qualität zu einem günstigeren Preis.
   hoermuschel:
     enabled: true
     price: Auf Anfrage
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
+  displayKopie:
+    enabled: true
+    price: Auf Anfrage
+    description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
+      und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
+      originales Display bietet in der Regel eine ähnliche gute Qualität zu
+      einem günstigeren Preis.
   wasserschaden:
     enabled: true
     price: Auf Anfrage
@@ -55,6 +50,11 @@ services:
     price: Auf Anfrage
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
+  platine:
+    enabled: true
+    price: Auf Anfrage
+    description: Bei Schäden an der Platine Ihres Geräts geht es um das Herzstück
+      des Smartphones. Wir können selbst schwierige Schäden wieder beheben!
   analyse:
     enabled: true
     price: Auf Anfrage
@@ -89,6 +89,12 @@ services:
     price: Auf Anfrage
     description: Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin
       problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.
+  biometrie:
+    enabled: true
+    price: Auf Anfrage
+    description: Ihr Smartphone hat Probleme mit der Biometrie? Das verhindert das
+      entsperren Ihres Geräts mit Fingerabdruck oder Gesichtserkennung. Wir
+      bringen Ihr Gerät dazu Sie wieder zu erkennen!
   hauptkamera:
     enabled: true
     price: Auf Anfrage
