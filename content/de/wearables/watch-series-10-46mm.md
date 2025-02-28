@@ -1,9 +1,9 @@
 ---
-title: Watch Series 10 46MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
-description: Watch Series 10 46MM
+title: Watch Ultra ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
+description: Watch Ultra
 date: 2024-06-23T21:39:00.000Z
 manufacturer: Apple
-name: Watch Series 10 46MM
+name: Watch Ultra
 services:
   analyse:
     enabled: true
@@ -36,8 +36,8 @@ services:
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
 ---
-# Wir reparieren Ihre Watch Series 10 46MM
+# Wir reparieren Ihre Watch Ultra
 
-Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Series 10 46MM** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Ultra** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
