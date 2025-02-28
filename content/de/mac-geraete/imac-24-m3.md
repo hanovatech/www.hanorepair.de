@@ -1,7 +1,7 @@
 ---
 title: iMac 24'' M3 ‣ Apple iMac Reparatur Hannover 🛠️ iMac Werkstatt
 description: iMac 24'' M3
-date: 2025-02-28T15:52:00.000Z
+date: 2025-02-28T21:58:00.000Z
 category: iMac
 name: iMac 24'' M3
 services:
