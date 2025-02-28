@@ -25,6 +25,6 @@ services:
 ---
 # Wir reparieren Ihren Mac Mini Intel (2012)
 
-Ihr Mac Mini ist kaputt oder hat einen Fehler? Wir bringen Ihr **Mac Mini Intel (2012)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Mac Mini ist kaputt oder hat einen Fehler? Wir bringen Ihren **Mac Mini Intel (2012)** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
