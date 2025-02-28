@@ -1,7 +1,7 @@
 ---
 title: Mac Pro Server (2010-2012) ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
 description: Mac Pro Server (2010-2012)
-date: 2025-02-28T22:23:00.000Z
+date: 2025-02-19T23:23:00.000Z
 category: Mac Pro
 name: Mac Pro Server (2010-2012)
 services:
