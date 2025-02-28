@@ -1,9 +1,9 @@
 ---
-title: Mac Mini M4 ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
-description: Mac Mini M4
+title: Mac Mini M4 Pro ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
+description: Mac Mini M4 Pro
 date: 2025-02-28T15:39:00.000Z
 category: Mac Mini
-name: Mac Mini M4
+name: Mac Mini M4 Pro
 services:
   analyse:
     enabled: true
@@ -23,8 +23,8 @@ services:
     description: Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir
       tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.
 ---
-# Wir reparieren Ihr Mac Mini M4
+# Wir reparieren Ihr Mac Mini M4 Pro
 
-Ihr Mac Mini ist kaputt oder hat einen Fehler? Wir bringen Ihren **Mac Mini M4** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Mac Mini ist kaputt oder hat einen Fehler? Wir bringen Ihren **Mac Mini M4** Pro wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
