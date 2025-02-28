@@ -1,9 +1,9 @@
 ---
-title: Watch Series 9 41MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
-description: Watch Series 9 41MM
+title: Watch Series 10 42MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
+description: Watch Series 10 42MM
 date: 2024-06-23T21:39:00.000Z
 manufacturer: Apple
-name: Watch Series 9 41MM
+name: Watch Series 10 42MM
 services:
   analyse:
     enabled: true
@@ -36,8 +36,8 @@ services:
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
 ---
-# Wir reparieren Ihre Watch Series 9 41MM
+# Wir reparieren Ihre Watch Series 10 42MM
 
-Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Series 9 41MM** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihre Apple Watch ist kaputt oder hat einen Fehler? Wir bringen Ihre **Watch Series 10 42MM** wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
