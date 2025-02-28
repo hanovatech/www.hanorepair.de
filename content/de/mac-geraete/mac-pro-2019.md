@@ -25,6 +25,6 @@ services:
 ---
 # Wir reparieren Ihren Mac Pro (2019)
 
-Ihr Mac Pro 2013 ist kaputt oder hat einen Fehler? Wir bringen Ihren Mac Pro wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
+Ihr Mac Pro 2019 ist kaputt oder hat einen Fehler? Wir bringen Ihren Mac Pro wieder zum Laufen! Rufen Sie uns an unter [0511-34082318](tel:051134082318) oder kommen Sie direkt vorbei.
 
 Eine **Übersicht der häufigsten Reparaturen** und Preise finden Sie weiter unten auf dieser Seite. Sollte ihr Problem hier nicht gelistet sein, kontaktieren Sie uns bitte. Wir können auch Ihr Problem lösen!
