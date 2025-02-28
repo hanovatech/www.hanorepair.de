@@ -2,7 +2,7 @@
 title: Mac Mini Intel (2018) ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
 description: Mac Mini Intel (2018)
 date: 2025-02-28T15:39:00.000Z
-category: Macbook Air
+category: Mac Mini
 name: Mac Mini Intel (2018)
 services:
   analyse:
