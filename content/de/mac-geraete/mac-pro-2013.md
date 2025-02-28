@@ -1,7 +1,7 @@
 ---
 title: Mac Pro (2013) ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
 description: Mac Pro (2013)
-date: 2025-02-28T22:26:00.000Z
+date: 2025-02-20T23:26:00.000Z
 category: Mac Pro
 name: Mac Pro (2013)
 services:
