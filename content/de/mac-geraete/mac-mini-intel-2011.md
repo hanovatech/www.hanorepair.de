@@ -1,5 +1,5 @@
 ---
-title: Mac Mini Intel (2011) ‣ Apple Reparatur Hannover 🛠️ Apple Werkstatt
+title: Mac Mini Intel (2011) ‣ Apple Mac Reparatur Hannover 🛠️ Mac Werkstatt
 description: Mac Mini Intel (2011)
 date: 2025-02-28T15:18:00.000Z
 category: Mac Mini
