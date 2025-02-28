@@ -192,14 +192,14 @@ funfact:
   funfact_item:
     - name: Zufriedene Kunden
       icon: fa-trophy
-      count: "58440"
+      count: "61329"
     - name: Reparierte Smartphones
       icon: fa-mobile
-      count: "61901"
+      count: "65771"
     - name: Reparierte Tablets
       icon: fa-tablet
-      count: "7639"
+      count: "7918"
     - name: Reparierte Mac Geräte
       icon: fa-apple
-      count: "4213"
+      count: "4590"
 ---
