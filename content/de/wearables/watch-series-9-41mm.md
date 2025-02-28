@@ -1,7 +1,7 @@
 ---
 title: Watch Series 10 42MM ‣ Apple Watch Reparatur Hannover 🛠️ Wearables Werkstatt
 description: Watch Series 10 42MM
-date: 2024-06-23T21:39:00.000Z
+date: 2024-06-24T23:39:00.000Z
 manufacturer: Apple
 name: Watch Series 10 42MM
 services:
