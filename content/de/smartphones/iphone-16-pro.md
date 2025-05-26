@@ -7,7 +7,7 @@ name: iPhone 16 Pro
 services:
   ladebuchse:
     enabled: true
-    price: Auf Anfrage
+    price: 175€
     description: Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht
       mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und
       zum Bestpreis.
@@ -19,7 +19,7 @@ services:
       einfach, jedoch kein Problem für Uns!
   buttons:
     enabled: true
-    price: Auf Anfrage
+    price: 115€
     description: Haben Sie Probleme beim Einschalten Ihres Geräts? Schauen Sie bei
       uns gerne vorbei.
   display:
@@ -30,7 +30,7 @@ services:
       originalen Display.
   hoermuschel:
     enabled: true
-    price: Auf Anfrage
+    price: 155€
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Ohrmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
@@ -48,7 +48,7 @@ services:
       Trockene.
   backcover:
     enabled: true
-    price: 375€
+    price: 205€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
   platine:
@@ -76,18 +76,18 @@ services:
       ausgesetzt.
   vorderkamera:
     enabled: true
-    price: Auf Anfrage
+    price: 175€
     description: Das perfekte Selfie lässt sich nur mit einer einwandfreien
       Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer
       Frontkamera durchzuführen.
   lautsprecher:
     enabled: true
-    price: Auf Anfrage
+    price: 175€
     description: Ein stets klarer Ton gewährleistet die Qualität eines Smartphones.
       Wir springen gerne ein, wenn dies nicht mehr der Fall ist.
   mikrofon:
     enabled: true
-    price: Auf Anfrage
+    price: 175€
     description: Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin
       problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.
   biometrie:
@@ -98,12 +98,12 @@ services:
       bringen Ihr Gerät dazu Sie wieder zu erkennen!
   hauptkamera:
     enabled: true
-    price: Auf Anfrage
+    price: 225€
     description: Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
     enabled: true
-    price: Auf Anfrage
+    price: 390€
     description: Das Gehäuse bzw. der Rahmen ist nach dem Display das meist
       beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
