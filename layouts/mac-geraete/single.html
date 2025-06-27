@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="hidden" data-pagefind-body>
+<div class="hidden" data-pagefind-body data-pagefind-sort='date:{{ .Params.date.Format "2006-01-02" }}'>
   {{ .Params.manufacturer }} {{ .Params.name }}
 </div>
 
