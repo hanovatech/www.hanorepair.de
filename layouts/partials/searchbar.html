@@ -17,8 +17,7 @@
             const title = result.meta.title;
             result.meta.title = result.content
             result.raw_content = title;
-            console.log("Processed result:", result);
-            return { meta: { title: result.meta.title } };
+            return { meta: { title: result.meta.title }, url: result.url };
           }
         });
     });
