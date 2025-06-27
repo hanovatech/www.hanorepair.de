@@ -73,7 +73,7 @@
     <div class="row">
       {{ range $index,$elements:= .service_item }}
       {{ if lt $index 4}}
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".{{mul $index 2}}s">
+      <div class="col-md-3 col-sm-3">
         <div class="service-content text-center">
           <span class="service-icon icon-pentagon"><i class="fa {{ .icon }}"></i></span>
           <h3 class="font-semibold">{{ .name | markdownify }}</h3>
@@ -173,7 +173,7 @@
 <section id="funfacts" class="pt-0 md:pb-20">
   <div class="ts_counter p-0">
     <div class="container-fluid">
-      <div class="row facts-wrapper wow fadeInLeft text-center">
+      <div class="row facts-wrapper text-center">
         {{ range .Params.funfact.funfact_item }}
         <div class="facts one col-md-3 col-sm-6">
           <span class="facts-icon"><i class="fa {{.icon}}"></i></span>
