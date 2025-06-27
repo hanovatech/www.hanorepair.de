@@ -14,10 +14,12 @@
             noResults: "Keine Geräte gefunden.",
           },
           processResult: (result) => {
-            const title = result.meta.title;
-            result.meta.title = result.content
-            result.raw_content = title;
-            return { meta: { title: result.meta.title }, url: result.url };
+            return {
+              meta: {
+                title: result.content
+              },
+              url: result.url
+            };
           }
         });
     });
