@@ -1,0 +1,55 @@
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search" class="max-w-2xl mx-auto px-4"></div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+          element: "#search",
+          layout: "modal",
+          showSubResults: true,
+          showImages: false,
+          translations: {
+            placeholder: "Suchen Sie nach Ihrem Gerät...",
+            noResults: "Keine Geräte gefunden.",
+          },
+          processResult: (result) => {
+            const title = result.meta.title;
+            result.meta.title = result.content
+            result.raw_content = title;
+            console.log("Processed result:", result);
+            return { meta: { title: result.meta.title } };
+          }
+        });
+    });
+</script>
+
+<style>
+  .pagefind-ui__results-area {
+    padding: 16px;
+    border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    border-radius: 0.5rem; /* Tailwind's rounded-md */
+    background-color: #f9fafb; /* Tailwind's gray-50 */
+  }
+
+  .pagefind-ui__message {
+    padding-top: 0 !important;
+  }
+
+  .pagefind-ui__result {
+    padding: 1em !important;
+  }
+
+  .pagefind-ui__result-inner {
+    margin-top: 0 !important;
+  }
+
+  .pagefind-ui__result-title {
+    width: 100%;
+  }
+
+  .pagefind-ui__result-link {
+    display: block;
+    cursor: pointer !important;
+  }
+</style>

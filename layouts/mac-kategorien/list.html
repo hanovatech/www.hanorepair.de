@@ -7,9 +7,13 @@
 
   <div class="py-20 px-2 max-w-2xl mx-auto">
     {{ $section := where $.Site.Pages "Section" "mac-kategorien" }}
+
+    <div class="mb-12">
+      {{ partial "searchbar.html" . }}
+    </div>
+
     <div class="flex flex-col gap-4">
       <h2 class="text-3xl text-center">Wählen Sie ihr Modell</h2>
-
       {{ range $section }}
       {{ if ne .Kind "section" }}
       <a class="px-4 py-2 text-gray-600 bg-gray-100 flex flex-row items-center justify-between hover:text-[#bd2227] hover:ring hover:ring-[#bd2227] duration-200" href="{{ .RelPermalink | relLangURL }}">

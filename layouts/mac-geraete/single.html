@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+<div class="hidden" data-pagefind-body>
+  {{ .Params.manufacturer }} {{ .Params.name }}
+</div>
+
 <section id="main-container">
   <div class="px-2 max-w-4xl mx-auto prose">
     {{ with .GetPage (printf "../mac-kategorien/%s" .Params.category) }}
