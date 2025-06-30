@@ -116,6 +116,20 @@ collections:
                   - { label: "Icon", name: "icon", widget: "string", hint: "Geben Sie den Namen des gewünschten Icons z. B. fa-tablet. Siehe https://fontawesome.com/v4.7.0/icons/" }
                   - { label: "Count", name: "count", widget: "string" }
 
+          - label: Gerät einsenden
+            name: send_in_your_device
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - label: Buttons
+                name: buttons
+                widget: list
+                fields:
+                 - { label: "Label", name: "label", widget: "string" }
+                 - { label: "Style", name: "style", widget: "select", options: ["solid", "outline"] }
+                 - { label: "Link", name: "link", widget: "string" }
+
       ############### Anfahrt ################
       - name: anfahrt
         label: Anfahrt

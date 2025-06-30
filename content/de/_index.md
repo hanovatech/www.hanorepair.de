@@ -202,4 +202,12 @@ funfact:
     - name: Reparierte Mac Geräte
       icon: fa-apple
       count: "4590"
+send_in_your_device:
+  enable: false
+  title: Sie möchten Ihr Gerät einsenden?
+  subtitle: Wir stellen Ihnen den Versandaufkleber zur Verfügung!
+  buttons:
+    - label: Zum Versandaufkleber
+      style: outline
+      link: /versandaufkleber
 ---

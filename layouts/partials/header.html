@@ -15,7 +15,7 @@
         <ul class="navbar-nav ml-auto">
           {{ range .Site.Data.navigation.main }}
             {{ if or .section .children }}
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown {{ if .mobile_only }}sm:hidden{{ end }}">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 {{ .name }}
@@ -33,14 +33,14 @@
               </div>
             </li>
             {{ else }}
-            <li class="nav-item">
+            <li class="nav-item {{ if .mobile_only }}sm:hidden{{ end }}">
               <a class="nav-link" href="{{ .url | relLangURL }}">{{ .name }}</a>
             </li>
             {{ end }}
           {{ end }}
           <li class="nav-item">
             <a class="nav-link !p-2" style="color: white !important;" href="/zur-reparatur">
-              <span class="px-2.5 py-2 bg-[#bd2227] rounded hover:bg-[#bd2227] duration-200">Zur Reparatur</span>
+              <span class="px-2.5 py-2 bg-[#bd2227] rounded hover:bg-[#bd2227] duration-200">Zur&nbsp;Reparatur</span>
             </a>
           </li>
         </ul>

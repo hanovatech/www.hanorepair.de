@@ -7,6 +7,9 @@ main:
     section: "wearables-hersteller"
   - name: "Macbook & iMac"
     section: "mac-kategorien"
+  - name: "Versandaufkleber"
+    url: "/versandaufkleber"
+    mobile_only: true
   - name: "Über uns"
     children:
       - name: "Kontakt"
@@ -28,6 +31,8 @@ footer:
     - name: Laptops & PC
       url: https://hanovatech.de/repair
   links:
+    - name: Versandaufkleber
+      url: "/versandaufkleber"
     - name: Kontakt
       url: "/kontakt"
     - name: Anfahrt

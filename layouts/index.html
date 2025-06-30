@@ -169,6 +169,7 @@
 {{ end }}
 <!--/ About end -->
 
+
 <!-- Counter start -->
 {{ if .Params.funfact.enable }}
 <section id="funfacts" class="pt-0 md:pb-20">
@@ -190,6 +191,29 @@
 </section>
 {{ end }}
 <!--/ Counter end -->
+
+
+<!-- Send-in your device start -->
+{{ if $data.send_in_your_device.enable }}
+{{ with $data.send_in_your_device }}
+<section id="send-in-your-device" class="p-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <h3>{{ .subtitle | markdownify }}</h3>
+        <p>{{ .content | markdownify }}</p>
+        {{ range .buttons }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}}">{{ .label }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- Send-in your device end -->
+
 
 <!-- Contact start -->
 <section id="contact-form" class="pb-32">
