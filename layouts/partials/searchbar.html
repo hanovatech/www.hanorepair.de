@@ -6,7 +6,9 @@
     window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({
           element: "#search",
-          layout: "modal",
+          sort: {
+            date: "desc"
+          },
           showSubResults: true,
           showImages: false,
           translations: {
@@ -16,7 +18,8 @@
           processResult: (result) => {
             return {
               meta: {
-                title: result.content
+                ...result.meta, // Preserve any existing metadata
+                title: result.content.endsWith('.') ? result.content.slice(0, -1) : result.content,
               },
               url: result.url
             };
