@@ -1,5 +1,5 @@
 ---
-title: Nintendo Switch V2 ‣ Nintendo Reparatur Hannover 🛠️ Konsolen Werkstatt
+title: "Nintendo Switch V2 ‣ Nintendo Reparatur Hannover \U0001F6E0️ Konsolen Werkstatt"
 description: Nintendo Switch V2
 date: 2024-06-24T18:25:00.000Z
 manufacturer: Nintendo
@@ -8,9 +8,10 @@ services:
   analyse:
     enabled: true
     price: Kostenlos
-    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
-      gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
-      für unsere Kunden selbstverständlich kostenlos.
+    description: >-
+      Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen
+      Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere
+      Kunden selbstverständlich kostenlos.
 ---
 # Wir reparieren Ihre Nintendo Switch V2
 

@@ -1,5 +1,5 @@
 ---
-title: XBOX 360 S ‣ Xbox Reparatur Hannover 🛠️ Konsolen Werkstatt
+title: "XBOX 360 S ‣ Xbox Reparatur Hannover \U0001F6E0️ Konsolen Werkstatt"
 description: XBOX 360 S
 date: 2024-06-24T18:27:00.000Z
 manufacturer: Xbox
@@ -8,9 +8,10 @@ services:
   analyse:
     enabled: true
     price: Kostenlos
-    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
-      gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
-      für unsere Kunden selbstverständlich kostenlos.
+    description: >-
+      Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen
+      Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere
+      Kunden selbstverständlich kostenlos.
 ---
 # Wir reparieren Ihre XBOX 360 S
 

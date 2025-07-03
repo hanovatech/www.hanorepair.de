@@ -1,5 +1,5 @@
 ---
-title: iMac 24'' M3 ‣ Apple iMac Reparatur Hannover 🛠️ iMac Werkstatt
+title: "iMac 24'' M3 ‣ Apple iMac Reparatur Hannover \U0001F6E0️ iMac Werkstatt"
 description: iMac 24'' M3
 date: 2025-02-28T21:58:00.000Z
 category: iMac
@@ -8,20 +8,23 @@ services:
   analyse:
     enabled: true
     price: Kostenlos
-    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
-      gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
-      für unsere Kunden selbstverständlich kostenlos.
+    description: >-
+      Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen
+      Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere
+      Kunden selbstverständlich kostenlos.
   akku:
     enabled: false
     price: Auf Anfrage
-    description: Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht
-      mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und
-      zum Bestpreis.
+    description: >-
+      Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz
+      rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum
+      Bestpreis.
   glas:
     enabled: true
     price: Auf Anfrage
-    description: Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir
-      tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.
+    description: >-
+      Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir tauschen das
+      Displayglas schnell und unkompliziert zum Bestpreis aus.
 ---
 # Wir reparieren Ihren iMac 24'' M3
 

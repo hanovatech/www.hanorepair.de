@@ -1,5 +1,5 @@
 ---
-title: MacBook Pro 16'' M2 (A2780) ‣ MacBook Reparatur Hannover 🛠️ Hanorepair
+title: "MacBook Pro 16'' M2 (A2780) ‣ MacBook Reparatur Hannover \U0001F6E0️ Hanorepair"
 description: MacBook Pro 16'' M2 (A2780)
 date: 2024-11-14T17:44:00.000Z
 category: Macbook Pro
@@ -8,20 +8,23 @@ services:
   analyse:
     enabled: true
     price: Kostenlos
-    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
-      gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
-      für unsere Kunden selbstverständlich kostenlos.
+    description: >-
+      Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen
+      Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere
+      Kunden selbstverständlich kostenlos.
   akku:
     enabled: true
     price: Auf Anfrage
-    description: Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht
-      mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und
-      zum Bestpreis.
+    description: >-
+      Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht mehr ganz
+      rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und zum
+      Bestpreis.
   glas:
     enabled: true
     price: Auf Anfrage
-    description: Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir
-      tauschen das Displayglas schnell und unkompliziert zum Bestpreis aus.
+    description: >-
+      Das Displayglas Ihres Macbooks oder iMacs ist beschädigt? Wir tauschen das
+      Displayglas schnell und unkompliziert zum Bestpreis aus.
 ---
 # Wir reparieren Ihr MacBook Pro 16'' M2 (A2780)
 

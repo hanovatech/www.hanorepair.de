@@ -1,5 +1,5 @@
 ---
-title: Playstation 4 ‣ Playstation Reparatur Hannover 🛠️ Konsolen Werkstatt
+title: "Playstation 4 ‣ Playstation Reparatur Hannover \U0001F6E0️ Konsolen Werkstatt"
 description: Playstation 4
 date: 2024-06-24T18:20:00.000Z
 manufacturer: Playstation
@@ -8,9 +8,10 @@ services:
   analyse:
     enabled: true
     price: Kostenlos
-    description: Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer
-      gründlichen Analyse zur Feststellung des zu lösenden Problems. Diese ist
-      für unsere Kunden selbstverständlich kostenlos.
+    description: >-
+      Vor jeder Reparatur unterziehen wir jedem Gerät zunächst einer gründlichen
+      Analyse zur Feststellung des zu lösenden Problems. Diese ist für unsere
+      Kunden selbstverständlich kostenlos.
 ---
 # Wir reparieren Ihre Playstation 4
 

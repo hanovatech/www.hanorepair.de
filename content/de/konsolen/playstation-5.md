@@ -1,46 +1,45 @@
 ---
-title: Playstation 5 ‣ Konsolen Reparatur Hannover 🛠️ Konsolen Werkstatt
-description: 
-
+title: "Playstation 5 ‣ Konsolen Reparatur Hannover \U0001F6E0️ Konsolen Werkstatt"
+description: null
 name: Playstation 5
 manufacturer: Playstation
 services:
   analyse:
     enabled: true
     price: kostenlos
-    description: 
+    description: null
   hdmi:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   laufwerk:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   ladeanschluss:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   netzteil:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   reinigung:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   wasserschaden:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   modifikation:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
   controller:
     enabled: true
     price: auf Anfrage
-    description:
+    description: null
 ---
 
 # Wir reparieren Ihre Playstation 5
