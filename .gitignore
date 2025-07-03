@@ -3,3 +3,4 @@ public/
 .hugo_build.lock
 node_modules
 hugo_stats.json
+*.xlsx
