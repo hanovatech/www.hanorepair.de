@@ -13,6 +13,8 @@ main:
         url: "/versandaufkleber"
       - name: "Geschäftskunden"
         url: "/geschaeftskunden"
+      - name: "Über uns"
+        url: "/ueber-uns"
       - name: "Kontakt"
         url: "/kontakt"
       - name: "Anfahrt"

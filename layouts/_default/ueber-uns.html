@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<section id="main-container">
+  <div class="px-2 max-w-4xl mx-auto prose">
+    {{ .Content }}
+  </div>
+
+  <div class="px-2 max-w-4xl mx-auto my-16">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      {{ range .Page.Params.team }}
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
+          <img src="{{ if .image }}{{ .image }}{{ else }}/images/team/placeholder.jpg{{ end }}" alt="{{ .name }}" class="w-32 h-32 rounded-full mb-4 mx-auto">
+          <h2 class="text-lg font-semibold">{{ .name }}</h2>
+          <p class="text-gray-600">{{ .position }}</p>
+          {{ if .bio }}
+            <p class="mt-2 text-gray-700">{{ .bio }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if .Params.contact_form }}
+  <div class="my-20">
+    {{ partial "contact-form.html" . }}
+  </div>
+  {{ end }}
+</section>
+
+{{ end }}

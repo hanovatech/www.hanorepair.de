@@ -225,6 +225,7 @@
       "md:flex-row",
       "md:gap-4",
       "md:grid-cols-2",
+      "md:grid-cols-3",
       "md:grid-cols-4",
       "md:justify-between",
       "md:mb-40",
@@ -241,6 +242,7 @@
       "ml-auto",
       "mt-0",
       "mt-12",
+      "mt-2",
       "mt-28",
       "mt-3",
       "mt-4",
@@ -299,6 +301,7 @@
       "sm:!hidden",
       "sm:block",
       "sm:flex-row",
+      "sm:grid-cols-2",
       "sm:hidden",
       "sm:mt-0",
       "sm:px-0",
@@ -311,6 +314,7 @@
       "text-black",
       "text-center",
       "text-gray-600",
+      "text-gray-700",
       "text-gray-900",
       "text-left",
       "text-lg",
@@ -1429,7 +1433,8 @@
       "wir-reparieren-ihren-mac-pro-server-2010-2012",
       "wir-reparieren-ihren-mac-pro-westmere-2012",
       "wir-reparieren-ihren-macbook-air",
-      "wir-reparieren-mit-original-iphone-displays"
+      "wir-reparieren-mit-original-iphone-displays",
+      "wir-sind-ihr-hanorepair-team"
     ]
   }
 }

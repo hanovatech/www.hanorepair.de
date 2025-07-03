@@ -6,9 +6,9 @@ heading: Geschäftskunden / B2B
 contact:
   text: Ich stehe Ihnen jederzeit zur Verfügung. Kontaktieren Sie mich gerne direkt per E-Mail oder Telefon.
   name: Said Oubari
-  email: info@hanorepair.de
-  phone: +49 (0) 511 34082318
-  image: /images/team/placeholder.jpg
+  email: oubari@hanorepair.de
+  phone: +49 (0) 151 61468509
+  image: /images/team/said.jpg
 contact_form: true
 ---
 # Für Geschäftskunden
