@@ -1,0 +1,9 @@
+{
+  "name": "hanorepair-scripts",
+  "description": "helper script for the hanorepair website",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "gray-matter": "^4.0.3"
+  }
+}
