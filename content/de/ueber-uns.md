@@ -12,6 +12,13 @@ team:
     position: Techniker
     image: /images/team/said.jpg
     bio: "Said ist einer unser erfahrenen Techniker. Er kümmert sich um Reparaturen und unsere Geschäftskunden."
+gallery:
+  - image: /images/team/placeholder.jpg
+    alt: "Unsere Werkstatt in Hannover"
+  - image: /images/team/placeholder.jpg
+    alt: "Professionelle Reparaturwerkzeuge"
+  - image: /images/team/placeholder.jpg
+    alt: "Schnelle und zuverlässige Reparaturen"
 contact_form: true
 ---
 # Wir sind ihr Hanorepair Team

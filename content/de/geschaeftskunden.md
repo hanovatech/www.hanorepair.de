@@ -9,6 +9,21 @@ contact:
   email: oubari@hanorepair.de
   phone: +49 (0) 151 61468509
   image: /images/team/said.jpg
+brands_logo_slider:
+  enable: true
+  slider_item:
+    - name: Google Logo
+      logo: uploads/google-logo.png
+    - name: Apple Logo
+      logo: uploads/apple-logo.png
+    - name: Xiaomi Logo
+      logo: uploads/xiaomi-logo.png
+    - name: Samsung Logo
+      logo: uploads/samsung-logo.png
+    - name: OnePlus Logo
+      logo: uploads/oneplus-logo.png
+    - name: HTC Logo
+      logo: uploads/htc-logo.png
 contact_form: true
 ---
 # Für Geschäftskunden

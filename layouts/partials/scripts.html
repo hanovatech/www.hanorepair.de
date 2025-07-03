@@ -14,6 +14,9 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
+{{ "<!-- fslightbox -->" | safeHTML }}
+<script src="/plugins/fslightbox-basic-3.6.1/fslightbox.js"></script>
+
 <!-- Netlify Identity Widget Start -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>

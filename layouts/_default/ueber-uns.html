@@ -20,8 +20,21 @@
     </div>
   </div>
 
+  {{ with .Page.Params.gallery }}
+  <div class="px-2 max-w-4xl mx-auto my-16">
+    <h2 class="text-2xl font-bold mb-4">Gallerie</h2>
+    <div class="grid sm:grid-cols-2 gap-8">
+      {{ range . }}
+      <a data-fslightbox href="{{ .image }}">
+        <img src="{{ .image }}" alt="{{ .alt }}" class="h-64 w-full object-cover bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
   {{ if .Params.contact_form }}
-  <div class="my-20">
+  <div class="mb-20 mt-32">
     {{ partial "contact-form.html" . }}
   </div>
   {{ end }}

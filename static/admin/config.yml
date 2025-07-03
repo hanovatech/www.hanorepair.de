@@ -160,6 +160,30 @@ collections:
           - { label: "Überschrift", name: "heading", widget: "string" }
           - { label: "Content", name: "body", widget: "markdown" }
 
+      ############### Über uns ################
+      - name: ueber-uns
+        label: Über uns
+        file: "/content/de/ueber-uns.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Position/Rolle", name: "position", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Bio", name: "bio", widget: "string", required: false }
+          - label: Gallery
+            name: gallery
+            widget: list
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "alt", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
       ############### Geschäftskunden ################
       - name: geschaeftskunden
         label: Geschäftskunden
@@ -175,6 +199,17 @@ collections:
               { label: "Phone", name: "phone", widget: "string" },
               { label: "Image", name: "image", widget: "image" }
             ] }
+          - label: Brands Logo Slider
+            name: brands_logo_slider
+            widget: object
+            fields:
+              - label: Slider Item
+                name: slider_item
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Logo", name: "logo", widget: "image" }
+                  - { label: "Link", name: "link", widget: "string" }
           - { label: "Content", name: "body", widget: "markdown" }
 
       ############### iPhone Original-Display ################

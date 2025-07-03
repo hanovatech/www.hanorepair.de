@@ -22,8 +22,30 @@
     </div>
   </div>
 
+  <!-- Customers start -->
+  {{ if .Page.Params.brands_logo_slider.enable }}
+  {{ with .Page.Params.brands_logo_slider }}
+  <section id="clients" class="!py-0 clients">
+    <div class="container">
+      <div class="row wow fadeInLeft">
+        <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+          {{ range .slider_item }}
+          <figure class="m-0 item client_logo">
+            <a href="{{ .link | safeURL }}" target="_blank">
+              <img src="{{ .logo | absURL }}" alt="{{ .name }}">
+            </a>
+          </figure>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+  <!--/ Customers end -->
+
   {{ if .Params.contact_form }}
-  <div class="my-20">
+  <div class="mb-20 mt-32">
     {{ partial "contact-form.html" . }}
   </div>
   {{ end }}
