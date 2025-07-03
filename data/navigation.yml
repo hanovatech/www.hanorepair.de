@@ -7,11 +7,12 @@ main:
     section: "wearables-hersteller"
   - name: "Macbook & iMac"
     section: "mac-kategorien"
-  - name: "Versandaufkleber"
-    url: "/versandaufkleber"
-    mobile_only: true
-  - name: "Über uns"
+  - name: "Mehr Infos"
     children:
+      - name: "Versandaufkleber"
+        url: "/versandaufkleber"
+      - name: "Geschäftskunden"
+        url: "/geschaeftskunden"
       - name: "Kontakt"
         url: "/kontakt"
       - name: "Anfahrt"
@@ -33,6 +34,8 @@ footer:
   links:
     - name: Versandaufkleber
       url: "/versandaufkleber"
+    - name: Geschäftskunden
+      url: "/geschaeftskunden"
     - name: Kontakt
       url: "/kontakt"
     - name: Anfahrt

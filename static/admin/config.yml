@@ -151,13 +151,30 @@ collections:
           - { label: "Content", name: "body", widget: "markdown" }
 
       ############### Kontakt Success ################
-      - name: kontakt-sucess
+      - name: kontakt-success
         label: Kontaktanfrage abgeschickt
         file: "/content/de/kontakt/success.md"
         fields:
           - { label: "Meta Title", name: "title", widget: "string" }
           - { label: "Meta Description", name: "description", widget: "string", required: false }
           - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      ############### Geschäftskunden ################
+      - name: geschaeftskunden
+        label: Geschäftskunden
+        file: "/content/de/geschaeftskunden.md"
+        fields:
+          - { label: "Meta Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+          - { label: "Überschrift", name: "heading", widget: "string" }
+          - { label: "Kontakt", name: "contact", widget: "object", fields: [
+              { label: "Text", name: "text", widget: "string" },
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Email", name: "email", widget: "string" },
+              { label: "Phone", name: "phone", widget: "string" },
+              { label: "Image", name: "image", widget: "image" }
+            ] }
           - { label: "Content", name: "body", widget: "markdown" }
 
       ############### iPhone Original-Display ################
