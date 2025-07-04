@@ -253,7 +253,7 @@ collections:
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Reparaturen in Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
-      - { label: "Standortname", name: "heading", default: "XYZ Standort", widget: "string" }
+      - { label: "Standortname", name: "heading", default: "z.B. Hannover Mitte", widget: "string" }
       - { label: "Content", name: "body", widget: "markdown", required: false }
 
 
