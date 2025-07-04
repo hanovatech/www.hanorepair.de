@@ -18,7 +18,7 @@ Unsere Experten tauschen Ihren Akku aus, wechseln Ihr gesprungenes Display und b
 * [Hannover Mitte](/standorte/hannover-mitte/)
 * [Hannover List](/standorte/hannover-list/)
 * [Hannover Südstadt](/standorte/hannover-suedstadt/)
-* Hannover-Bult
+* [Hannover-Bult](https://www.hanorepair.de/standorte/hannover-bult/)
 * Hannover-Vahrenwald
 * Hannover-Linden
 * Hannover-Döhren
