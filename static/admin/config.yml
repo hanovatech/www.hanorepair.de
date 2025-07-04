@@ -249,11 +249,11 @@ collections:
     label: Standorte
     folder: /content/de/standorte
     create: true
-    slug: "{{name}}"
+    slug: "{{heading}}"
     fields:
       - { label: "Meta Title", name: "title", default: "XYZ ‣ Reparaturen in Hannover 🛠️ Smartphone Werkstatt", widget: "string" }
       - { label: "Meta Description", name: "description", widget: "string", required: false }
-      - { label: "Überschrift", name: "heading", default: "XYZ Standort", widget: "string" }
+      - { label: "Standortname", name: "heading", default: "XYZ Standort", widget: "string" }
       - { label: "Content", name: "body", widget: "markdown", required: false }
 
 
