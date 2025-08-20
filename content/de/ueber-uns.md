@@ -6,28 +6,26 @@ description: Erfahren Sie mehr über Hanorepair, Ihre zuverlässige Smartphone
   Smartphones und Tablets.
 heading: Über uns
 team:
-  - name: Abdullah Khan
-    position: Inhaber
+  - name: A. Khan
+    position: Geschäftsführer / Inhaber
     image: /images/team/akhan.jpg
-    bio: Abdullah ist der Inhaber von Hanorepair und hat über 10 Jahre Erfahrung in
-      der Smartphone-Reparatur.
-  - name: Said Oubari
-    position: Techniker
+    bio: Auf Nahezu jeden Hersteller spezialisierter Mikrosystemtechniker & Forensiker. Mit 13 Jahren Erfahrung im Bereich und davon 8 Jahren Erfahrung in der Motherboard-Reparatur & Datenforensik.
+  - name: S. Oubari
+    position: Vertriebsleitung / Geschäftskundenbetreuung / Marketing Spezialist
     image: /images/team/soubari.jpg
-    bio: Said ist einer unser erfahrenen Techniker. Er kümmert sich um Reparaturen
-      und unsere Geschäftskunden.
+    bio: Auf Apple Geräte Spezialisierter Elektrotechniker mit 7+ Jahren Erfahrung im Bereich.
   - name: I. Fidan
-    position: Techniker
+    position: Betriebsleiter / Privatkundenbetreuung
     image: /images/team/ifidan.jpg
-    bio: Auf die Beratung & Technische Bearbeitung spezialisierte Servicekraft
+    bio: Auf Samsung, Xiaomi & Google Geräte Spezialisierter Systemtechniker mit 10+ Jahren Erfahrung im Bereich.
   - name: C. Albayrak
-    position: Techniker
+    position: Führender Techniker & Ausbilder
     image: /images/team/calbayrak.jpg
-    bio: Auf die Beratung & Technische Bearbeitung spezialisierte Servicekraft
+    bio: Primär auf Apple Geräte spezialisierter Elektronik-Meister & Forensik-Spezialist. 14+ Jahre Erfahrung im Bereich.
   - name: B. Mansimina
     position: Kundenservice
     image: /images/team/bmansimina.jpg
-    bio: 
+    bio: Auf die Beratung & Technische Bearbeitung spezialisierte Servicekraft
 gallery: []
 contact_form: true
 ---
