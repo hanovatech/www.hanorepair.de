@@ -9,7 +9,9 @@
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
       {{ range .Page.Params.team }}
         <div class="bg-gray-100 p-4 rounded-lg shadow text-center">
-          <img src="{{ if .image }}{{ .image }}{{ else }}/images/team/placeholder.jpg{{ end }}" alt="{{ .name }}" class="w-32 h-32 rounded-full mb-4 mx-auto">
+          <div class="w-32 h-32 rounded-full overflow-hidden mb-4 mx-auto">
+            <img src="{{ if .image }}{{ .image }}{{ else }}/images/team/placeholder.jpg{{ end }}" alt="{{ .name }}" class="scale-125">
+          </div>
           <h2 class="text-lg font-semibold">{{ .name }}</h2>
           <p class="text-gray-600">{{ .position }}</p>
           {{ if .bio }}

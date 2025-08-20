@@ -8,7 +8,7 @@ contact:
   name: Said Oubari
   email: oubari@hanorepair.de
   phone: +49 (0) 151 61468509
-  image: /images/team/said.jpg
+  image: /images/team/soubari.jpg
 brands_logo_slider:
   enable: true
   slider_item:
