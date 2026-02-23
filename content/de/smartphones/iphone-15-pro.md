@@ -7,7 +7,7 @@ name: iPhone 15 Pro
 services:
   ladebuchse:
     enabled: true
-    price: 155€
+    price: 135€
     description: Können Sie Ihren Akku nicht mehr aufladen? Das Kabel passt nicht
       mehr ganz rein? Sie haben einen Wackelkontakt? Wir ändern dies schnell und
       zum Bestpreis.
@@ -31,7 +31,7 @@ services:
       man als iPhone-User kennt und liebt
   hoermuschel:
     enabled: true
-    price: 125€
+    price: 105€
     description: Klare Gespräche ohne Missverständnisse! Mit einer neuen Hörmuschel
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
@@ -88,7 +88,7 @@ services:
       Wir springen gerne ein, wenn dies nicht mehr der Fall ist.
   mikrofon:
     enabled: true
-    price: 155€
+    price: 135€
     description: Schweigen ist Gold, Reden ist Platin. Damit Sie weiterhin
       problemlos telefonieren können, reparieren wir Ihr Mikrofon gerne.
   biometrie:
