@@ -69,7 +69,7 @@ services:
       auf eine klare Sicht.
   akku:
     enabled: true
-    price: 60€
+    price: 70€
     description: Der Akku ist das Herzstück Ihres Geräts. Gerade in den Sommer- und
       in den Wintermonaten sind die Lithium-Ionen temperaturbedingten Strapazen
       ausgesetzt.
