@@ -9,23 +9,29 @@ team:
   - name: A. Khan
     position: Geschäftsführer / Inhaber
     image: /images/team/akhan.jpg
-    bio: Auf Nahezu jeden Hersteller spezialisierter Mikrosystemtechniker & Forensiker. Mit 13 Jahren Erfahrung im Bereich und davon 8 Jahren Erfahrung in der Motherboard-Reparatur & Datenforensik.
+    bio: Auf Nahezu jeden Hersteller spezialisierter Mikrosystemtechniker &
+      Forensiker. Mit 13 Jahren Erfahrung im Bereich und davon 8 Jahren
+      Erfahrung in der Motherboard-Reparatur & Datenforensik.
   - name: S. Oubari
-    position: Vertriebsleitung / Geschäftskundenbetreuung / Marketing Spezialist
+    position: "Vertriebsleitung / Geschäftskundenbetreuung "
     image: /images/team/soubari.jpg
-    bio: Auf Apple Geräte Spezialisierter Elektrotechniker mit 7+ Jahren Erfahrung im Bereich.
+    bio: Auf Apple Geräte Spezialisierter Elektrotechniker mit 7+ Jahren Erfahrung
+      im Bereich.
   - name: I. Fidan
-    position: Betriebsleiter / Privatkundenbetreuung
+    position: Betriebsleitung / Privatkundenbetreuung
     image: /images/team/ifidan.jpg
-    bio: Auf Samsung, Xiaomi & Google Geräte Spezialisierter Systemtechniker mit 10+ Jahren Erfahrung im Bereich.
-  - name: C. Albayrak
-    position: Führender Techniker & Ausbilder
-    image: /images/team/calbayrak.jpg
-    bio: Primär auf Apple Geräte spezialisierter Elektronik-Meister & Forensik-Spezialist. 14+ Jahre Erfahrung im Bereich.
-  - name: B. Mansimina
-    position: Kundenservice
-    image: /images/team/bmansimina.jpg
-    bio: Auf die Beratung & Technische Bearbeitung spezialisierte Servicekraft
+    bio: Auf Samsung, Xiaomi & Google Geräte Spezialisierter Systemtechniker mit 10+
+      Jahren Erfahrung im Bereich.
+  - name: S. Khan
+    position: Interne Verwaltung & Human Resources
+    image: /uploads/blank-profile-female-1-e1546536793831.jpg
+    bio: Verwaltung von Personaldelikten, Zeiteinteilung & Förderung von
+      Angestellten
+  - name: W. Schreiber
+    position: Finanzbuchhaltung
+    image: /uploads/blank-profile-female-1-e1546536793831.jpg
+    bio: Buchhalterin in der Rechnungsstellung, der allgemeinen FiBu und dem
+      Mahnwesen
 gallery: []
 contact_form: true
 ---
