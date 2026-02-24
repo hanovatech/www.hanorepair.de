@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 390€
+    price: 385€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
