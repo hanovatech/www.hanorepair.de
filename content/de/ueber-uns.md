@@ -7,28 +7,26 @@ description: Erfahren Sie mehr über Hanorepair, Ihre zuverlässige Smartphone
 heading: Über uns
 team:
   - name: A. Khan
-    position: Geschäftsführer / Inhaber
+    position: Geschäftsführer
     image: /images/team/akhan.jpg
-    bio: Auf Nahezu jeden Hersteller spezialisierter Mikrosystemtechniker &
-      Forensiker. Mit 13 Jahren Erfahrung im Bereich und davon 8 Jahren
-      Erfahrung in der Motherboard-Reparatur & Datenforensik.
+    bio: Mikrosystemtechniker, Forensiker & Ausbilder. Mit 15 Jahren Erfahrung im
+      Bereich und davon 11 Jahren Erfahrung in der Board-Level-Reparatur &
+      Datenforensik.
   - name: S. Oubari
-    position: "Vertriebsleitung / Geschäftskundenbetreuung "
+    position: "Vertrieb / Geschäftskundenbetreuung "
     image: /images/team/soubari.jpg
-    bio: Auf Apple Geräte Spezialisierter Elektrotechniker mit 7+ Jahren Erfahrung
-      im Bereich.
+    bio: Microsystemingenieur mit 8+ Jahren Erfahrung im Bereich.
   - name: I. Fidan
     position: Betriebsleitung / Privatkundenbetreuung
     image: /images/team/ifidan.jpg
-    bio: Auf Samsung, Xiaomi & Google Geräte Spezialisierter Systemtechniker mit 10+
-      Jahren Erfahrung im Bereich.
+    bio: System&Informationstechniker mit 11+ Jahren Erfahrung im Bereich.
   - name: S. Khan
     position: Interne Verwaltung & Human Resources
     image: /uploads/blank-profile-female-1-e1546536793831.jpg
     bio: Verwaltung von Personaldelikten, Zeiteinteilung & Förderung von
       Angestellten
   - name: W. Schreiber
-    position: Finanzbuchhaltung
+    position: Finanzbuchhaltung & Mahnwesen
     image: /uploads/blank-profile-female-1-e1546536793831.jpg
     bio: Buchhalterin in der Rechnungsstellung, der allgemeinen FiBu und dem
       Mahnwesen
