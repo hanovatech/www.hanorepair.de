@@ -9,13 +9,13 @@ team:
   - name: A. Khan
     position: Geschäftsführer
     image: /images/team/akhan.jpg
-    bio: Mikrosystemtechniker, Forensiker & Ausbilder. Mit 15 Jahren Erfahrung im
+    bio: Mikrosystemelektroniker, Forensiker & Ausbilder. Mit 15 Jahren Erfahrung im
       Bereich und davon 11 Jahren Erfahrung in der Board-Level-Reparatur &
       Datenforensik.
   - name: S. Oubari
     position: "Vertrieb / Geschäftskundenbetreuung "
     image: /images/team/soubari.jpg
-    bio: Microsystemingenieur mit 8+ Jahren Erfahrung im Bereich.
+    bio: Mikrosystemingenieur mit 8+ Jahren Erfahrung im Bereich.
   - name: I. Fidan
     position: Betriebsleitung / Privatkundenbetreuung
     image: /images/team/ifidan.jpg
