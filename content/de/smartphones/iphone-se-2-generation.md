@@ -46,7 +46,7 @@ services:
       Wir beheben den Schaden und bringen Ihr elektronisches "Schäfchen" ins
       Trockene.
   backcover:
-    enabled: true
+    enabled: false
     price: 105€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
