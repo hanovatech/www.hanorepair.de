@@ -13,7 +13,7 @@ team:
       Bereich und davon 11 Jahren Erfahrung in der Board-Level-Reparatur &
       Datenforensik.
   - name: S. Oubari
-    position: "Vertrieb / Geschäftskundenbetreuung "
+    position: Vertriebsleitung / Geschäftskundenbetreuung
     image: /images/team/soubari.jpg
     bio: Mikrosystemingenieur mit 8+ Jahren Erfahrung im Bereich.
   - name: I. Fidan
@@ -33,6 +33,8 @@ team:
 gallery: []
 contact_form: true
 ---
-# Wir sind ihr Hanorepair Team
+# Wir sind ihre Hanorepair-Verwaltung
 
-Willkommen bei Hanorepair, Ihrer zuverlässigen Smartphone Werkstatt in Hannover! Wir sind spezialisiert auf die Reparatur von Smartphones und Tablets aller Marken und Modelle. Unser Ziel ist es, Ihnen den bestmöglichen Service zu bieten und Ihre Geräte schnellstmöglich wieder funktionsfähig zu machen.
+Willkommen bei Hanorepair, Ihrer zuverlässigen Smartphone Werkstatt in Hannover! 
+
+Hier sehen Sie alle Führungspositionen & deren Besetzung in unserem Hause.
