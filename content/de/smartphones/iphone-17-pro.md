@@ -48,7 +48,7 @@ services:
       Trockene.
   backcover:
     enabled: true
-    price: 255€
+    price: 190€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
   platine:
