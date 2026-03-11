@@ -9,27 +9,23 @@ team:
   - name: A. Khan
     position: Geschäftsführer
     image: /images/team/akhan.jpg
-    bio: Mikrosystemelektroniker, Forensiker & Ausbilder. Mit 15 Jahren Erfahrung im
-      Bereich und davon 11 Jahren Erfahrung in der Board-Level-Reparatur &
-      Datenforensik.
+    bio: ""
   - name: S. Oubari
     position: Vertriebsleitung / Geschäftskundenbetreuung
     image: /images/team/soubari.jpg
-    bio: Mikrosystemingenieur mit 8+ Jahren Erfahrung im Bereich.
+    bio: ""
   - name: I. Fidan
     position: Betriebsleitung / Privatkundenbetreuung
     image: /images/team/ifidan.jpg
-    bio: System&Informationstechniker mit 11+ Jahren Erfahrung im Bereich.
+    bio: ""
   - name: S. Khan
     position: Interne Verwaltung & Human Resources
     image: /uploads/blank-profile-female-1-e1546536793831.jpg
-    bio: Verwaltung von Personaldelikten, Zeiteinteilung & Förderung von
-      Angestellten
+    bio: ""
   - name: W. Schreiber
     position: Finanzbuchhaltung & Mahnwesen
     image: /uploads/blank-profile-female-1-e1546536793831.jpg
-    bio: Buchhalterin in der Rechnungsstellung, der allgemeinen FiBu und dem
-      Mahnwesen
+    bio: ""
 gallery: []
 contact_form: true
 ---
