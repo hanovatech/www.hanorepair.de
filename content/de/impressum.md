@@ -16,10 +16,7 @@ Marienstraße 40a\
 **Umsatzsteuer-ID**: DE230909980\
 **Aufsichtsbehörde**: Hannover
 
-**Zuständige Kammer**\
-Industrie- und Handelskammer Hannover\
-Schiffgraben 49, 30175 Hannover\
-www.hannover.ihk.de
+
 
 ## Kontakt
 
@@ -29,7 +26,7 @@ www.hannover.ihk.de
 
 ## Inhaltlich verantwortlich
 
-hanorepair
+hanorepair - A.Khan
 
 - - -
 
