@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 535€
+    price: 565€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -48,7 +48,7 @@ services:
       Trockene.
   backcover:
     enabled: true
-    price: 265€
+    price: 245€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
   platine:
