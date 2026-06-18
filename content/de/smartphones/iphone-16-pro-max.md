@@ -76,7 +76,7 @@ services:
       ausgesetzt.
   vorderkamera:
     enabled: true
-    price: 265€
+    price: 165€
     description: Das perfekte Selfie lässt sich nur mit einer einwandfreien
       Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer
       Frontkamera durchzuführen.
