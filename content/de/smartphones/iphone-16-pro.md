@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 515€
+    price: 565€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -48,7 +48,7 @@ services:
       Trockene.
   backcover:
     enabled: true
-    price: 255€
+    price: 245€
     description: Nicht nur innere Werte zählen. Bringen Sie Ihr Smartphone mit
       unserem Backcover Austausch wieder in Top-Form.
   platine:
@@ -76,7 +76,7 @@ services:
       ausgesetzt.
   vorderkamera:
     enabled: true
-    price: 265€
+    price: 165€
     description: Das perfekte Selfie lässt sich nur mit einer einwandfreien
       Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer
       Frontkamera durchzuführen.
@@ -103,7 +103,7 @@ services:
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
     enabled: true
-    price: 390€
+    price: 385€
     description: Das Gehäuse bzw. der Rahmen ist nach dem Display das meist
       beschädigte Teil eines Smartphones. Nach einem Sturz fängt er Schäden ab
       und schützt das Innere. Ein neuer Rahmen sorgt für ein -wie neu-
