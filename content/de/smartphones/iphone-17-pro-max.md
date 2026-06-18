@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: Auf Anfrage
+    price: 655€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -35,7 +35,7 @@ services:
       können Sie Ihren Gesprächspartner wieder einwandfrei verstehen.
   displayKopie:
     enabled: true
-    price: Auf Anfrage
+    price: 290€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität. Ein nicht
       originales Display bietet in der Regel eine ähnliche gute Qualität zu
