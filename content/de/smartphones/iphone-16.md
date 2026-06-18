@@ -24,7 +24,7 @@ services:
       uns gerne vorbei.
   display:
     enabled: true
-    price: 385€
+    price: 415€
     description: Eines der wichtigsten Komponenten überhaupt. Zögern Sie nicht lange
       und genießen Sie bald wieder einwandfreie Bildqualität mit einem
       originalen Display.
@@ -76,7 +76,7 @@ services:
       ausgesetzt.
   vorderkamera:
     enabled: true
-    price: 195€
+    price: 165€
     description: Das perfekte Selfie lässt sich nur mit einer einwandfreien
       Frontkamera schießen. Gerne sind wir zur Stelle, um die Reparatur an Ihrer
       Frontkamera durchzuführen.
@@ -98,7 +98,7 @@ services:
       bringen Ihr Gerät dazu Sie wieder zu erkennen!
   hauptkamera:
     enabled: true
-    price: 165€
+    price: 175€
     description: Sollten Probleme mit der Kamera Ihres Smartphones auftreten, stehen
       wir Ihnen gerne mit Rat und Tat zur Seite.
   rahmen:
